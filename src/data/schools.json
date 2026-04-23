@@ -4,264 +4,2869 @@
     "fullName": "I Liceum Ogólnokształcące im. Bartłomieja Nowodworskiego",
     "address": "Plac na Groblach 9",
     "postalCode": "31-101",
+    "district": "Stare Miasto",
     "lat": 50.0571662,
     "lon": 19.9337341,
     "openDays": [
       "2026-05-22"
     ],
-    "rawSchedule": "22.05.2026 r."
+    "rawSchedule": "22.05.2026 r.",
+    "isPublic": true,
+    "inPdf": true,
+    "website": "https://www.nowodworek.krakow.pl/",
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/288/I-LO-im-Bartlomieja-Nowodworskiego",
+    "classesYear": "2026/2027",
+    "classes": [
+      {
+        "code": "1AMK",
+        "profile": "matematyka komputerowa",
+        "extendedSubjects": [
+          "matematyka",
+          "fizyka",
+          "informatyka"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "fizyka",
+          "informatyka"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "włoski",
+          "grecki"
+        ],
+        "thresholdMin": 173.95,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1B",
+        "profile": "mat-fiz-inf",
+        "extendedSubjects": [
+          "matematyka",
+          "fizyka",
+          "informatyka"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "fizyka",
+          "informatyka"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "włoski",
+          "grecki"
+        ],
+        "thresholdMin": 171.95,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1C",
+        "profile": "biol-chem-mat",
+        "extendedSubjects": [
+          "matematyka",
+          "chemia",
+          "biologia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "chemia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "włoski",
+          "grecki"
+        ],
+        "thresholdMin": 175.55,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1D",
+        "profile": "biol-chem-mat",
+        "extendedSubjects": [
+          "matematyka",
+          "chemia",
+          "biologia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "chemia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "włoski",
+          "grecki"
+        ],
+        "thresholdMin": 175.55,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1E",
+        "profile": "hist-wos-ang",
+        "extendedSubjects": [
+          "język angielski",
+          "historia",
+          "wiedza o społeczeństwie"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "historia",
+          "język angielski"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "włoski",
+          "grecki"
+        ],
+        "thresholdMin": 175.15,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1G",
+        "profile": "mat-geo-ang",
+        "extendedSubjects": [
+          "język angielski",
+          "matematyka",
+          "geografia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "geografia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "włoski",
+          "grecki"
+        ],
+        "thresholdMin": 173.65,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1K",
+        "profile": "pol-hist-język łaciński i kultura antyczna",
+        "extendedSubjects": [
+          "język polski",
+          "historia",
+          "język łaciński i kultura antyczna"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "historia",
+          "język angielski"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "włoski",
+          "grecki"
+        ],
+        "thresholdMin": 165.4,
+        "thresholdYear": "2025/2026"
+      }
+    ]
+  },
+  {
+    "id": "I LO Sportowe",
+    "fullName": "I LO Sportowe",
+    "address": "os. Osiedle Teatralne 35",
+    "postalCode": "",
+    "district": "Nowa Huta",
+    "lat": 50.0797233,
+    "lon": 20.0344997,
+    "openDays": [],
+    "rawSchedule": "",
+    "isPublic": true,
+    "inPdf": false,
+    "website": null,
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/3026/I-LO-Sportowe",
+    "classesYear": null,
+    "classes": []
   },
   {
     "id": "II LO",
     "fullName": "II Liceum Ogólnokształcące im. Króla Jana III Sobieskiego",
     "address": "ul. Jana Sobieskiego 9",
     "postalCode": "31-136",
+    "district": "Stare Miasto",
     "lat": 50.0682985,
     "lon": 19.9313675,
     "openDays": [
       "2026-04-08"
     ],
-    "rawSchedule": "8.04.2026 r. godz. 14.20 - 17.00"
+    "rawSchedule": "8.04.2026 r. godz. 14.20 - 17.00",
+    "isPublic": true,
+    "inPdf": true,
+    "website": "https://www.sobieski.krakow.pl/",
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/289/II-LO-im-Krola-Jana-III-Sobieskiego",
+    "classesYear": "2026/2027",
+    "classes": [
+      {
+        "code": "1A",
+        "profile": "mat-fiz-inf",
+        "extendedSubjects": [
+          "matematyka",
+          "fizyka",
+          "informatyka"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "fizyka",
+          "język obcy nowożytny"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański"
+        ],
+        "thresholdMin": 171.95,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1B",
+        "profile": "mat-fiz-chem",
+        "extendedSubjects": [
+          "matematyka",
+          "chemia",
+          "fizyka"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "fizyka",
+          "chemia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański"
+        ],
+        "thresholdMin": 169.5,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1C",
+        "profile": "biol-chem-mat",
+        "extendedSubjects": [
+          "matematyka",
+          "chemia",
+          "biologia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "chemia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański"
+        ],
+        "thresholdMin": 177.65,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1D",
+        "profile": "mat-geo-ang",
+        "extendedSubjects": [
+          "język angielski",
+          "matematyka",
+          "geografia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "geografia lub wiedza o społeczeństwie",
+          "język obcy nowożytny"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański"
+        ],
+        "thresholdMin": 173.5,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1E",
+        "profile": "mat-ang-hist.szt",
+        "extendedSubjects": [
+          "język angielski",
+          "matematyka",
+          "historia sztuki"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "historia",
+          "język obcy nowożytny"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański"
+        ],
+        "thresholdMin": 168.05,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1F",
+        "profile": "mat-fiz-ang",
+        "extendedSubjects": [
+          "język angielski",
+          "matematyka",
+          "fizyka"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "fizyka",
+          "język obcy nowożytny"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański"
+        ],
+        "thresholdMin": 173.35,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1G",
+        "profile": "biol-chem-mat",
+        "extendedSubjects": [
+          "matematyka",
+          "chemia",
+          "biologia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "chemia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański"
+        ],
+        "thresholdMin": 173.8,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1H",
+        "profile": "pol-hist-wos",
+        "extendedSubjects": [
+          "język polski",
+          "historia",
+          "wiedza o społeczeństwie"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "historia lub wiedza o społeczeństwie",
+          "język obcy nowożytny"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański"
+        ],
+        "thresholdMin": 168.3,
+        "thresholdYear": "2025/2026"
+      }
+    ]
   },
   {
     "id": "III LO",
     "fullName": "III Liceum Ogólnokształcące im. Jana Kochanowskiego",
     "address": "os. Wysokie 6",
     "postalCode": "31-818",
+    "district": "Bieńczyce",
     "lat": 50.0889995,
     "lon": 20.0181858,
     "openDays": [
       "2026-04-11",
       "2026-05-15"
     ],
-    "rawSchedule": "11.04.2026 r. , 15.05.2026 r."
+    "rawSchedule": "11.04.2026 r. , 15.05.2026 r.",
+    "isPublic": true,
+    "inPdf": true,
+    "website": "https://3liceum-krakow.pl/",
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/290/III-LO-im-Jana-Kochanowskiego",
+    "classesYear": "2026/2027",
+    "classes": [
+      {
+        "code": "1A",
+        "profile": "pol-biol-ang",
+        "extendedSubjects": [
+          "język polski",
+          "język angielski",
+          "biologia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "biologia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański",
+          "rosyjski",
+          "włoski"
+        ],
+        "thresholdMin": 163,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1B",
+        "profile": "pol-wos-ang",
+        "extendedSubjects": [
+          "język polski",
+          "język angielski",
+          "wiedza o społeczeństwie"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "wiedza o społeczeństwie"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański",
+          "rosyjski",
+          "włoski"
+        ],
+        "thresholdMin": 163.15,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1C",
+        "profile": "biol-chem",
+        "extendedSubjects": [
+          "chemia",
+          "biologia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "chemia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański",
+          "rosyjski",
+          "włoski"
+        ],
+        "thresholdMin": 167.4,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1D",
+        "profile": "biol-chem-mat",
+        "extendedSubjects": [
+          "matematyka",
+          "chemia",
+          "biologia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "chemia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański",
+          "rosyjski",
+          "włoski"
+        ],
+        "thresholdMin": 171.55,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1E",
+        "profile": "mat-geo-ang",
+        "extendedSubjects": [
+          "język angielski",
+          "matematyka",
+          "geografia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "geografia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański",
+          "rosyjski",
+          "włoski"
+        ],
+        "thresholdMin": 166.9,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1F",
+        "profile": "mat-fiz",
+        "extendedSubjects": [
+          "matematyka",
+          "fizyka"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "fizyka"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański",
+          "rosyjski",
+          "włoski"
+        ],
+        "thresholdMin": 166.1,
+        "thresholdYear": "2025/2026"
+      }
+    ]
   },
   {
     "id": "IV LO",
     "fullName": "IV Liceum Ogólnokształcące im. Tadeusza Kościuszki",
     "address": "ul. Krzemionki 11",
     "postalCode": "30-525",
+    "district": "Podgórze",
     "lat": 50.0411263,
     "lon": 19.9461143,
     "openDays": [
       "2026-04-11"
     ],
-    "rawSchedule": "11.04.2026 r."
+    "rawSchedule": "11.04.2026 r.",
+    "isPublic": true,
+    "inPdf": true,
+    "website": "https://www.iv-lo.krakow.pl/",
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/291/IV-LO-im-Tadeusza-Kosciuszki",
+    "classesYear": "2026/2027",
+    "classes": [
+      {
+        "code": "1A",
+        "profile": "mat-fiz-inf",
+        "extendedSubjects": [
+          "matematyka",
+          "fizyka",
+          "informatyka"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "fizyka"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański",
+          "rosyjski",
+          "włoski"
+        ],
+        "thresholdMin": 171.05,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1B",
+        "profile": "mat-fiz-ang",
+        "extendedSubjects": [
+          "język angielski",
+          "matematyka",
+          "fizyka"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "fizyka"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański",
+          "rosyjski",
+          "włoski"
+        ],
+        "thresholdMin": 173.05,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1C",
+        "profile": "mat-geo-ang",
+        "extendedSubjects": [
+          "język angielski",
+          "matematyka",
+          "geografia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "geografia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański",
+          "rosyjski",
+          "włoski"
+        ],
+        "thresholdMin": 173.15,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1D",
+        "profile": "biol-chem-mat",
+        "extendedSubjects": [
+          "matematyka",
+          "chemia",
+          "biologia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "biologia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański",
+          "rosyjski",
+          "włoski"
+        ],
+        "thresholdMin": 172,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1E",
+        "profile": "pol-hist-wos",
+        "extendedSubjects": [
+          "język polski",
+          "historia",
+          "wiedza o społeczeństwie"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "historia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański",
+          "rosyjski",
+          "włoski"
+        ],
+        "thresholdMin": 167.55,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1F",
+        "profile": "hist-geo-wos",
+        "extendedSubjects": [
+          "geografia",
+          "historia",
+          "wiedza o społeczeństwie"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "historia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański",
+          "rosyjski",
+          "włoski"
+        ],
+        "thresholdMin": null,
+        "thresholdYear": null
+      }
+    ]
   },
   {
     "id": "V LO",
     "fullName": "V Liceum Ogólnokształcące im. Augusta Witkowskiego",
     "address": "ul. Studencka 12",
     "postalCode": "31-116",
+    "district": "Stare Miasto",
     "lat": 50.0621235,
     "lon": 19.9290634,
     "openDays": [
       "2026-04-24"
     ],
-    "rawSchedule": "24.04.2026 r."
+    "rawSchedule": "24.04.2026 r.",
+    "isPublic": true,
+    "inPdf": true,
+    "website": "https://www.v-lo.krakow.pl/",
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/292/V-LO-im-Augusta-Witkowskiego",
+    "classesYear": "2026/2027",
+    "classes": [
+      {
+        "code": "1A",
+        "profile": "pol-hist-wos",
+        "extendedSubjects": [
+          "język polski",
+          "historia",
+          "wiedza o społeczeństwie"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "historia",
+          "geografia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański",
+          "włoski"
+        ],
+        "thresholdMin": 175.85,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1B",
+        "profile": "hist-wos-geo",
+        "extendedSubjects": [
+          "geografia",
+          "historia",
+          "wiedza o społeczeństwie"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "historia",
+          "geografia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański",
+          "włoski"
+        ],
+        "thresholdMin": 172.6,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1C",
+        "profile": "mat-chem",
+        "extendedSubjects": [
+          "matematyka",
+          "chemia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "fizyka",
+          "chemia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański",
+          "włoski"
+        ],
+        "thresholdMin": 181.8,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1D",
+        "profile": "mat-fiz-inf",
+        "extendedSubjects": [
+          "matematyka",
+          "fizyka",
+          "informatyka"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "fizyka",
+          "chemia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański",
+          "włoski"
+        ],
+        "thresholdMin": 178.05,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1E",
+        "profile": "mat-inf-fiz",
+        "extendedSubjects": [
+          "matematyka",
+          "fizyka",
+          "informatyka"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "fizyka",
+          "chemia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański",
+          "włoski"
+        ],
+        "thresholdMin": 186.65,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1F",
+        "profile": "biol-chem-mat",
+        "extendedSubjects": [
+          "matematyka",
+          "chemia",
+          "biologia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "chemia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański",
+          "włoski"
+        ],
+        "thresholdMin": 185.55,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1G",
+        "profile": "mat-fiz-inf",
+        "extendedSubjects": [
+          "matematyka",
+          "fizyka",
+          "informatyka"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "chemia",
+          "fizyka"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański",
+          "włoski"
+        ],
+        "thresholdMin": 174.6,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1H",
+        "profile": "biol-chem-mat",
+        "extendedSubjects": [
+          "matematyka",
+          "chemia",
+          "biologia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "chemia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański",
+          "włoski"
+        ],
+        "thresholdMin": 185.55,
+        "thresholdYear": "2025/2026"
+      }
+    ]
   },
   {
     "id": "VI LO",
     "fullName": "VI Liceum Ogólnokształcące im. Adama Mickiewicza",
     "address": "ul. Wąska 7",
     "postalCode": "31-057",
+    "district": "Stare Miasto",
     "lat": 50.0504314,
     "lon": 19.9476088,
     "openDays": [
       "2026-04-09",
       "2026-04-24"
     ],
-    "rawSchedule": "24.04.2026 godz. 15:00 - 18:00 Dzień Otwarty; 9.04.2026 godz. 16:30 - Spotkanie informacyjne dot. Oddziałów Międzynarodowych (IB DP)"
+    "rawSchedule": "24.04.2026 godz. 15:00 - 18:00 Dzień Otwarty; 9.04.2026 godz. 16:30 - Spotkanie informacyjne dot. Oddziałów Międzynarodowych (IB DP)",
+    "isPublic": true,
+    "inPdf": true,
+    "website": "https://vilo.krakow.pl/",
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/293/VI-LO-im-Adama-Mickiewicza",
+    "classesYear": "2026/2027",
+    "classes": [
+      {
+        "code": "1A",
+        "profile": "dwujęzyczna z językiem angielskim ekonomiczna",
+        "extendedSubjects": [
+          "matematyka",
+          "geografia",
+          "wiedza o społeczeństwie"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język obcy nowożytny",
+          "geografia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański",
+          "rosyjski",
+          "włoski"
+        ],
+        "thresholdMin": 173.55,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1B",
+        "profile": "dwujęzyczna z językiem angielskim",
+        "extendedSubjects": [
+          "matematyka",
+          "chemia",
+          "biologia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język obcy nowożytny",
+          "biologia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański",
+          "rosyjski",
+          "włoski"
+        ],
+        "thresholdMin": 174.3,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1D",
+        "profile": "ogólnodostępna matematyczno-fizyczna",
+        "extendedSubjects": [
+          "matematyka",
+          "fizyka",
+          "informatyka"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "fizyka",
+          "język angielski"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański",
+          "rosyjski",
+          "włoski"
+        ],
+        "thresholdMin": 169.2,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1E",
+        "profile": "ogólnodostępna humanistyczna",
+        "extendedSubjects": [
+          "język polski",
+          "historia",
+          "wiedza o społeczeństwie"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "historia",
+          "język angielski"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański",
+          "rosyjski",
+          "włoski"
+        ],
+        "thresholdMin": 173.15,
+        "thresholdYear": "2025/2026"
+      }
+    ]
   },
   {
     "id": "VII LO",
     "fullName": "VII Liceum Ogólnokształcące im. Zofii Nałkowskiej",
     "address": "ul. Skarbińskiego 5",
     "postalCode": "30-071",
+    "district": "Krowodrza",
     "lat": 50.0705734,
     "lon": 19.9080015,
     "openDays": [
       "2026-04-18"
     ],
-    "rawSchedule": "18.04.2026 godz. 10.00 - 13.00"
+    "rawSchedule": "18.04.2026 godz. 10.00 - 13.00",
+    "isPublic": true,
+    "inPdf": true,
+    "website": "https://vii-lo.krakow.pl/",
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/294/VII-LO-im-Zofii-Nalkowskiej",
+    "classesYear": "2026/2027",
+    "classes": [
+      {
+        "code": "1A",
+        "profile": "pol-hist-ang",
+        "extendedSubjects": [
+          "język polski",
+          "język angielski",
+          "historia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "historia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański",
+          "rosyjski",
+          "łaciński"
+        ],
+        "thresholdMin": 164.2,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1B",
+        "profile": "mat-geo-hist",
+        "extendedSubjects": [
+          "matematyka",
+          "geografia",
+          "historia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "geografia",
+          "historia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański",
+          "rosyjski",
+          "łaciński"
+        ],
+        "thresholdMin": 168.65,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1C",
+        "profile": "mat-fiz-inf",
+        "extendedSubjects": [
+          "matematyka",
+          "fizyka",
+          "informatyka"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "fizyka"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański",
+          "rosyjski",
+          "łaciński"
+        ],
+        "thresholdMin": 170.1,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1F",
+        "profile": "biol-chem-mat",
+        "extendedSubjects": [
+          "matematyka",
+          "chemia",
+          "biologia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "chemia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański",
+          "rosyjski",
+          "łaciński"
+        ],
+        "thresholdMin": 173,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1G",
+        "profile": "biol-chem-ang",
+        "extendedSubjects": [
+          "język angielski",
+          "chemia",
+          "biologia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "chemia",
+          "biologia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański",
+          "rosyjski",
+          "łaciński"
+        ],
+        "thresholdMin": 170.55,
+        "thresholdYear": "2025/2026"
+      }
+    ]
   },
   {
     "id": "VIII LO",
     "fullName": "VIII Liceum Ogólnokształcące im. Stanisława Wyspiańskiego",
     "address": "ul. Grzegórzecka 24",
     "postalCode": "31-531",
+    "district": "Grzegórzki",
     "lat": 50.058738,
     "lon": 19.9553848,
     "openDays": [
       "2026-04-16",
       "2026-04-17"
     ],
-    "rawSchedule": "16 - 17.04.2026"
+    "rawSchedule": "16 - 17.04.2026",
+    "isPublic": true,
+    "inPdf": true,
+    "website": "https://www.viii-lo.krakow.pl/",
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/295/VIII-LO-im-Stanislawa-Wyspianskiego",
+    "classesYear": "2026/2027",
+    "classes": [
+      {
+        "code": "1A",
+        "profile": "biol-chem-mat",
+        "extendedSubjects": [
+          "matematyka",
+          "chemia",
+          "biologia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "chemia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "włoski"
+        ],
+        "thresholdMin": 177.1,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1B",
+        "profile": "biol-chem-mat",
+        "extendedSubjects": [
+          "matematyka",
+          "chemia",
+          "biologia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "chemia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "włoski"
+        ],
+        "thresholdMin": 177.1,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1C",
+        "profile": "mat-fiz-inf",
+        "extendedSubjects": [
+          "matematyka",
+          "fizyka",
+          "informatyka"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "fizyka",
+          "informatyka"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "włoski"
+        ],
+        "thresholdMin": 175.05,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1D",
+        "profile": "mat-inf-ang",
+        "extendedSubjects": [
+          "język angielski",
+          "matematyka",
+          "informatyka"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "informatyka"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "włoski"
+        ],
+        "thresholdMin": 175.9,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1E",
+        "profile": "mat-geo-ang",
+        "extendedSubjects": [
+          "język angielski",
+          "matematyka",
+          "geografia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "geografia",
+          "język angielski"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "włoski"
+        ],
+        "thresholdMin": 171.9,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1F",
+        "profile": "geo-mat-ang",
+        "extendedSubjects": [
+          "język angielski",
+          "matematyka",
+          "geografia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "geografia",
+          "język angielski"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "włoski"
+        ],
+        "thresholdMin": 171.75,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1G",
+        "profile": "pol-hist-wos",
+        "extendedSubjects": [
+          "język polski",
+          "historia",
+          "wiedza o społeczeństwie"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "historia",
+          "wiedza o społeczeństwie"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "włoski"
+        ],
+        "thresholdMin": 168,
+        "thresholdYear": "2025/2026"
+      }
+    ]
   },
   {
     "id": "IX LO",
     "fullName": "IX Liceum Ogólnokształcące im. Zygmunta Wróblewskiego",
     "address": "ul. Kazimierza Czapińskiego 5",
     "postalCode": "30-048",
+    "district": "Krowodrza",
     "lat": 50.0687369,
     "lon": 19.9193818,
     "openDays": [
       "2026-04-11"
     ],
-    "rawSchedule": "11.04.2026 godz. 11.00 - 14.00"
+    "rawSchedule": "11.04.2026 godz. 11.00 - 14.00",
+    "isPublic": true,
+    "inPdf": true,
+    "website": "https://www.wroblewski.krakow.pl/",
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/296/IX-LO-im-Zygmunta-Wroblewskiego",
+    "classesYear": null,
+    "classes": []
   },
   {
     "id": "X LO",
     "fullName": "X Liceum Ogólnokształcące im. Komisji Edukacji Narodowej",
     "address": "ul. Zygmunta Wróblewskiego 8",
     "postalCode": "31-148",
+    "district": "Stare Miasto",
     "lat": 50.0692985,
     "lon": 19.9406431,
     "openDays": [
       "2026-04-28"
     ],
-    "rawSchedule": "28.04.2026 r., godz. 16:00 - 18:00"
+    "rawSchedule": "28.04.2026 r., godz. 16:00 - 18:00",
+    "isPublic": true,
+    "inPdf": true,
+    "website": "https://x-lokrakow.edupage.org/",
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/297/X-LO-im-Komisji-Edukacji-Narodowej",
+    "classesYear": "2026/2027",
+    "classes": [
+      {
+        "code": "1A",
+        "profile": "pol-hist-wos",
+        "extendedSubjects": [
+          "język polski",
+          "historia",
+          "wiedza o społeczeństwie"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "historia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański",
+          "rosyjski"
+        ],
+        "thresholdMin": 163.55,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1B",
+        "profile": "pol-biol-ang",
+        "extendedSubjects": [
+          "język polski",
+          "język angielski",
+          "biologia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "biologia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański",
+          "rosyjski"
+        ],
+        "thresholdMin": 170.05,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1C",
+        "profile": "biol-chem-mat",
+        "extendedSubjects": [
+          "matematyka",
+          "chemia",
+          "biologia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "chemia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański",
+          "rosyjski"
+        ],
+        "thresholdMin": 173.15,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1D",
+        "profile": "mat-biol-chem",
+        "extendedSubjects": [
+          "matematyka",
+          "chemia",
+          "biologia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "chemia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański",
+          "rosyjski"
+        ],
+        "thresholdMin": 170.55,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1E",
+        "profile": "mat-geo-ang",
+        "extendedSubjects": [
+          "język angielski",
+          "matematyka",
+          "geografia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "geografia",
+          "język angielski"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański",
+          "rosyjski"
+        ],
+        "thresholdMin": 168.55,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1F",
+        "profile": "mat-fiz-ang",
+        "extendedSubjects": [
+          "język angielski",
+          "matematyka",
+          "fizyka"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "fizyka",
+          "język angielski"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański",
+          "rosyjski"
+        ],
+        "thresholdMin": 166.3,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1G",
+        "profile": "mat-fiz-inf",
+        "extendedSubjects": [
+          "matematyka",
+          "fizyka",
+          "informatyka"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "fizyka",
+          "język angielski"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański",
+          "rosyjski"
+        ],
+        "thresholdMin": null,
+        "thresholdYear": null
+      }
+    ]
   },
   {
     "id": "XI LO",
     "fullName": "XI Liceum Ogólnokształcące im. Marii Dąbrowskiej",
     "address": "os. Teatralne 33",
     "postalCode": "31-948",
+    "district": "Nowa Huta",
     "lat": 50.0808059,
     "lon": 20.0324818,
     "openDays": [
       "2026-04-11",
       "2026-05-15"
     ],
-    "rawSchedule": "11.04.2026 godz. 9.00 - 12.00 15.05.2026 godz.16.00 - 18.00"
+    "rawSchedule": "11.04.2026 godz. 9.00 - 12.00 15.05.2026 godz.16.00 - 18.00",
+    "isPublic": true,
+    "inPdf": true,
+    "website": "https://xilo.krakow.pl/",
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/298/XI-LO-im-Marii-Dabrowskiej",
+    "classesYear": "2026/2027",
+    "classes": [
+      {
+        "code": "1A",
+        "profile": "matematyczna",
+        "extendedSubjects": [
+          "język angielski",
+          "matematyka",
+          "informatyka"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "informatyka"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański",
+          "rosyjski",
+          "włoski"
+        ],
+        "thresholdMin": 162.2,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1B",
+        "profile": "turystyczna",
+        "extendedSubjects": [
+          "język angielski",
+          "biologia",
+          "geografia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "geografia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański",
+          "rosyjski",
+          "włoski"
+        ],
+        "thresholdMin": 156.3,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1C",
+        "profile": "biologiczno-chemiczna",
+        "extendedSubjects": [
+          "język angielski",
+          "chemia",
+          "biologia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "chemia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański",
+          "rosyjski",
+          "włoski"
+        ],
+        "thresholdMin": 164.95,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1D",
+        "profile": "językowa",
+        "extendedSubjects": [
+          "język polski",
+          "język angielski",
+          "przedmiot do wyboru"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "drugi język obcy nowożytny"
+        ],
+        "languages": [
+          "angielski",
+          "hiszpański",
+          "włoski"
+        ],
+        "thresholdMin": 159,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1E",
+        "profile": "menadżerska",
+        "extendedSubjects": [
+          "język angielski",
+          "matematyka",
+          "geografia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "geografia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański",
+          "rosyjski",
+          "włoski"
+        ],
+        "thresholdMin": 163.65,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1F",
+        "profile": "humanistyczno-pedagogiczna",
+        "extendedSubjects": [
+          "język polski",
+          "język angielski",
+          "historia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "historia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański",
+          "rosyjski",
+          "włoski"
+        ],
+        "thresholdMin": 155.15,
+        "thresholdYear": "2025/2026"
+      }
+    ]
   },
   {
     "id": "XII LO",
     "fullName": "XII Liceum Ogólnokształcące im. Cypriana Kamila Norwida",
     "address": "os. Kolorowe 29a",
     "postalCode": "31-941",
+    "district": "Nowa Huta",
     "lat": 50.0765151,
     "lon": 20.0237889,
     "openDays": [
       "2026-04-11"
     ],
-    "rawSchedule": "11.04.2026"
+    "rawSchedule": "11.04.2026",
+    "isPublic": true,
+    "inPdf": true,
+    "website": "https://12liceum.edu.pl/",
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/299/XII-LO-im-Cypriana-Norwida",
+    "classesYear": "2026/2027",
+    "classes": [
+      {
+        "code": "1A",
+        "profile": "pol-hist",
+        "extendedSubjects": [
+          "język polski",
+          "historia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język obcy nowożytny",
+          "historia lub wiedza o społeczeństwie"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański",
+          "włoski"
+        ],
+        "thresholdMin": 143.85,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1B",
+        "profile": "pol-biol",
+        "extendedSubjects": [
+          "język polski",
+          "biologia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język obcy nowożytny",
+          "biologia lub wiedza o społeczeństwie"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański",
+          "włoski"
+        ],
+        "thresholdMin": 150.45,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1C",
+        "profile": "biol-chem",
+        "extendedSubjects": [
+          "chemia",
+          "biologia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język obcy nowożytny",
+          "biologia lub chemia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański",
+          "włoski"
+        ],
+        "thresholdMin": 153.8,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1D",
+        "profile": "biol-geo",
+        "extendedSubjects": [
+          "biologia",
+          "geografia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "biologia lub geografia",
+          "język obcy nowożytny"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański",
+          "włoski"
+        ],
+        "thresholdMin": 142.05,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1E",
+        "profile": "geo-ang",
+        "extendedSubjects": [
+          "język angielski",
+          "geografia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "geografia lub wiedza o społeczeństwie",
+          "język obcy nowożytny"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański",
+          "włoski"
+        ],
+        "thresholdMin": 151.25,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1F",
+        "profile": "mat-chem",
+        "extendedSubjects": [
+          "matematyka",
+          "chemia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "chemia lub fizyka",
+          "język obcy nowożytny"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański",
+          "włoski"
+        ],
+        "thresholdMin": 143.85,
+        "thresholdYear": "2025/2026"
+      }
+    ]
   },
   {
     "id": "XIII LO",
     "fullName": "XIII Liceum Ogólnokształcące im. Bohaterów Westerplatte",
     "address": "ul. Sądowa 4",
     "postalCode": "31-542",
+    "district": "Grzegórzki",
     "lat": 50.0634436,
     "lon": 19.9637323,
     "openDays": [
       "2026-04-21"
     ],
-    "rawSchedule": "21.04.2026 r."
+    "rawSchedule": "21.04.2026 r.",
+    "isPublic": true,
+    "inPdf": true,
+    "website": "https://xiii-lo.krakow.pl/",
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/300/XIII-LO-im-Obroncow-Westerplatte",
+    "classesYear": "2026/2027",
+    "classes": [
+      {
+        "code": "1A",
+        "profile": "biol-chem-mat",
+        "extendedSubjects": [
+          "matematyka",
+          "chemia",
+          "biologia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "chemia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański",
+          "rosyjski",
+          "włoski"
+        ],
+        "thresholdMin": 170.2,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1B",
+        "profile": "mat-geo-ang",
+        "extendedSubjects": [
+          "język angielski",
+          "matematyka",
+          "geografia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "geografia",
+          "język obcy nowożytny"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański",
+          "rosyjski",
+          "włoski"
+        ],
+        "thresholdMin": 168.4,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1C",
+        "profile": "mat-chem-ang",
+        "extendedSubjects": [
+          "język angielski",
+          "matematyka",
+          "chemia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "chemia",
+          "język obcy nowożytny"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański",
+          "rosyjski",
+          "włoski"
+        ],
+        "thresholdMin": 165.65,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1D",
+        "profile": "mat-fiz-ang",
+        "extendedSubjects": [
+          "język angielski",
+          "matematyka",
+          "fizyka"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "fizyka",
+          "język obcy nowożytny"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański",
+          "rosyjski",
+          "włoski"
+        ],
+        "thresholdMin": 166.25,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1E",
+        "profile": "biol-pol-ang",
+        "extendedSubjects": [
+          "język polski",
+          "język angielski",
+          "biologia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "język obcy nowożytny"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański",
+          "rosyjski",
+          "włoski"
+        ],
+        "thresholdMin": 167.6,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1F",
+        "profile": "językowa",
+        "extendedSubjects": [
+          "język polski",
+          "wiedza o społeczeństwie",
+          "język obcy nowożytny"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "wiedza o społeczeństwie",
+          "język obcy nowożytny"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "włoski"
+        ],
+        "thresholdMin": 160.85,
+        "thresholdYear": "2025/2026"
+      }
+    ]
   },
   {
     "id": "XIV LO",
     "fullName": "XIV Liceum Ogólnokształcące im. Mikołaja Kopernika",
     "address": "ul. Józefa Chełmońskiego 24",
     "postalCode": "31-322",
+    "district": "Krowodrza",
     "lat": 50.0871851,
     "lon": 19.9135299,
     "openDays": [
       "2026-04-18"
     ],
-    "rawSchedule": "1 8 .0 4 .2026 r. godz. 9:00 – 13:00"
+    "rawSchedule": "1 8 .0 4 .2026 r. godz. 9:00 – 13:00",
+    "isPublic": true,
+    "inPdf": true,
+    "website": "https://xiv-lo.krakow.pl/",
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/3032/XIV-LO",
+    "classesYear": "2026/2027",
+    "classes": [
+      {
+        "code": "1A",
+        "profile": "medyczna",
+        "extendedSubjects": [
+          "język angielski",
+          "chemia",
+          "biologia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "chemia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "hiszpański"
+        ],
+        "thresholdMin": 134.55,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1B",
+        "profile": "biomedyczno-środowiskowa",
+        "extendedSubjects": [
+          "język angielski",
+          "biologia",
+          "geografia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "geografia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "hiszpański"
+        ],
+        "thresholdMin": 124.35,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1C",
+        "profile": "prawniczo-medialna",
+        "extendedSubjects": [
+          "język polski",
+          "język angielski",
+          "historia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "historia",
+          "język angielski"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "hiszpański"
+        ],
+        "thresholdMin": 115.35,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1D",
+        "profile": "psychologiczna",
+        "extendedSubjects": [
+          "język polski",
+          "język angielski",
+          "biologia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "język angielski"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "hiszpański"
+        ],
+        "thresholdMin": 121,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1E",
+        "profile": "informatyczna",
+        "extendedSubjects": [
+          "język angielski",
+          "matematyka",
+          "informatyka"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "informatyka"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "hiszpański"
+        ],
+        "thresholdMin": null,
+        "thresholdYear": null
+      }
+    ]
   },
   {
     "id": "XV LO",
     "fullName": "XV Liceum Ogólnokształcące im. Marii Skłodowskiej-Curie",
     "address": "al. Adolfa Dygasińskiego 15",
     "postalCode": "30-820",
+    "district": "Bieżanów-Prokocim",
     "lat": 50.0223155,
     "lon": 19.9860032,
     "openDays": [
       "2026-04-17"
     ],
-    "rawSchedule": "17.04.2026 godz.15.00 - 18.00"
+    "rawSchedule": "17.04.2026 godz.15.00 - 18.00",
+    "isPublic": true,
+    "inPdf": true,
+    "website": "https://xvlo.pl/",
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/301/XV-LO-im-Marii-Sklodowskiej-Curie",
+    "classesYear": "2026/2027",
+    "classes": [
+      {
+        "code": "1A",
+        "profile": "humanistyczna",
+        "extendedSubjects": [
+          "język polski",
+          "język angielski",
+          "historia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "historia",
+          "język angielski"
+        ],
+        "languages": [
+          "angielski",
+          "francuski",
+          "hiszpański"
+        ],
+        "thresholdMin": 140.85,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1B",
+        "profile": "menadżerska",
+        "extendedSubjects": [
+          "język angielski",
+          "matematyka",
+          "geografia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "geografia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "włoski"
+        ],
+        "thresholdMin": 137.3,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1C",
+        "profile": "biologiczno-medyczna",
+        "extendedSubjects": [
+          "język angielski",
+          "chemia",
+          "biologia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "chemia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "hiszpański"
+        ],
+        "thresholdMin": 156.9,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1D",
+        "profile": "przyrodnicza",
+        "extendedSubjects": [
+          "język angielski",
+          "biologia",
+          "geografia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "geografia",
+          "biologia"
+        ],
+        "languages": [
+          "angielski",
+          "francuski",
+          "włoski"
+        ],
+        "thresholdMin": 144.55,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1E",
+        "profile": "mat-inf-biz",
+        "extendedSubjects": [
+          "matematyka",
+          "informatyka",
+          "biznes i zarządzanie"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "informatyka",
+          "język angielski"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "włoski"
+        ],
+        "thresholdMin": 152.75,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1F",
+        "profile": "turystyczno-językowa",
+        "extendedSubjects": [
+          "język angielski",
+          "język hiszpański",
+          "język włoski",
+          "geografia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "geografia",
+          "język angielski"
+        ],
+        "languages": [
+          "angielski",
+          "hiszpański",
+          "włoski"
+        ],
+        "thresholdMin": 148,
+        "thresholdYear": "2025/2026"
+      }
+    ]
   },
   {
     "id": "XVI LO",
     "fullName": "XVI Liceum Ogólnokształcące im. Krzysztofa Kamila Baczyńskiego",
     "address": "os. Willowe 1",
     "postalCode": "31-901",
+    "district": "Nowa Huta",
     "lat": 50.0723596,
     "lon": 20.0469636,
     "openDays": [
       "2026-04-14",
       "2026-04-24"
     ],
-    "rawSchedule": "14.04.2026 godz. 15.00 - 18.00 24.04.2026 godz. 15.00 - 18.00"
+    "rawSchedule": "14.04.2026 godz. 15.00 - 18.00 24.04.2026 godz. 15.00 - 18.00",
+    "isPublic": true,
+    "inPdf": true,
+    "website": "https://liceum16.krakow.pl/",
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/3040/XVI-LO-im-Krzysztofa-Kamila-Baczynskiego",
+    "classesYear": null,
+    "classes": []
   },
   {
     "id": "XVII LO",
     "fullName": "XVII Liceum Ogólnokształcące im. Młodej Polski",
     "address": "ul. Złoty Róg 30",
     "postalCode": "30-095",
+    "district": "Bronowice",
     "lat": 50.0813949,
     "lon": 19.8951625,
     "openDays": [
       "2026-04-22"
     ],
-    "rawSchedule": "22.04. 2026 w godzinach 17:30 – 19:00"
+    "rawSchedule": "22.04. 2026 w godzinach 17:30 – 19:00",
+    "isPublic": true,
+    "inPdf": true,
+    "website": null,
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/302/XVII-LO-im-Mlodej-Polski",
+    "classesYear": "2026/2027",
+    "classes": [
+      {
+        "code": "1A",
+        "profile": null,
+        "extendedSubjects": [
+          "biologia",
+          "geografia"
+        ],
+        "recruitmentSubjects": [],
+        "languages": [
+          "angielski",
+          "francuski"
+        ],
+        "thresholdMin": 97,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1B",
+        "profile": null,
+        "extendedSubjects": [
+          "język angielski",
+          "język francuski",
+          "wiedza o społeczeństwie"
+        ],
+        "recruitmentSubjects": [],
+        "languages": [
+          "angielski",
+          "francuski"
+        ],
+        "thresholdMin": 123.95,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1C",
+        "profile": null,
+        "extendedSubjects": [
+          "język angielski",
+          "matematyka",
+          "wiedza o społeczeństwie"
+        ],
+        "recruitmentSubjects": [],
+        "languages": [
+          "angielski",
+          "francuski"
+        ],
+        "thresholdMin": null,
+        "thresholdYear": null
+      }
+    ]
   },
   {
     "id": "XVIII LO",
     "fullName": "XVIII Liceum Ogólnokształcące im. Prof. Akademii Krakowskiej Św. Jana Kantego",
     "address": "ul. Na Błonie 15b",
     "postalCode": "30-147",
+    "district": "Bronowice",
     "lat": 50.0776312,
     "lon": 19.8829024,
     "openDays": [
       "2026-03-19"
     ],
-    "rawSchedule": "19.03.2026 w godz.16.00 - 18.00"
+    "rawSchedule": "19.03.2026 w godz.16.00 - 18.00",
+    "isPublic": true,
+    "inPdf": true,
+    "website": "https://xviiilo.krakow.pl/",
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/3041/XVIII-LO",
+    "classesYear": "2026/2027",
+    "classes": [
+      {
+        "code": "1A",
+        "profile": "mat-geo-ang",
+        "extendedSubjects": [
+          "język angielski",
+          "matematyka",
+          "geografia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "geografia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "włoski"
+        ],
+        "thresholdMin": 144.75,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1B",
+        "profile": "mat-inf-ang",
+        "extendedSubjects": [
+          "język angielski",
+          "matematyka",
+          "informatyka"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "dwa wybrane z: fizyka",
+          "informatyka",
+          "język angielski"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "włoski"
+        ],
+        "thresholdMin": 130.05,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1C",
+        "profile": "hist-pol-ang",
+        "extendedSubjects": [
+          "język polski",
+          "język angielski",
+          "matematyka",
+          "historia",
+          "biznes i zarządzanie"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "historia lub język angielski",
+          "język angielski"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "włoski"
+        ],
+        "thresholdMin": 122.7,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1D",
+        "profile": "biol-pol-ang",
+        "extendedSubjects": [
+          "język polski",
+          "język angielski",
+          "biologia",
+          "historia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "biologia lub historia",
+          "język angielski"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "włoski"
+        ],
+        "thresholdMin": 139.2,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1E",
+        "profile": "geo-wos-biz",
+        "extendedSubjects": [
+          "geografia",
+          "wiedza o społeczeństwie",
+          "biznes i zarządzanie"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "geografia",
+          "wiedza o społeczeństwie"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "włoski"
+        ],
+        "thresholdMin": null,
+        "thresholdYear": null
+      }
+    ]
   },
   {
     "id": "XX LO",
     "fullName": "XX Liceum Ogólnokształcące im. Leopolda Staffa",
     "address": "ul. Szlak 5",
     "postalCode": "31-161",
+    "district": "Stare Miasto",
     "lat": 50.0702247,
     "lon": 19.9334735,
     "openDays": [
       "2026-04-18"
     ],
-    "rawSchedule": "18.04.2026 r. godz. 10.00 - 13.00"
+    "rawSchedule": "18.04.2026 r. godz. 10.00 - 13.00",
+    "isPublic": true,
+    "inPdf": true,
+    "website": "http://xxlo-krakow.edu.pl/",
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/303/XX-LO-im-Leopolda-Staffa",
+    "classesYear": "2026/2027",
+    "classes": [
+      {
+        "code": "1A",
+        "profile": "pol-hist-wos",
+        "extendedSubjects": [
+          "język polski",
+          "historia",
+          "wiedza o społeczeństwie"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język obcy nowożytny",
+          "historia"
+        ],
+        "languages": [
+          "angielski",
+          "francuski"
+        ],
+        "thresholdMin": 154.3,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1B",
+        "profile": "mat-geo-ang",
+        "extendedSubjects": [
+          "język angielski",
+          "matematyka",
+          "geografia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język obcy nowożytny",
+          "geografia"
+        ],
+        "languages": [
+          "angielski",
+          "hiszpański"
+        ],
+        "thresholdMin": 163.85,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1C",
+        "profile": "geo-ang-niem",
+        "extendedSubjects": [
+          "język angielski",
+          "język niemiecki",
+          "geografia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "geografia",
+          "język angielski lub język niemiecki"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki"
+        ],
+        "thresholdMin": 151.15,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1D",
+        "profile": "mat-fiz-inf",
+        "extendedSubjects": [
+          "matematyka",
+          "fizyka",
+          "informatyka"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język obcy nowożytny",
+          "fizyka"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki"
+        ],
+        "thresholdMin": 158.5,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1E",
+        "profile": "biol-chem",
+        "extendedSubjects": [
+          "chemia",
+          "biologia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "chemia"
+        ],
+        "languages": [
+          "angielski",
+          "hiszpański"
+        ],
+        "thresholdMin": 162.85,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1F",
+        "profile": "wos-ang-fr",
+        "extendedSubjects": [
+          "język angielski",
+          "język francuski",
+          "wiedza o społeczeństwie"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "wiedza o społeczeństwie",
+          "język angielski lub język francuski"
+        ],
+        "languages": [
+          "angielski",
+          "francuski"
+        ],
+        "thresholdMin": 146,
+        "thresholdYear": "2025/2026"
+      }
+    ]
   },
   {
     "id": "XXI LO",
     "fullName": "XXI Liceum Ogólnokształcące im. Stanisława Ignacego Witkiewicza-Witkacego",
     "address": "os. Tysiąclecia 15",
     "postalCode": "31-606",
+    "district": "Nowa Huta",
     "lat": 50.0912141,
     "lon": 20.0020636,
     "openDays": [
       "2026-03-25"
     ],
-    "rawSchedule": "25.03.2026 r. godz. 10.00 - 15.00"
+    "rawSchedule": "25.03.2026 r. godz. 10.00 - 15.00",
+    "isPublic": true,
+    "inPdf": true,
+    "website": "https://21lo-krakow.pl/",
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/3172/XXI-Liceum-Ogolnoksztalcace-im-Stanislawa-Ignacego-Witkiewicza-witkacego-w-Krakowie",
+    "classesYear": null,
+    "classes": []
   },
   {
     "id": "XXIII LO",
     "fullName": "XXIII Liceum Ogólnokształcące im. płk. pil. Stanisława Skarżyńskiego",
     "address": "ul. Seniorów Lotnictwa 5",
     "postalCode": "31-455",
+    "district": "Śródmieście",
     "lat": 50.0796501,
     "lon": 19.985386,
     "openDays": [
       "2026-03-20",
       "2026-04-18"
     ],
-    "rawSchedule": "20.03.2026 r. 15.30 - 18.00 18.04.2026 r. 10.00 - 13.00"
+    "rawSchedule": "20.03.2026 r. 15.30 - 18.00 18.04.2026 r. 10.00 - 13.00",
+    "isPublic": true,
+    "inPdf": true,
+    "website": "https://xxiiilo.krakow.pl/",
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/3042/XXIII-LO",
+    "classesYear": "2026/2027",
+    "classes": [
+      {
+        "code": "1A",
+        "profile": "lotnicza",
+        "extendedSubjects": [
+          "język angielski",
+          "matematyka",
+          "geografia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język obcy nowożytny",
+          "geografia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "hiszpański"
+        ],
+        "thresholdMin": 148.2,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1B",
+        "profile": "turystyczna",
+        "extendedSubjects": [
+          "język angielski",
+          "biologia",
+          "geografia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język obcy nowożytny",
+          "biologia lub geografia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "hiszpański"
+        ],
+        "thresholdMin": 136.9,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1C",
+        "profile": "humanistyczna",
+        "extendedSubjects": [
+          "język polski",
+          "język angielski",
+          "historia sztuki"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język obcy nowożytny",
+          "historia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "hiszpański"
+        ],
+        "thresholdMin": 133.45,
+        "thresholdYear": "2025/2026"
+      }
+    ]
   },
   {
     "id": "XXIV LO",
     "fullName": "XXIV Liceum Ogólnokształcące im. Jana Pawła II",
     "address": "ul. Wilhelma Wilka Wyrwińskiego 1",
     "postalCode": "31-517",
+    "district": "Grzegórzki",
     "lat": 50.0720484,
     "lon": 19.9653474,
     "openDays": [
@@ -269,26 +2874,272 @@
       "2026-04-22",
       "2026-05-16"
     ],
-    "rawSchedule": "18.03.2026 r. godz. 15.30 - 19.00, 22.04.2026 r. godz. 15.30 - 19.00, 16.05.2026 r. godz. 9.00 - 13.00"
+    "rawSchedule": "18.03.2026 r. godz. 15.30 - 19.00, 22.04.2026 r. godz. 15.30 - 19.00, 16.05.2026 r. godz. 9.00 - 13.00",
+    "isPublic": true,
+    "inPdf": true,
+    "website": "https://xxivliceumkrakow.edupage.org/",
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/3043/XXIV-LO-im-sw-Jana-Pawla-II",
+    "classesYear": "2026/2027",
+    "classes": [
+      {
+        "code": "1A",
+        "profile": "ekonomiczno-społeczna",
+        "extendedSubjects": [
+          "język angielski",
+          "matematyka",
+          "biznes i zarządzanie"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "geografia",
+          "język obcy nowożytny"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "hiszpański"
+        ],
+        "thresholdMin": 146.85,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1B",
+        "profile": "fotograficzno-filmowa",
+        "extendedSubjects": [
+          "język polski",
+          "historia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "historia",
+          "język obcy nowożytny"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "włoski"
+        ],
+        "thresholdMin": 122.8,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1C",
+        "profile": "proobywatelska",
+        "extendedSubjects": [
+          "język angielski",
+          "historia",
+          "wiedza o społeczeństwie"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "historia",
+          "wiedza o społeczeństwie"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "włoski"
+        ],
+        "thresholdMin": 126.45,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1D",
+        "profile": "biologiczno-chemiczna z promocją zdrowia",
+        "extendedSubjects": [
+          "język angielski",
+          "chemia",
+          "biologia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "chemia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "włoski"
+        ],
+        "thresholdMin": 144.65,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1E",
+        "profile": "turystyczna",
+        "extendedSubjects": [
+          "język angielski",
+          "biologia",
+          "geografia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "geografia",
+          "język obcy nowożytny"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "hiszpański"
+        ],
+        "thresholdMin": 139.5,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1F",
+        "profile": "matematyczno-technologiczna",
+        "extendedSubjects": [
+          "język angielski",
+          "matematyka"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "informatyka",
+          "język obcy nowożytny"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "hiszpański"
+        ],
+        "thresholdMin": 135.55,
+        "thresholdYear": "2025/2026"
+      }
+    ]
   },
   {
     "id": "XXV LO",
     "fullName": "XXV Liceum Ogólnokształcące im. Stefana Żeromskiego",
     "address": "ul. Telimeny 9",
     "postalCode": "30-838",
+    "district": "Bieżanów-Prokocim",
     "lat": 50.0197437,
     "lon": 20.0161369,
     "openDays": [
       "2026-03-20",
       "2026-04-25"
     ],
-    "rawSchedule": "20.03.2026 r., 25.04.2026 r."
+    "rawSchedule": "20.03.2026 r., 25.04.2026 r.",
+    "isPublic": true,
+    "inPdf": true,
+    "website": "https://www.xxvlo.pl/",
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/3045/XXV-LO",
+    "classesYear": "2026/2027",
+    "classes": [
+      {
+        "code": "1A",
+        "profile": "mundurowa bezpieczeństwa publicznego",
+        "extendedSubjects": [
+          "język angielski",
+          "wiedza o społeczeństwie"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język obcy nowożytny",
+          "wychowanie fizyczne"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki"
+        ],
+        "thresholdMin": 106.15,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1B",
+        "profile": "mundurowa wojskowa",
+        "extendedSubjects": [
+          "język angielski",
+          "wiedza o społeczeństwie"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język obcy nowożytny",
+          "wychowanie fizyczne"
+        ],
+        "languages": [
+          "angielski",
+          "rosyjski"
+        ],
+        "thresholdMin": 96.4,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1C",
+        "profile": "mundurowa wojskowa",
+        "extendedSubjects": [
+          "język polski",
+          "język angielski"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język obcy nowożytny",
+          "wychowanie fizyczne"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki"
+        ],
+        "thresholdMin": 93.65,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1D",
+        "profile": "Oddział Przygotowania Wojskowego",
+        "extendedSubjects": [
+          "język angielski",
+          "geografia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język obcy nowożytny",
+          "wychowanie fizyczne"
+        ],
+        "languages": [
+          "angielski",
+          "rosyjski"
+        ],
+        "thresholdMin": 96.4,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1E",
+        "profile": "mundurowa Bezpieczeństwa Publicznego",
+        "extendedSubjects": [
+          "język angielski",
+          "wiedza o społeczeństwie"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język obcy nowożytny",
+          "wychowanie fizyczne"
+        ],
+        "languages": [
+          "angielski",
+          "rosyjski"
+        ],
+        "thresholdMin": 88.05,
+        "thresholdYear": "2025/2026"
+      }
+    ]
   },
   {
     "id": "XXVI LO",
     "fullName": "XXVI Liceum Ogólnokształcące",
     "address": "ul. Krupnicza 44",
     "postalCode": "31-123",
+    "district": "Stare Miasto",
     "lat": 50.0621941,
     "lon": 19.9241437,
     "openDays": [
@@ -297,144 +3148,2445 @@
       "2026-05-22",
       "2026-05-23"
     ],
-    "rawSchedule": "20.03.26 ( piątek) 11.00 - 14.00 21.03.26 ( sobota) 10.00 - 13.00 22.05.26. (piątek) 11.00 - 14.00 23.05.26 ( sobota) 10.00 - 14.00"
+    "rawSchedule": "20.03.26 ( piątek) 11.00 - 14.00 21.03.26 ( sobota) 10.00 - 13.00 22.05.26. (piątek) 11.00 - 14.00 23.05.26 ( sobota) 10.00 - 14.00",
+    "isPublic": true,
+    "inPdf": true,
+    "website": "https://zschkrakow.pl/",
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/304/XXVI-LO-w-ZSC-im-Marii-Sklodowskiej-Curie",
+    "classesYear": null,
+    "classes": []
   },
   {
     "id": "XXVII LO",
     "fullName": "XXVII Liceum Ogólnokształcące im. dr. Henryka Jordana",
     "address": "ul. Senatorska 35",
     "postalCode": "30-106",
+    "district": "Krowodrza",
     "lat": 50.0540254,
     "lon": 19.9167691,
     "openDays": [
       "2026-03-24",
       "2026-04-29"
     ],
-    "rawSchedule": "24.03.2026 i 29.04.2026 od 15:00 do 18:00"
+    "rawSchedule": "24.03.2026 i 29.04.2026 od 15:00 do 18:00",
+    "isPublic": true,
+    "inPdf": true,
+    "website": "https://zso18.krakow.pl/liceum/",
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/3046/XXVII-LO-im-dra-Henryka-Jordana",
+    "classesYear": "2026/2027",
+    "classes": [
+      {
+        "code": "1A",
+        "profile": "humanistyczno-medialna",
+        "extendedSubjects": [
+          "język polski",
+          "język angielski",
+          "historia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "historia lub wiedza o społeczeństwie"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "hiszpański",
+          "włoski"
+        ],
+        "thresholdMin": 157.5,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1B",
+        "profile": "geograficzno-turystyczna",
+        "extendedSubjects": [
+          "język angielski",
+          "biologia",
+          "geografia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "biologia lub geografia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "hiszpański",
+          "włoski"
+        ],
+        "thresholdMin": 160.75,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1C",
+        "profile": "matematyczno-biznesowa",
+        "extendedSubjects": [
+          "język angielski",
+          "matematyka",
+          "biznes i zarządzanie"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "geografia lub informatyka"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "hiszpański",
+          "włoski"
+        ],
+        "thresholdMin": 160.35,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1D",
+        "profile": "biologiczno-chemiczna",
+        "extendedSubjects": [
+          "język angielski",
+          "chemia",
+          "biologia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "biologia lub chemia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "hiszpański",
+          "włoski"
+        ],
+        "thresholdMin": 164.95,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1E",
+        "profile": "biologiczno-matematyczna",
+        "extendedSubjects": [
+          "język angielski",
+          "matematyka",
+          "biologia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "biologia lub chemia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "hiszpański",
+          "włoski"
+        ],
+        "thresholdMin": 162.95,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1F",
+        "profile": "geograficzno-matematyczna",
+        "extendedSubjects": [
+          "język angielski",
+          "matematyka",
+          "geografia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "biologia lub geografia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "hiszpański",
+          "włoski"
+        ],
+        "thresholdMin": 164.05,
+        "thresholdYear": "2025/2026"
+      }
+    ]
   },
   {
     "id": "XXVIII LO",
     "fullName": "XXVIII Liceum Ogólnokształcące im. Wojciecha Bednarskiego",
     "address": "ul. Tadeusza Czackiego 11",
     "postalCode": "30-501",
+    "district": "Podgórze",
     "lat": 50.0410588,
     "lon": 19.9368889,
     "openDays": [
       "2026-03-21",
       "2026-04-28"
     ],
-    "rawSchedule": "21.03.2026 (10.00 - 13.00) 28.04.2026 (10.00 - 14.00)"
+    "rawSchedule": "21.03.2026 (10.00 - 13.00) 28.04.2026 (10.00 - 14.00)",
+    "isPublic": true,
+    "inPdf": true,
+    "website": "https://www.28lo.pl/",
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/305/XXVIII-LO-im-Wojciecha-Bednarskiego",
+    "classesYear": "2026/2027",
+    "classes": [
+      {
+        "code": "1A",
+        "profile": "psychologiczna",
+        "extendedSubjects": [
+          "język polski",
+          "język angielski",
+          "biologia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "biologia"
+        ],
+        "languages": [
+          "angielski",
+          "francuski"
+        ],
+        "thresholdMin": 153.4,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1B",
+        "profile": "ekonomiczna",
+        "extendedSubjects": [
+          "język angielski",
+          "geografia",
+          "biznes i zarządzanie"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "geografia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki"
+        ],
+        "thresholdMin": 152,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1C",
+        "profile": "dyplomatyczna",
+        "extendedSubjects": [
+          "język angielski",
+          "historia",
+          "wiedza o społeczeństwie"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "historia"
+        ],
+        "languages": [
+          "angielski",
+          "włoski"
+        ],
+        "thresholdMin": 141.05,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1D",
+        "profile": "technologiczna",
+        "extendedSubjects": [
+          "język angielski",
+          "matematyka",
+          "informatyka"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "fizyka"
+        ],
+        "languages": [
+          "angielski",
+          "hiszpański"
+        ],
+        "thresholdMin": 139.6,
+        "thresholdYear": "2025/2026"
+      }
+    ]
+  },
+  {
+    "id": "XXIX LO",
+    "fullName": "XXIX LO",
+    "address": "ul. Cechowa 57",
+    "postalCode": "",
+    "district": "Podgórze",
+    "lat": 50.0058542,
+    "lon": 19.9656727,
+    "openDays": [],
+    "rawSchedule": "",
+    "isPublic": true,
+    "inPdf": false,
+    "website": "https://zsodz1.pl/",
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/3044/XXIX-LO",
+    "classesYear": "2026/2027",
+    "classes": [
+      {
+        "code": "1A",
+        "profile": "integracyjna",
+        "extendedSubjects": [
+          "język polski",
+          "język angielski",
+          "biologia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "biologia"
+        ],
+        "languages": [
+          "angielski",
+          "francuski"
+        ],
+        "thresholdMin": 116.2,
+        "thresholdYear": "2025/2026"
+      }
+    ]
   },
   {
     "id": "XXX LO",
     "fullName": "XXX Liceum Ogólnokształcące im. św. Brata Alberta – Adama Chmielowskiego",
     "address": "os. Dywizjonu 303 66",
     "postalCode": "31-875",
+    "district": "Nowa Huta",
     "lat": 50.0833427,
     "lon": 20.0070646,
     "openDays": [
       "2026-04-16",
       "2026-05-23"
     ],
-    "rawSchedule": "16.04.2026 od 17:00 i 23.05.2026 od 10:00"
+    "rawSchedule": "16.04.2026 od 17:00 i 23.05.2026 od 10:00",
+    "isPublic": true,
+    "inPdf": true,
+    "website": "https://xxxlo.krakow.pl/",
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/3047/XXX-LO",
+    "classesYear": "2026/2027",
+    "classes": [
+      {
+        "code": "1A",
+        "profile": "sportowa - profil taneczny",
+        "extendedSubjects": [
+          "język polski",
+          "język angielski",
+          "biologia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "biologia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski"
+        ],
+        "thresholdMin": 57,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1B",
+        "profile": "ogólna - profil inżynierski",
+        "extendedSubjects": [
+          "język angielski",
+          "matematyka",
+          "fizyka"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "informatyka",
+          "fizyka"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski"
+        ],
+        "thresholdMin": null,
+        "thresholdYear": null
+      },
+      {
+        "code": "1C",
+        "profile": "ogólna - profil turystyczno-językowy",
+        "extendedSubjects": [
+          "język polski",
+          "język angielski",
+          "geografia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "geografia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski"
+        ],
+        "thresholdMin": 112.35,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1D",
+        "profile": "ogólno-integracyjna - profil humanistyczny z elementami psychologii",
+        "extendedSubjects": [
+          "język polski",
+          "język angielski",
+          "historia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "historia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski"
+        ],
+        "thresholdMin": 112.05,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1E",
+        "profile": "ogólno-integracyjna - profil promocja zdrowia",
+        "extendedSubjects": [
+          "język polski",
+          "język angielski",
+          "biologia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "biologia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski"
+        ],
+        "thresholdMin": 110.8,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1F",
+        "profile": "medyczna",
+        "extendedSubjects": [
+          "język angielski",
+          "chemia",
+          "biologia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "chemia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski"
+        ],
+        "thresholdMin": null,
+        "thresholdYear": null
+      }
+    ]
   },
   {
     "id": "XXXI LO",
     "fullName": "XXXI Liceum Ogólnokształcące im. Romana Ingardena",
     "address": "ul. Kazimierza Odnowiciela 2",
     "postalCode": "31-481",
+    "district": "Prądnik Czerwony",
     "lat": 50.0875444,
     "lon": 19.970441,
     "openDays": [
       "2026-03-21",
       "2026-04-25"
     ],
-    "rawSchedule": "21.03.26 (10:00 - 13:00), 25.04.26 (10:00 - 13:00)"
+    "rawSchedule": "21.03.26 (10:00 - 13:00), 25.04.26 (10:00 - 13:00)",
+    "isPublic": true,
+    "inPdf": true,
+    "website": null,
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/3155/XXXI-LO-im-Romana-Ingardena",
+    "classesYear": null,
+    "classes": []
   },
   {
     "id": "XLI LO",
     "fullName": "XLI Liceum Ogólnokształcące im. ks. Jana Twardowskiego",
     "address": "Rynek Kleparski 18",
     "postalCode": "31-150",
+    "district": "Stare Miasto",
     "lat": 50.0673039,
     "lon": 19.9416168,
     "openDays": [
       "2026-05-21"
     ],
-    "rawSchedule": "21.05.2026 r. g.15.00 do g. 17.00"
+    "rawSchedule": "21.05.2026 r. g.15.00 do g. 17.00",
+    "isPublic": true,
+    "inPdf": true,
+    "website": "https://www.xlilo.krakow.pl/",
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/3033/XLI-LO",
+    "classesYear": "2026/2027",
+    "classes": [
+      {
+        "code": "1A",
+        "profile": "pol-ang-biol",
+        "extendedSubjects": [
+          "język polski",
+          "język angielski",
+          "biologia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "język angielski"
+        ],
+        "languages": [
+          "angielski",
+          "hiszpański"
+        ],
+        "thresholdMin": 154.7,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1B",
+        "profile": "mat-geo-ang",
+        "extendedSubjects": [
+          "język angielski",
+          "matematyka",
+          "geografia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "geografia",
+          "język angielski"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki"
+        ],
+        "thresholdMin": 157.4,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1C",
+        "profile": "biol-chem-ang",
+        "extendedSubjects": [
+          "język angielski",
+          "chemia",
+          "biologia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "chemia",
+          "biologia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki"
+        ],
+        "thresholdMin": 155.8,
+        "thresholdYear": "2025/2026"
+      }
+    ]
   },
   {
     "id": "XLII LO",
     "fullName": "XLII Liceum Ogólnokształcące im. Adama Mickiewicza",
     "address": "ul. Studencka 13",
     "postalCode": "31-116",
+    "district": "Śródmieście",
     "lat": 50.0628131,
     "lon": 19.9300951,
     "openDays": [
       "2026-04-28",
       "2026-05-26"
     ],
-    "rawSchedule": "28.04.2026 i 26.05.2026 godz. 14.30 - 16.30"
+    "rawSchedule": "28.04.2026 i 26.05.2026 godz. 14.30 - 16.30",
+    "isPublic": true,
+    "inPdf": true,
+    "website": "https://lo42krakow.pl/",
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/3034/XLII-LO",
+    "classesYear": "2026/2027",
+    "classes": [
+      {
+        "code": "1A",
+        "profile": "ekonomiczna",
+        "extendedSubjects": [
+          "język angielski",
+          "matematyka",
+          "geografia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "geografia",
+          "język angielski"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański"
+        ],
+        "thresholdMin": 170.6,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1B",
+        "profile": "biologiczno-chemiczna",
+        "extendedSubjects": [
+          "matematyka",
+          "chemia",
+          "biologia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "chemia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański"
+        ],
+        "thresholdMin": 172.3,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1C",
+        "profile": "matematyczno-fizyczna",
+        "extendedSubjects": [
+          "język angielski",
+          "matematyka",
+          "fizyka"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "fizyka",
+          "język angielski"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański"
+        ],
+        "thresholdMin": 168.25,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1D",
+        "profile": "Humanistyczno-architektoniczna",
+        "extendedSubjects": [
+          "język polski",
+          "matematyka",
+          "historia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "historia lub wiedza o społeczeństwie",
+          "język angielski"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański"
+        ],
+        "thresholdMin": 163.25,
+        "thresholdYear": "2025/2026"
+      }
+    ]
   },
   {
     "id": "XLIII LO",
     "fullName": "XLIII Liceum Ogólnokształcące im. Zofii Chrzanowskiej",
     "address": "ul. Bolesława Limanowskiego 60-62",
     "postalCode": "30-534",
+    "district": "Podgórze",
     "lat": 50.044516,
     "lon": 19.957143,
     "openDays": [
       "2026-04-25"
     ],
-    "rawSchedule": "25.04.2026 10:00 - 13:00"
+    "rawSchedule": "25.04.2026 10:00 - 13:00",
+    "isPublic": true,
+    "inPdf": true,
+    "website": "https://lo43krakow.pl/",
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/3035/XLIII-LO",
+    "classesYear": "2026/2027",
+    "classes": [
+      {
+        "code": "1A",
+        "profile": "mat-inf-ang",
+        "extendedSubjects": [
+          "język angielski",
+          "matematyka",
+          "informatyka"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "informatyka",
+          "język angielski"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "hiszpański",
+          "włoski"
+        ],
+        "thresholdMin": 142.9,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1B",
+        "profile": "biol-pol-ang",
+        "extendedSubjects": [
+          "język polski",
+          "język angielski",
+          "biologia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "język angielski"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "hiszpański",
+          "włoski"
+        ],
+        "thresholdMin": 147.2,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1C",
+        "profile": "pol-hist-ang",
+        "extendedSubjects": [
+          "język polski",
+          "język angielski",
+          "historia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "historia",
+          "język angielski"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "hiszpański",
+          "włoski"
+        ],
+        "thresholdMin": 128.3,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1D",
+        "profile": "geo-wos-ang",
+        "extendedSubjects": [
+          "język angielski",
+          "geografia",
+          "wiedza o społeczeństwie"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "geografia",
+          "język angielski"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "hiszpański",
+          "włoski"
+        ],
+        "thresholdMin": 135.7,
+        "thresholdYear": "2025/2026"
+      }
+    ]
   },
   {
     "id": "XLIV LO",
     "fullName": "XLIV Liceum Ogólnokształcące im. ks. Stanisława Konarskiego",
     "address": "ul. Bernardyńska 7",
     "postalCode": "31-069",
+    "district": "Śródmieście",
     "lat": 50.0528201,
     "lon": 19.9362964,
     "openDays": [
       "2026-04-23"
     ],
-    "rawSchedule": "23.04.2026 (czwartek) od godz. 16:00 do 19:00"
+    "rawSchedule": "23.04.2026 (czwartek) od godz. 16:00 do 19:00",
+    "isPublic": true,
+    "inPdf": true,
+    "website": "http://www.lo44.krakow.pl/",
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/3039/XLIV-LO",
+    "classesYear": "2026/2027",
+    "classes": [
+      {
+        "code": "1A",
+        "profile": "mat-fiz-ang",
+        "extendedSubjects": [
+          "język angielski",
+          "matematyka",
+          "fizyka"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "fizyka"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski"
+        ],
+        "thresholdMin": 157.2,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1B",
+        "profile": "biol-chem-mat",
+        "extendedSubjects": [
+          "matematyka",
+          "chemia",
+          "biologia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "chemia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "hiszpański"
+        ],
+        "thresholdMin": 162.25,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1C",
+        "profile": "prawniczo-lingwistyczna",
+        "extendedSubjects": [
+          "język angielski",
+          "język niemiecki",
+          "wiedza o społeczeństwie"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "wiedza o społeczeństwie",
+          "język angielski"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki"
+        ],
+        "thresholdMin": 135.5,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1D",
+        "profile": "mat-ang-geo",
+        "extendedSubjects": [
+          "język angielski",
+          "matematyka",
+          "geografia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "geografia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "hiszpański"
+        ],
+        "thresholdMin": 148.6,
+        "thresholdYear": "2025/2026"
+      }
+    ]
+  },
+  {
+    "id": "XLVI LO w Krakowie",
+    "fullName": "XLVI LO w Krakowie",
+    "address": "ul. Dietla 70",
+    "postalCode": "",
+    "district": null,
+    "lat": 50.0557976,
+    "lon": 19.9442024,
+    "openDays": [],
+    "rawSchedule": "",
+    "isPublic": true,
+    "inPdf": false,
+    "website": "https://xlvilo.edupage.org/",
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/6464/XLVI-LO-w-Krakowie",
+    "classesYear": "2026/2027",
+    "classes": [
+      {
+        "code": "1A",
+        "profile": "geo-his-ang",
+        "extendedSubjects": [
+          "język angielski",
+          "geografia",
+          "historia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "geografia",
+          "historia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "włoski"
+        ],
+        "thresholdMin": 126.3,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1B",
+        "profile": "pol-his-WOS",
+        "extendedSubjects": [
+          "język polski",
+          "historia",
+          "wiedza o społeczeństwie"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "historia",
+          "wiedza o społeczeństwie"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "włoski"
+        ],
+        "thresholdMin": 124.05,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1C",
+        "profile": "biol-chem-mat",
+        "extendedSubjects": [
+          "matematyka",
+          "chemia",
+          "biologia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "chemia",
+          "biologia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "włoski"
+        ],
+        "thresholdMin": 144.2,
+        "thresholdYear": "2025/2026"
+      }
+    ]
+  },
+  {
+    "id": "XLVII LO w Krakowie",
+    "fullName": "XLVII LO w Krakowie",
+    "address": "os. Osiedle Szkolne 18",
+    "postalCode": "",
+    "district": null,
+    "lat": 50.0801368,
+    "lon": 20.0476099,
+    "openDays": [],
+    "rawSchedule": "",
+    "isPublic": true,
+    "inPdf": false,
+    "website": "https://zsz2.edu.pl/",
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/6465/XLVII-LO-w-Krakowie",
+    "classesYear": null,
+    "classes": []
+  },
+  {
+    "id": "Akademickie Liceum Ogólnokształcące \"emmanuel",
+    "fullName": "Akademickie Liceum Ogólnokształcące \"emmanuel",
+    "address": "os. Osiedle Urocze 14",
+    "postalCode": "",
+    "district": "Nowa Huta",
+    "lat": 50.0779179,
+    "lon": 20.0379026,
+    "openDays": [],
+    "rawSchedule": "",
+    "isPublic": false,
+    "inPdf": false,
+    "website": null,
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-w-Krakowie/5047/Akademickie-Liceum-Ogolnoksztalcace-emmanuel",
+    "classesYear": null,
+    "classes": []
+  },
+  {
+    "id": "Da Vinci Społeczne Liceum Ogólnokształcące w Krakowie",
+    "fullName": "Da Vinci Społeczne Liceum Ogólnokształcące w Krakowie",
+    "address": "os. Osiedle Na Stoku 34",
+    "postalCode": "",
+    "district": "Nowa Huta",
+    "lat": 50.1105825,
+    "lon": 19.7965578,
+    "openDays": [],
+    "rawSchedule": "",
+    "isPublic": false,
+    "inPdf": false,
+    "website": null,
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-w-Krakowie/5513/Da-Vinci-Spoleczne-Liceum-Ogolnoksztalcace-W-Krakowie",
+    "classesYear": null,
+    "classes": []
+  },
+  {
+    "id": "I Prywatne Liceum Ogólnokształcące im. Marszałka J. Piłsudskiego",
+    "fullName": "I Prywatne Liceum Ogólnokształcące im. Marszałka J. Piłsudskiego",
+    "address": "al. Aleja Adolfa Dygasińskiego 5B",
+    "postalCode": "",
+    "district": "Podgórze",
+    "lat": 50.023117,
+    "lon": 19.9829214,
+    "openDays": [],
+    "rawSchedule": "",
+    "isPublic": false,
+    "inPdf": false,
+    "website": null,
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-w-Krakowie/3277/I-Prywatne-Liceum-Ogolnoksztalcace-im-Marszalka-J-Pilsudskiego",
+    "classesYear": null,
+    "classes": []
+  },
+  {
+    "id": "I Społeczne Liceum Ogólnokształcące im. X. B. W. Ignacego Krasickiego w Krakowie",
+    "fullName": "I Społeczne Liceum Ogólnokształcące im. X. B. W. Ignacego Krasickiego w Krakowie",
+    "address": "ul. Juliana Dunajewskiego 6",
+    "postalCode": "",
+    "district": "Śródmieście",
+    "lat": 50.0650902,
+    "lon": 19.9344679,
+    "openDays": [],
+    "rawSchedule": "",
+    "isPublic": false,
+    "inPdf": false,
+    "website": null,
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-w-Krakowie/3209/I-Spoleczne-Liceum-Ogolnoksztalcace-im-X-B-W-Ignacego-Krasickiego-W-Krakowie",
+    "classesYear": null,
+    "classes": []
+  },
+  {
+    "id": "III Prywatne Liceum Ogólnokształcące",
+    "fullName": "III Prywatne Liceum Ogólnokształcące",
+    "address": "ul. Sławkowska 20",
+    "postalCode": "",
+    "district": "Śródmieście",
+    "lat": 50.0641875,
+    "lon": 19.9376988,
+    "openDays": [],
+    "rawSchedule": "",
+    "isPublic": false,
+    "inPdf": false,
+    "website": null,
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-w-Krakowie/3344/Iii-Prywatne-Liceum-Ogolnoksztalcace",
+    "classesYear": null,
+    "classes": []
+  },
+  {
+    "id": "III Społeczne Liceum Ogólnokształcące im. Juliusza Słowackiego Społecznego Towarzystwa Oświatowego w Krakowie",
+    "fullName": "III Społeczne Liceum Ogólnokształcące im. Juliusza Słowackiego Społecznego Towarzystwa Oświatowego w Krakowie",
+    "address": "ul. Stradomska 10",
+    "postalCode": "",
+    "district": "Śródmieście",
+    "lat": 50.0531794,
+    "lon": 19.9404408,
+    "openDays": [],
+    "rawSchedule": "",
+    "isPublic": false,
+    "inPdf": false,
+    "website": null,
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-w-Krakowie/3269/Iii-Spoleczne-Liceum-Ogolnoksztalcace-im-Juliusza-Slowackiego-Spolecznego-Towarzystwa-Oswiatowego-W-Krakowie",
+    "classesYear": null,
+    "classes": []
+  },
+  {
+    "id": "IV Prywatne Liceum Ogólnokształcące im. Królów Polskich w Krakowie",
+    "fullName": "IV Prywatne Liceum Ogólnokształcące im. Królów Polskich w Krakowie",
+    "address": "ul. Basztowa 17",
+    "postalCode": "",
+    "district": "Śródmieście",
+    "lat": 50.0662702,
+    "lon": 19.9407322,
+    "openDays": [],
+    "rawSchedule": "",
+    "isPublic": false,
+    "inPdf": false,
+    "website": null,
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-w-Krakowie/3248/Iv-Prywatne-Liceum-Ogolnoksztalcace-im-Krolow-Polskich-W-Krakowie",
+    "classesYear": null,
+    "classes": []
+  },
+  {
+    "id": "IX Prywatne Liceum Ogólnokształcące",
+    "fullName": "IX Prywatne Liceum Ogólnokształcące",
+    "address": "ul. Brzozowa 6a",
+    "postalCode": "",
+    "district": "Śródmieście",
+    "lat": 50.0542062,
+    "lon": 19.9446387,
+    "openDays": [],
+    "rawSchedule": "",
+    "isPublic": false,
+    "inPdf": false,
+    "website": null,
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-w-Krakowie/3278/Ix-Prywatne-Liceum-Ogolnoksztalcace",
+    "classesYear": null,
+    "classes": []
+  },
+  {
+    "id": "Katolickie Liceum Montessori im. Sprawiedliwych Wśród Narodów Świata",
+    "fullName": "Katolickie Liceum Montessori im. Sprawiedliwych Wśród Narodów Świata",
+    "address": "ul. ks. Stefana Pawlickiego 1",
+    "postalCode": "",
+    "district": "Podgórze",
+    "lat": 50.0436936,
+    "lon": 19.9184419,
+    "openDays": [],
+    "rawSchedule": "",
+    "isPublic": false,
+    "inPdf": false,
+    "website": null,
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-w-Krakowie/5159/Katolickie-Liceum-Montessori-im-Sprawiedliwych-Wsrod-Narodow-Swiata",
+    "classesYear": null,
+    "classes": []
+  },
+  {
+    "id": "Katolickie LO im. Świętej Rodziny z Nazaretu",
+    "fullName": "Katolickie LO im. Świętej Rodziny z Nazaretu",
+    "address": "ul. Pędzichów 13",
+    "postalCode": "",
+    "district": "Stare Miasto",
+    "lat": 50.0703441,
+    "lon": 19.938834,
+    "openDays": [],
+    "rawSchedule": "",
+    "isPublic": true,
+    "inPdf": false,
+    "website": null,
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/308/Katolickie-LO-im-Swietej-Rodziny-z-Nazaretu",
+    "classesYear": "2026/2027",
+    "classes": [
+      {
+        "code": "1A",
+        "profile": "matematyczno-przyrodnicza",
+        "extendedSubjects": [
+          "matematyka",
+          "przedmiot do wyboru"
+        ],
+        "recruitmentSubjects": [],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski"
+        ],
+        "thresholdMin": null,
+        "thresholdYear": null
+      },
+      {
+        "code": "1B",
+        "profile": "prawniczo-medialna",
+        "extendedSubjects": [
+          "język polski",
+          "historia",
+          "przedmiot do wyboru"
+        ],
+        "recruitmentSubjects": [],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski"
+        ],
+        "thresholdMin": null,
+        "thresholdYear": null
+      }
+    ]
+  },
+  {
+    "id": "Kolegium Europejskie - Europejskie Niepubliczne Liceum Ogólnokształcące w Krakowie",
+    "fullName": "Kolegium Europejskie - Europejskie Niepubliczne Liceum Ogólnokształcące w Krakowie",
+    "address": "ul. Ślusarska 9",
+    "postalCode": "",
+    "district": "Podgórze",
+    "lat": 50.0483756,
+    "lon": 19.9609794,
+    "openDays": [],
+    "rawSchedule": "",
+    "isPublic": false,
+    "inPdf": false,
+    "website": null,
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-w-Krakowie/5133/Kolegium-Europejskie-Europejskie-Niepubliczne-Liceum-Ogolnoksztalcace-W-Krakowie",
+    "classesYear": null,
+    "classes": []
+  },
+  {
+    "id": "Krakowskie Prywatne Liceum Ogólnokształcące im. Króla Jana III Sobieskiego w Krakowie",
+    "fullName": "Krakowskie Prywatne Liceum Ogólnokształcące im. Króla Jana III Sobieskiego w Krakowie",
+    "address": "ul. Hieronima Wietora 9",
+    "postalCode": "",
+    "district": "Śródmieście",
+    "lat": 50.0464464,
+    "lon": 19.9409732,
+    "openDays": [],
+    "rawSchedule": "",
+    "isPublic": false,
+    "inPdf": false,
+    "website": null,
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-w-Krakowie/4945/Krakowskie-Prywatne-Liceum-Ogolnoksztalcace-im-Krola-Jana-Iii-Sobieskiego-W-Krakowie",
+    "classesYear": null,
+    "classes": []
+  },
+  {
+    "id": "Liceum Jezuitów im. św. Stanisława Kostki",
+    "fullName": "Liceum Jezuitów im. św. Stanisława Kostki",
+    "address": "ul. Spółdzielców 5",
+    "postalCode": "",
+    "district": "Podgórze",
+    "lat": 50.0180595,
+    "lon": 19.981136,
+    "openDays": [],
+    "rawSchedule": "",
+    "isPublic": true,
+    "inPdf": false,
+    "website": "https://kostka.edu.pl/",
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/3027/Liceum-Jezuitow-im-sw-Stanislawa-Kostki",
+    "classesYear": "2026/2027",
+    "classes": [
+      {
+        "code": "1A",
+        "profile": "matematyczno-informatyczna",
+        "extendedSubjects": [
+          "matematyka",
+          "fizyka",
+          "informatyka"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "fizyka",
+          "język angielski"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "hiszpański"
+        ],
+        "thresholdMin": null,
+        "thresholdYear": null
+      },
+      {
+        "code": "1B",
+        "profile": "biologiczno-chemiczna",
+        "extendedSubjects": [
+          "matematyka",
+          "chemia",
+          "biologia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "chemia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "hiszpański"
+        ],
+        "thresholdMin": null,
+        "thresholdYear": null
+      },
+      {
+        "code": "1C",
+        "profile": "prawna",
+        "extendedSubjects": [
+          "język polski",
+          "historia",
+          "wiedza o społeczeństwie"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "historia",
+          "język angielski"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "hiszpański"
+        ],
+        "thresholdMin": null,
+        "thresholdYear": null
+      },
+      {
+        "code": "1D",
+        "profile": "ekonomiczna",
+        "extendedSubjects": [
+          "język angielski",
+          "matematyka",
+          "geografia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "geografia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki"
+        ],
+        "thresholdMin": null,
+        "thresholdYear": null
+      },
+      {
+        "code": "1E",
+        "profile": "biologiczno-geograficzna",
+        "extendedSubjects": [
+          "język angielski",
+          "biologia",
+          "geografia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "geografia",
+          "biologia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "hiszpański"
+        ],
+        "thresholdMin": null,
+        "thresholdYear": null
+      }
+    ]
+  },
+  {
+    "id": "Liceum Ogólnokształcące im. Bogdana Jańskiego w Krakowie",
+    "fullName": "Liceum Ogólnokształcące im. Bogdana Jańskiego w Krakowie",
+    "address": "os. Osiedle Niepodległości 19",
+    "postalCode": "",
+    "district": "Nowa Huta",
+    "lat": 50.0802785,
+    "lon": 20.0208046,
+    "openDays": [],
+    "rawSchedule": "",
+    "isPublic": true,
+    "inPdf": false,
+    "website": null,
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/5505/Liceum-Ogolnoksztalcace-im-Bogdana-Janskiego-w-Krakowie",
+    "classesYear": null,
+    "classes": []
+  },
+  {
+    "id": "Liceum Ogólnokształcące Mistrzostwa Sportowego",
+    "fullName": "Liceum Ogólnokształcące Mistrzostwa Sportowego",
+    "address": "ul. Grochowska 20",
+    "postalCode": "",
+    "district": "Grzegórzki",
+    "lat": 50.0736821,
+    "lon": 19.962448,
+    "openDays": [],
+    "rawSchedule": "",
+    "isPublic": true,
+    "inPdf": false,
+    "website": "https://zsoms.eu/",
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/3152/Liceum-Ogolnoksztalcace-Mistrzostwa-Sportowego",
+    "classesYear": "2026/2027",
+    "classes": [
+      {
+        "code": "1A",
+        "profile": "biol/geo-mat/ang - sportowa pływanie",
+        "extendedSubjects": [
+          "język angielski",
+          "matematyka",
+          "biologia",
+          "geografia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "język angielski"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki"
+        ],
+        "thresholdMin": 506,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1C",
+        "profile": "biol/geo-mat/ang",
+        "extendedSubjects": [
+          "język angielski",
+          "matematyka",
+          "biologia",
+          "geografia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "biologia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki"
+        ],
+        "thresholdMin": 117.65,
+        "thresholdYear": "2025/2026"
+      }
+    ]
+  },
+  {
+    "id": "Liceum Ogólnokształcące Z Oddziałem Dwujęzycznym im. Piotra Michałowskiego Tssp",
+    "fullName": "Liceum Ogólnokształcące Z Oddziałem Dwujęzycznym im. Piotra Michałowskiego Tssp",
+    "address": "ul. Piotra Michałowskiego 4",
+    "postalCode": "",
+    "district": "Śródmieście",
+    "lat": 50.0664831,
+    "lon": 19.9288056,
+    "openDays": [],
+    "rawSchedule": "",
+    "isPublic": false,
+    "inPdf": false,
+    "website": null,
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-w-Krakowie/5041/Liceum-Ogolnoksztalcace-Z-Oddzialem-Dwujezycznym-im-Piotra-Michalowskiego-Tssp",
+    "classesYear": null,
+    "classes": []
+  },
+  {
+    "id": "Liceum Ogólnokształcące Zakonu Pijarów im. Ks. Stanisława Konarskiego",
+    "fullName": "Liceum Ogólnokształcące Zakonu Pijarów im. Ks. Stanisława Konarskiego",
+    "address": "ul. Akacjowa 5",
+    "postalCode": "",
+    "district": "Śródmieście",
+    "lat": 50.0841324,
+    "lon": 19.9785059,
+    "openDays": [],
+    "rawSchedule": "",
+    "isPublic": false,
+    "inPdf": false,
+    "website": null,
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-w-Krakowie/3285/Liceum-Ogolnoksztalcace-Zakonu-Pijarow-im-Ks-Stanislawa-Konarskiego",
+    "classesYear": null,
+    "classes": []
+  },
+  {
+    "id": "LO Huty im. Tadeusza Sendzimira",
+    "fullName": "LO Huty im. Tadeusza Sendzimira",
+    "address": "os. Osiedle Złotej Jesieni 2",
+    "postalCode": "",
+    "district": "Złota Jesień",
+    "lat": 50.0906996,
+    "lon": 20.0230455,
+    "openDays": [],
+    "rawSchedule": "",
+    "isPublic": true,
+    "inPdf": false,
+    "website": "https://www.zszhs.krakow.pl/",
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/3028/LO-Huty-im-Tadeusza-Sendzimira",
+    "classesYear": null,
+    "classes": []
+  },
+  {
+    "id": "LO Sióstr Prezentek",
+    "fullName": "LO Sióstr Prezentek",
+    "address": "ul. św. Jana 7",
+    "postalCode": "",
+    "district": "Stare Miasto",
+    "lat": 50.0631377,
+    "lon": 19.9389472,
+    "openDays": [],
+    "rawSchedule": "",
+    "isPublic": true,
+    "inPdf": false,
+    "website": "https://szkolyprezentekkrakow.pl/",
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/307/LO-Siostr-Prezentek",
+    "classesYear": "2026/2027",
+    "classes": [
+      {
+        "code": "1A",
+        "profile": "humanistyczna",
+        "extendedSubjects": [
+          "język polski",
+          "język angielski",
+          "przedmiot do wyboru"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "historia",
+          "język angielski"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki"
+        ],
+        "thresholdMin": null,
+        "thresholdYear": null
+      },
+      {
+        "code": "1B",
+        "profile": "medyczna",
+        "extendedSubjects": [],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "biologia lub geografia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki"
+        ],
+        "thresholdMin": null,
+        "thresholdYear": null
+      },
+      {
+        "code": "1C",
+        "profile": "politechniczna",
+        "extendedSubjects": [
+          "język angielski",
+          "matematyka"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "fizyka lub informatyka"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki"
+        ],
+        "thresholdMin": null,
+        "thresholdYear": null
+      }
+    ]
   },
   {
     "id": "LO św.Rity",
     "fullName": "Publiczne Liceum Ogólnokształcące Zgromadzenia Sióstr Augustianek im. św. Rity",
     "address": "ul. Skałeczna 10",
     "postalCode": "31-065",
+    "district": "Śródmieście",
     "lat": 50.0489562,
     "lon": 19.9410208,
     "openDays": [
       "2026-04-09",
       "2026-05-28"
     ],
-    "rawSchedule": "09.04.2026 i 28.05.2026 o godz. 17.00"
+    "rawSchedule": "09.04.2026 i 28.05.2026 o godz. 17.00",
+    "isPublic": true,
+    "inPdf": true,
+    "website": null,
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/3030/LO-sw-Rity",
+    "classesYear": "2026/2027",
+    "classes": [
+      {
+        "code": "1A",
+        "profile": "mat-ang-geo/inf",
+        "extendedSubjects": [
+          "język angielski",
+          "matematyka",
+          "przedmiot do wyboru"
+        ],
+        "recruitmentSubjects": [],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "hiszpański"
+        ],
+        "thresholdMin": null,
+        "thresholdYear": null
+      }
+    ]
+  },
+  {
+    "id": "Niepubliczne Chrześcijańskie Liceum Ogólnokształcące \"uczeń",
+    "fullName": "Niepubliczne Chrześcijańskie Liceum Ogólnokształcące \"uczeń",
+    "address": "ul. Armii Krajowej 4",
+    "postalCode": "",
+    "district": "Krowodrza",
+    "lat": 50.0707521,
+    "lon": 19.9020432,
+    "openDays": [],
+    "rawSchedule": "",
+    "isPublic": false,
+    "inPdf": false,
+    "website": null,
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-w-Krakowie/5134/Niepubliczne-Chrzescijanskie-Liceum-Ogolnoksztalcace-uczen",
+    "classesYear": null,
+    "classes": []
+  },
+  {
+    "id": "Niepubliczne Dwujęzyczne Liceum Ogólnokształcące Da Vinci's International High School",
+    "fullName": "Niepubliczne Dwujęzyczne Liceum Ogólnokształcące Da Vinci's International High School",
+    "address": "ul. Pilotów 4C",
+    "postalCode": "",
+    "district": "Śródmieście",
+    "lat": 50.0784067,
+    "lon": 19.9703259,
+    "openDays": [],
+    "rawSchedule": "",
+    "isPublic": false,
+    "inPdf": false,
+    "website": null,
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-w-Krakowie/5338/Niepubliczne-Dwujezyczne-Liceum-Ogolnoksztalcace-Da-Vincis-International-High-School",
+    "classesYear": null,
+    "classes": []
+  },
+  {
+    "id": "Niepubliczne Dwujęzyczne Liceum Ogólnokształcące Open Future International School w Krakowie",
+    "fullName": "Niepubliczne Dwujęzyczne Liceum Ogólnokształcące Open Future International School w Krakowie",
+    "address": "ul. Pawła z Krosna 10",
+    "postalCode": "",
+    "district": "Podgórze",
+    "lat": 50.0044066,
+    "lon": 19.8937785,
+    "openDays": [],
+    "rawSchedule": "",
+    "isPublic": false,
+    "inPdf": false,
+    "website": null,
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-w-Krakowie/5483/Niepubliczne-Dwujezyczne-Liceum-Ogolnoksztalcace-Open-Future-International-School-W-Krakowie",
+    "classesYear": null,
+    "classes": []
+  },
+  {
+    "id": "Niepubliczne Liceum Ogólnokształcące \"wolna Szkoła",
+    "fullName": "Niepubliczne Liceum Ogólnokształcące \"wolna Szkoła",
+    "address": "ul. Zawiła 4",
+    "postalCode": "",
+    "district": "Podgórze",
+    "lat": 50.0069618,
+    "lon": 19.9216873,
+    "openDays": [],
+    "rawSchedule": "",
+    "isPublic": false,
+    "inPdf": false,
+    "website": null,
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-w-Krakowie/5088/Niepubliczne-Liceum-Ogolnoksztalcace-wolna-Szkola",
+    "classesYear": null,
+    "classes": []
+  },
+  {
+    "id": "Niepubliczne Liceum Ogólnokształcące Cracow International School",
+    "fullName": "Niepubliczne Liceum Ogólnokształcące Cracow International School",
+    "address": "ul. Leona Wyczółkowskiego 7",
+    "postalCode": "",
+    "district": "Krowodrza",
+    "lat": 50.0572295,
+    "lon": 19.9149567,
+    "openDays": [],
+    "rawSchedule": "",
+    "isPublic": false,
+    "inPdf": false,
+    "website": null,
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-w-Krakowie/5304/Niepubliczne-Liceum-Ogolnoksztalcace-Cracow-International-School",
+    "classesYear": null,
+    "classes": []
+  },
+  {
+    "id": "Niepubliczne Liceum Ogólnokształcące Mistrzostwa Sportowego w Krakowie",
+    "fullName": "Niepubliczne Liceum Ogólnokształcące Mistrzostwa Sportowego w Krakowie",
+    "address": "ul. Jerzego Szablowskiego 1",
+    "postalCode": "",
+    "district": "Krowodrza",
+    "lat": 50.0757011,
+    "lon": 19.8934337,
+    "openDays": [],
+    "rawSchedule": "",
+    "isPublic": false,
+    "inPdf": false,
+    "website": null,
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-w-Krakowie/5582/Niepubliczne-Liceum-Ogolnoksztalcace-Mistrzostwa-Sportowego-W-Krakowie",
+    "classesYear": null,
+    "classes": []
+  },
+  {
+    "id": "Niepubliczne Liceum Ogólnokształcące Sternik - Kraków",
+    "fullName": "Niepubliczne Liceum Ogólnokształcące Sternik - Kraków",
+    "address": "ul. Eliasza Radzikowskiego 52",
+    "postalCode": "",
+    "district": "Krowodrza",
+    "lat": 50.0837194,
+    "lon": 19.9075561,
+    "openDays": [],
+    "rawSchedule": "",
+    "isPublic": false,
+    "inPdf": false,
+    "website": null,
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-w-Krakowie/5501/Niepubliczne-Liceum-Ogolnoksztalcace-Sternik-Krakow",
+    "classesYear": null,
+    "classes": []
+  },
+  {
+    "id": "Niepubliczne Liceum Ogólnokształcące Szkoły Sportowej Piłki Nożnej im. Generała Bernarda Monda",
+    "fullName": "Niepubliczne Liceum Ogólnokształcące Szkoły Sportowej Piłki Nożnej im. Generała Bernarda Monda",
+    "address": "os. Osiedle Szkolne 18",
+    "postalCode": "",
+    "district": "Nowa Huta",
+    "lat": 50.0801368,
+    "lon": 20.0476099,
+    "openDays": [],
+    "rawSchedule": "",
+    "isPublic": false,
+    "inPdf": false,
+    "website": null,
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-w-Krakowie/3924/Niepubliczne-Liceum-Ogolnoksztalcace-Szkoly-Sportowej-Pilki-Noznej-im-Generala-Bernarda-Monda",
+    "classesYear": null,
+    "classes": []
+  },
+  {
+    "id": "Ogólnokształcaca Szkoła Muzyczna II St. w Krakowie",
+    "fullName": "Ogólnokształcaca Szkoła Muzyczna II St. w Krakowie",
+    "address": "ul. Basztowa 6",
+    "postalCode": "",
+    "district": "Nowa Huta",
+    "lat": 50.0664207,
+    "lon": 19.9368297,
+    "openDays": [],
+    "rawSchedule": "",
+    "isPublic": true,
+    "inPdf": false,
+    "website": null,
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/6383/Ogolnoksztalcaca-Szkola-Muzyczna-II-St-w-Krakowie",
+    "classesYear": null,
+    "classes": []
+  },
+  {
+    "id": "Państwowa Ogólnokształcąca Szkoła Muzyczna II St. im. Fryderyka Chopina w Krakowie",
+    "fullName": "Państwowa Ogólnokształcąca Szkoła Muzyczna II St. im. Fryderyka Chopina w Krakowie",
+    "address": "ul. Basztowa 6",
+    "postalCode": "",
+    "district": "Śródmieście",
+    "lat": 50.0664207,
+    "lon": 19.9368297,
+    "openDays": [],
+    "rawSchedule": "",
+    "isPublic": true,
+    "inPdf": false,
+    "website": null,
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/6362/Panstwowa-Ogolnoksztalcaca-Szkola-Muzyczna-II-St-im-Fryderyka-Chopina-w-Krakowie",
+    "classesYear": null,
+    "classes": []
+  },
+  {
+    "id": "Państwowe Liceum Sztuk Plastycznych im. Józefa Kluzy w Krakowie",
+    "fullName": "Państwowe Liceum Sztuk Plastycznych im. Józefa Kluzy w Krakowie",
+    "address": "ul. Mlaskotów 6",
+    "postalCode": "",
+    "district": "Krowodrza",
+    "lat": 50.05602,
+    "lon": 19.9145932,
+    "openDays": [],
+    "rawSchedule": "",
+    "isPublic": true,
+    "inPdf": false,
+    "website": null,
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/6417/Panstwowe-Liceum-Sztuk-Plastycznych-im-Jozefa-Kluzy-w-Krakowie",
+    "classesYear": null,
+    "classes": []
+  },
+  {
+    "id": "Prywatne Liceum Ogólnokształcące Z Oddziałami Dwujęzycznymi im. Noblistów Polskich",
+    "fullName": "Prywatne Liceum Ogólnokształcące Z Oddziałami Dwujęzycznymi im. Noblistów Polskich",
+    "address": "ul. Henryka Pachońskiego 5M",
+    "postalCode": "",
+    "district": "Krowodrza",
+    "lat": 50.0938084,
+    "lon": 19.9201173,
+    "openDays": [],
+    "rawSchedule": "",
+    "isPublic": false,
+    "inPdf": false,
+    "website": null,
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-w-Krakowie/5229/Prywatne-Liceum-Ogolnoksztalcace-Z-Oddzialami-Dwujezycznymi-im-Noblistow-Polskich",
+    "classesYear": null,
+    "classes": []
+  },
+  {
+    "id": "Publiczne Liceum Ogólnokształcące Specjalne im. Świętej Siostry Faustyny",
+    "fullName": "Publiczne Liceum Ogólnokształcące Specjalne im. Świętej Siostry Faustyny",
+    "address": "ul. Siostry Faustyny 3",
+    "postalCode": "",
+    "district": "Podgórze",
+    "lat": 50.0217518,
+    "lon": 19.9368841,
+    "openDays": [],
+    "rawSchedule": "",
+    "isPublic": true,
+    "inPdf": false,
+    "website": null,
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/4558/Publiczne-Liceum-Ogolnoksztalcace-Specjalne-im-Swietej-Siostry-Faustyny",
+    "classesYear": null,
+    "classes": []
   },
   {
     "id": "Publiczne LO im. Królowej Apostołów - Pallotyńskie",
     "fullName": "Publiczne Liceum Ogólnokształcące im. Królowej Apostołów (Pallotyńskie)",
     "address": "ul. Bulwarowa 33",
     "postalCode": "31-751",
+    "district": "Nowa Huta",
     "lat": 50.0818906,
     "lon": 20.0468764,
     "openDays": [
       "2026-04-17"
     ],
-    "rawSchedule": "17.04.2026 (piątek) godz. 16:00 - 18:30"
+    "rawSchedule": "17.04.2026 (piątek) godz. 16:00 - 18:30",
+    "isPublic": true,
+    "inPdf": true,
+    "website": "https://liceum.pallotyni.edu.pl/",
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/3031/Publiczne-LO-im-Krolowej-Apostolow",
+    "classesYear": "2026/2027",
+    "classes": [
+      {
+        "code": "1A",
+        "profile": "językowa",
+        "extendedSubjects": [
+          "język polski",
+          "język angielski",
+          "język hiszpański"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "drugi język obcy nowożytny"
+        ],
+        "languages": [
+          "angielski",
+          "hiszpański"
+        ],
+        "thresholdMin": null,
+        "thresholdYear": null
+      },
+      {
+        "code": "1B",
+        "profile": "humanistyczno-filmowa",
+        "extendedSubjects": [
+          "język polski",
+          "język angielski",
+          "historia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "historia",
+          "język angielski"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański",
+          "włoski"
+        ],
+        "thresholdMin": null,
+        "thresholdYear": null
+      },
+      {
+        "code": "1C",
+        "profile": "psychologiczno-społeczna",
+        "extendedSubjects": [
+          "język polski",
+          "język angielski",
+          "biologia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "język angielski"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański",
+          "włoski"
+        ],
+        "thresholdMin": null,
+        "thresholdYear": null
+      },
+      {
+        "code": "1D",
+        "profile": "Przyrodnicza z elementami turystyki",
+        "extendedSubjects": [
+          "język angielski",
+          "biologia",
+          "geografia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "geografia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański",
+          "włoski"
+        ],
+        "thresholdMin": null,
+        "thresholdYear": null
+      },
+      {
+        "code": "1E",
+        "profile": "Chemiczno-matematyczna z elementami kryminalistyki",
+        "extendedSubjects": [
+          "język angielski",
+          "matematyka",
+          "chemia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "chemia",
+          "język angielski"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański",
+          "włoski"
+        ],
+        "thresholdMin": null,
+        "thresholdYear": null
+      }
+    ]
+  },
+  {
+    "id": "Publiczne LO Sióstr Salezjanek im. Świętego Dominika Savio",
+    "fullName": "Publiczne LO Sióstr Salezjanek im. Świętego Dominika Savio",
+    "address": "os. Osiedle Jagiellońskie 17",
+    "postalCode": "",
+    "district": "Nowa Huta",
+    "lat": 50.0859495,
+    "lon": 20.0271967,
+    "openDays": [],
+    "rawSchedule": "",
+    "isPublic": true,
+    "inPdf": false,
+    "website": "https://dominik.edu.pl/",
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/3029/Publiczne-LO-Siostr-Salezjanek-im-Swietego-Dominika-Savio",
+    "classesYear": "2026/2027",
+    "classes": [
+      {
+        "code": "1A",
+        "profile": "pol-hist-ang",
+        "extendedSubjects": [
+          "język polski",
+          "język angielski",
+          "historia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "historia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "hiszpański",
+          "włoski"
+        ],
+        "thresholdMin": null,
+        "thresholdYear": null
+      },
+      {
+        "code": "1B",
+        "profile": "pol-biol-ang",
+        "extendedSubjects": [
+          "język polski",
+          "język angielski",
+          "biologia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "biologia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "hiszpański",
+          "włoski"
+        ],
+        "thresholdMin": null,
+        "thresholdYear": null
+      },
+      {
+        "code": "1C",
+        "profile": "biol-chem-ang",
+        "extendedSubjects": [
+          "język angielski",
+          "chemia",
+          "biologia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "biologia lub chemia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "hiszpański",
+          "włoski"
+        ],
+        "thresholdMin": null,
+        "thresholdYear": null
+      },
+      {
+        "code": "1D",
+        "profile": "mat-fiz-inf",
+        "extendedSubjects": [
+          "matematyka",
+          "fizyka",
+          "informatyka"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "fizyka lub informatyka"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "hiszpański",
+          "włoski"
+        ],
+        "thresholdMin": null,
+        "thresholdYear": null
+      },
+      {
+        "code": "1E",
+        "profile": "mat-geo-ang",
+        "extendedSubjects": [
+          "język angielski",
+          "matematyka",
+          "geografia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "geografia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "hiszpański",
+          "włoski"
+        ],
+        "thresholdMin": null,
+        "thresholdYear": null
+      }
+    ]
   },
   {
     "id": "Publiczne Salezjańskie Liceum Ogólnokształcące",
     "fullName": "Publiczne Salezjańskie Liceum Ogólnokształcące",
     "address": "os. Piastów 34",
     "postalCode": "31-624",
+    "district": "Mistrzejowice",
     "lat": 50.0988742,
     "lon": 20.0180981,
     "openDays": [
       "2026-04-18"
     ],
-    "rawSchedule": "18.04.2026 10:00 - 14:00"
+    "rawSchedule": "18.04.2026 10:00 - 14:00",
+    "isPublic": true,
+    "inPdf": true,
+    "website": "https://salezjanie.com/",
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/306/Publiczne-Salezjanskie-LO",
+    "classesYear": "2026/2027",
+    "classes": [
+      {
+        "code": "1A",
+        "profile": "matematyczno-geograficzna",
+        "extendedSubjects": [
+          "język angielski",
+          "matematyka",
+          "geografia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "drugi język obcy nowożytny lub geografia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "hiszpański"
+        ],
+        "thresholdMin": null,
+        "thresholdYear": null
+      },
+      {
+        "code": "1B",
+        "profile": "humanistyczno-prawnicza",
+        "extendedSubjects": [
+          "język polski",
+          "historia",
+          "wiedza o społeczeństwie"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "historia lub wiedza o społeczeństwie"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański",
+          "włoski"
+        ],
+        "thresholdMin": null,
+        "thresholdYear": null
+      },
+      {
+        "code": "1C",
+        "profile": "biologiczno-chemiczna",
+        "extendedSubjects": [
+          "język angielski",
+          "chemia",
+          "biologia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "biologia lub chemia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański",
+          "włoski"
+        ],
+        "thresholdMin": null,
+        "thresholdYear": null
+      },
+      {
+        "code": "1D",
+        "profile": "matematyczno-biologiczno-chemiczna",
+        "extendedSubjects": [
+          "matematyka",
+          "chemia",
+          "biologia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "biologia lub chemia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański",
+          "włoski"
+        ],
+        "thresholdMin": null,
+        "thresholdYear": null
+      },
+      {
+        "code": "1E",
+        "profile": "matematyczno-fizyczno-informatyka",
+        "extendedSubjects": [
+          "matematyka",
+          "fizyka",
+          "informatyka"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "fizyka lub informatyka"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "włoski"
+        ],
+        "thresholdMin": null,
+        "thresholdYear": null
+      },
+      {
+        "code": "1F",
+        "profile": "matematyczno-fizyczno-informatyczna",
+        "extendedSubjects": [
+          "matematyka",
+          "fizyka",
+          "informatyka"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "fizyka lub informatyka"
+        ],
+        "languages": [
+          "angielski",
+          "hiszpański",
+          "włoski"
+        ],
+        "thresholdMin": null,
+        "thresholdYear": null
+      }
+    ]
+  },
+  {
+    "id": "Społeczne Liceum Ogólnokształcące Mistrzostwa Sportowego",
+    "fullName": "Społeczne Liceum Ogólnokształcące Mistrzostwa Sportowego",
+    "address": "ul. Wielicka 101",
+    "postalCode": "",
+    "district": "Podgórze",
+    "lat": 50.0127836,
+    "lon": 19.9999538,
+    "openDays": [],
+    "rawSchedule": "",
+    "isPublic": false,
+    "inPdf": false,
+    "website": null,
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-w-Krakowie/3485/Spoleczne-Liceum-Ogolnoksztalcace-Mistrzostwa-Sportowego",
+    "classesYear": null,
+    "classes": []
+  },
+  {
+    "id": "Szkoła Mistrzostwa Sportowego Liceum Ogólnokształcące Marcina Gortata",
+    "fullName": "Szkoła Mistrzostwa Sportowego Liceum Ogólnokształcące Marcina Gortata",
+    "address": "os. Osiedle Kościuszkowskie 2A",
+    "postalCode": "",
+    "district": "Nowa Huta",
+    "lat": 50.0845697,
+    "lon": 20.017752,
+    "openDays": [],
+    "rawSchedule": "",
+    "isPublic": false,
+    "inPdf": false,
+    "website": null,
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-w-Krakowie/4954/Szkola-Mistrzostwa-Sportowego-Liceum-Ogolnoksztalcace-Marcina-Gortata",
+    "classesYear": null,
+    "classes": []
+  },
+  {
+    "id": "V Prywatne Liceum Ogólnokształcące w Krakowie im. Królowej Jadwigi",
+    "fullName": "V Prywatne Liceum Ogólnokształcące w Krakowie im. Królowej Jadwigi",
+    "address": "ul. Smoleńsk 14",
+    "postalCode": "",
+    "district": "Śródmieście",
+    "lat": 50.0583874,
+    "lon": 19.9279898,
+    "openDays": [],
+    "rawSchedule": "",
+    "isPublic": false,
+    "inPdf": false,
+    "website": null,
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-w-Krakowie/3270/V-Prywatne-Liceum-Ogolnoksztalcace-W-Krakowie-im-Krolowej-Jadwigi",
+    "classesYear": null,
+    "classes": []
+  },
+  {
+    "id": "VII Prywatne Liceum Ogólnokształcące im. Mikołaja Reja w Krakowie",
+    "fullName": "VII Prywatne Liceum Ogólnokształcące im. Mikołaja Reja w Krakowie",
+    "address": "ul. Grodzka 60",
+    "postalCode": "",
+    "district": "Śródmieście",
+    "lat": 50.0553714,
+    "lon": 19.9384442,
+    "openDays": [],
+    "rawSchedule": "",
+    "isPublic": false,
+    "inPdf": false,
+    "website": null,
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-w-Krakowie/3257/Vii-Prywatne-Liceum-Ogolnoksztalcace-im-Mikolaja-Reja-W-Krakowie",
+    "classesYear": null,
+    "classes": []
+  },
+  {
+    "id": "VIII Prywatne Akademickie Liceum Ogólnokształcące",
+    "fullName": "VIII Prywatne Akademickie Liceum Ogólnokształcące",
+    "address": "ul. Karmelicka 45",
+    "postalCode": "",
+    "district": "Śródmieście",
+    "lat": 50.0678737,
+    "lon": 19.928352,
+    "openDays": [],
+    "rawSchedule": "",
+    "isPublic": false,
+    "inPdf": false,
+    "website": null,
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-w-Krakowie/3267/Viii-Prywatne-Akademickie-Liceum-Ogolnoksztalcace",
+    "classesYear": null,
+    "classes": []
+  },
+  {
+    "id": "XIX Liceum Ogólnokształcące Specjalne w Krakowie",
+    "fullName": "XIX Liceum Ogólnokształcące Specjalne w Krakowie",
+    "address": "ul. Spadochroniarzy 1",
+    "postalCode": "",
+    "district": "Śródmieście",
+    "lat": 50.0803098,
+    "lon": 19.9838397,
+    "openDays": [],
+    "rawSchedule": "",
+    "isPublic": true,
+    "inPdf": false,
+    "website": null,
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/4714/XIX-Liceum-Ogolnoksztalcace-Specjalne-w-Krakowie",
+    "classesYear": "2026/2027",
+    "classes": [
+      {
+        "code": "1A",
+        "profile": "specjalna",
+        "extendedSubjects": [
+          "przedmiot do wyboru"
+        ],
+        "recruitmentSubjects": [],
+        "languages": [],
+        "thresholdMin": null,
+        "thresholdYear": null
+      }
+    ]
+  },
+  {
+    "id": "XL Liceum Ogólnokształcące Specjalne Dla Niesłyszących w Krakowie",
+    "fullName": "XL Liceum Ogólnokształcące Specjalne Dla Niesłyszących w Krakowie",
+    "address": "ul. Grochowa 19",
+    "postalCode": "",
+    "district": "Podgórze",
+    "lat": 50.0361205,
+    "lon": 19.997814,
+    "openDays": [],
+    "rawSchedule": "",
+    "isPublic": true,
+    "inPdf": false,
+    "website": null,
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/3403/XL-Liceum-Ogolnoksztalcace-Specjalne-Dla-Nieslyszacych-w-Krakowie",
+    "classesYear": null,
+    "classes": []
+  },
+  {
+    "id": "XXII Liceum Ogólnokształcące im. Generała Bronisława Ducha w Krakowie",
+    "fullName": "XXII Liceum Ogólnokształcące im. Generała Bronisława Ducha w Krakowie",
+    "address": "os. Osiedle Szkolne 26",
+    "postalCode": "",
+    "district": "Nowa Huta",
+    "lat": 50.0777644,
+    "lon": 20.048635,
+    "openDays": [],
+    "rawSchedule": "",
+    "isPublic": true,
+    "inPdf": false,
+    "website": "https://elektryk2.krakow.pl/",
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/3223/XXII-Liceum-Ogolnoksztalcace-im-Generala-Bronislawa-Ducha-w-Krakowie",
+    "classesYear": null,
+    "classes": []
+  },
+  {
+    "id": "XXXIV Liceum Ogólnokształcące Specjalne im. Profesor Marii Orwid w Krakowie",
+    "fullName": "XXXIV Liceum Ogólnokształcące Specjalne im. Profesor Marii Orwid w Krakowie",
+    "address": "ul. dr. Józefa Babińskiego 29",
+    "postalCode": "",
+    "district": "Podgórze",
+    "lat": 50.0064591,
+    "lon": 19.8882267,
+    "openDays": [],
+    "rawSchedule": "",
+    "isPublic": true,
+    "inPdf": false,
+    "website": null,
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/3215/XXXIV-Liceum-Ogolnoksztalcace-Specjalne-im-Profesor-Marii-Orwid-w-Krakowie",
+    "classesYear": null,
+    "classes": []
+  },
+  {
+    "id": "XXXIX Liceum Ogólnokształcące Specjalne w Krakowie",
+    "fullName": "XXXIX Liceum Ogólnokształcące Specjalne w Krakowie",
+    "address": "ul. Wielicka 265",
+    "postalCode": "",
+    "district": "Podgórze",
+    "lat": 50.0127836,
+    "lon": 19.9999538,
+    "openDays": [],
+    "rawSchedule": "",
+    "isPublic": true,
+    "inPdf": false,
+    "website": null,
+    "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/5068/XXXIX-Liceum-Ogolnoksztalcace-Specjalne-w-Krakowie",
+    "classesYear": null,
+    "classes": []
   }
 ]
