@@ -3,6 +3,7 @@ import maplibregl, { Map as MLMap, Marker } from "maplibre-gl";
 import type { Landmark, School } from "../types";
 import { formatDate, humanCountdown, nextUpcoming } from "../utils/dates";
 import { displayId, markerLabel } from "../utils/roman";
+import { classesLabel, thresholdRange } from "../utils/classes";
 
 const esc = (s: string) =>
   s
@@ -13,22 +14,52 @@ const esc = (s: string) =>
 
 function buildPopupHTML(s: School, today: string): string {
   const upcoming = nextUpcoming(s.openDays, today);
-  const variant = upcoming ? "upcoming" : "past";
-  const status = upcoming ? humanCountdown(upcoming, today) : "wszystkie minęły";
+  const variant = upcoming ? "upcoming" : s.openDays.length ? "past" : "unknown";
+  const status = upcoming
+    ? humanCountdown(upcoming, today)
+    : s.openDays.length
+      ? "wszystkie minęły"
+      : "brak dni otwartych";
   const dates = s.openDays
     .map((d) => {
       const cls = d < today ? "school-popup-date past" : "school-popup-date";
       return `<li class="${cls}">${esc(formatDate(d))}</li>`;
     })
     .join("");
+
+  const privateBadge = s.isPublic
+    ? ""
+    : `<span class="school-popup-badge">prywatna</span>`;
+
+  const range = thresholdRange(s.classes);
+  const statsBits: string[] = [];
+  if (s.classes.length > 0) statsBits.push(esc(classesLabel(s.classes.length)));
+  if (range) {
+    const rangeStr =
+      range.min === range.max
+        ? range.min.toFixed(2)
+        : `${range.min.toFixed(2)}–${range.max.toFixed(2)}`;
+    statsBits.push(
+      `próg ${esc(range.year.split("/")[0])}: <strong>${rangeStr}</strong> pkt`,
+    );
+  }
+  const stats = statsBits.length
+    ? `<div class="school-popup-stats">${statsBits.join(" · ")}</div>`
+    : "";
+
+  const addressLine = [s.district, s.address, s.postalCode]
+    .filter(Boolean)
+    .join(s.district ? " • " : ", ");
+
   return `
     <div class="school-popup school-popup--${variant}">
       <div class="school-popup-head">
-        <span class="school-popup-id">${esc(displayId(s.id))}</span>
+        <span class="school-popup-id">${esc(displayId(s.id))}${privateBadge}</span>
         <span class="school-popup-next">${esc(status)}</span>
       </div>
       <div class="school-popup-name">${esc(s.fullName)}</div>
-      <div class="school-popup-address">${esc(s.address)}, ${esc(s.postalCode)}</div>
+      <div class="school-popup-address">${esc(addressLine)}</div>
+      ${stats}
       ${dates ? `<ul class="school-popup-dates">${dates}</ul>` : ""}
     </div>`;
 }

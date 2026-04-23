@@ -9,14 +9,18 @@ import { nextUpcoming, todayISO, formatDate } from "./utils/dates";
 const schools = schoolsJson as School[];
 const landmarks = landmarksJson as Landmark[];
 
+type Scope = "pdf" | "all";
+
 export function App() {
   const [selectedId, setSelectedId] = useState<string | null>(null);
   const [hidePast, setHidePast] = useState(false);
+  const [scope, setScope] = useState<Scope>("pdf");
   const listRef = useRef<SchoolListHandle>(null);
 
   const today = todayISO();
   const sortedSchools = useMemo(() => {
-    const copy = [...schools];
+    const scoped = scope === "pdf" ? schools.filter((s) => s.inPdf) : schools;
+    const copy = [...scoped];
     copy.sort((a, b) => {
       const ua = nextUpcoming(a.openDays, today);
       const ub = nextUpcoming(b.openDays, today);
@@ -26,7 +30,7 @@ export function App() {
       return a.id.localeCompare(b.id);
     });
     return copy;
-  }, [today]);
+  }, [today, scope]);
 
   const visibleSchools = useMemo(
     () =>
@@ -55,15 +59,41 @@ export function App() {
             otwarte (stan na {formatDate(today)}).
           </p>
         </div>
-        <label className="flex items-center gap-2 text-sm text-slate-600">
-          <input
-            type="checkbox"
-            checked={hidePast}
-            onChange={(e) => setHidePast(e.target.checked)}
-            className="h-4 w-4 rounded border-slate-300"
-          />
-          Ukryj licea, których dni otwarte już minęły
-        </label>
+        <div className="flex items-center gap-5 text-sm text-slate-600">
+          <div className="inline-flex overflow-hidden rounded border border-slate-300 text-xs">
+            <button
+              type="button"
+              onClick={() => setScope("pdf")}
+              className={`px-3 py-1 ${
+                scope === "pdf"
+                  ? "bg-slate-800 text-white"
+                  : "bg-white text-slate-700 hover:bg-slate-100"
+              }`}
+            >
+              Z PDF ({schools.filter((s) => s.inPdf).length})
+            </button>
+            <button
+              type="button"
+              onClick={() => setScope("all")}
+              className={`px-3 py-1 ${
+                scope === "all"
+                  ? "bg-slate-800 text-white"
+                  : "bg-white text-slate-700 hover:bg-slate-100"
+              }`}
+            >
+              Wszystkie ({schools.length})
+            </button>
+          </div>
+          <label className="flex items-center gap-2">
+            <input
+              type="checkbox"
+              checked={hidePast}
+              onChange={(e) => setHidePast(e.target.checked)}
+              className="h-4 w-4 rounded border-slate-300"
+            />
+            Ukryj te po dniach otwartych
+          </label>
+        </div>
       </header>
 
       <div className="flex min-h-0 flex-1">

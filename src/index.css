@@ -74,6 +74,26 @@ html, body, #root {
 }
 .school-popup--upcoming .school-popup-head { background: #f0fdf4; }
 .school-popup--past     .school-popup-head { background: #fef2f2; }
+.school-popup--unknown  .school-popup-head { background: #f1f5f9; }
+.school-popup-badge {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 1px 5px;
+  border-radius: 3px;
+  background: #f3e8ff;
+  color: #7e22ce;
+  font-size: 10px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  vertical-align: middle;
+}
+.school-popup-stats {
+  padding: 2px 10px 6px;
+  font-size: 11px;
+  color: #475569;
+}
+.school-popup-stats strong { color: #0f172a; font-weight: 600; }
 .school-popup-id { font-weight: 700; color: #0f172a; }
 .school-popup-next { font-weight: 600; }
 .school-popup--upcoming .school-popup-next { color: #166534; }
