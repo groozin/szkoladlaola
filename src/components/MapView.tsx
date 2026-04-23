@@ -154,10 +154,20 @@ export function MapView({ schools, landmarks, selectedId, today, onMarkerClick }
     for (const s of schools) {
       const upcoming = nextUpcoming(s.openDays, today);
       const isSelected = s.id === selectedId;
-      const pillClass = `school-marker-pill ${upcoming ? "upcoming" : "past"}${
-        isSelected ? " selected" : ""
-      }`;
-      const tooltip = `${displayId(s.id)} — ${s.fullName}`;
+      const status = upcoming
+        ? "upcoming"
+        : s.openDays.length === 0
+          ? "unknown"
+          : "past";
+      const pillClass = [
+        "school-marker-pill",
+        status,
+        isSelected && "selected",
+        !s.isPublic && "private",
+      ]
+        .filter(Boolean)
+        .join(" ");
+      const tooltip = `${!s.isPublic ? "[prywatna] " : ""}${displayId(s.id)} — ${s.fullName}`;
 
       const handle = existing.get(s.id);
       if (handle) {

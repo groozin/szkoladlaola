@@ -54,9 +54,13 @@ export const SchoolList = forwardRef<SchoolListHandle, Props>(function SchoolLis
             ? isSelected
               ? "bg-green-100"
               : "bg-green-50 hover:bg-green-100"
-            : isSelected
-              ? "bg-red-100"
-              : "bg-red-50 hover:bg-red-100";
+            : s.openDays.length === 0
+              ? isSelected
+                ? "bg-amber-100"
+                : "bg-amber-50 hover:bg-amber-100"
+              : isSelected
+                ? "bg-red-100"
+                : "bg-red-50 hover:bg-red-100";
           const range = thresholdRange(s.classes);
           return (
             <li
@@ -71,10 +75,21 @@ export const SchoolList = forwardRef<SchoolListHandle, Props>(function SchoolLis
               onClick={() => onSelect(s.id)}
             >
               <div className="flex items-baseline justify-between gap-2">
-                <span className="font-semibold text-slate-900">{displayId(s.id)}</span>
+                <div className="flex items-baseline gap-1.5">
+                  {!s.isPublic && (
+                    <span className="rounded bg-purple-100 px-1 py-px text-[10px] font-semibold uppercase tracking-wide text-purple-700">
+                      prywatna
+                    </span>
+                  )}
+                  <span className="font-semibold text-slate-900">{displayId(s.id)}</span>
+                </div>
                 <span
                   className={`text-xs font-medium ${
-                    upcoming ? "text-green-700" : s.openDays.length ? "text-red-700" : "text-slate-400"
+                    upcoming
+                      ? "text-green-700"
+                      : s.openDays.length
+                        ? "text-red-700"
+                        : "text-amber-700"
                   }`}
                 >
                   {upcoming
@@ -84,14 +99,7 @@ export const SchoolList = forwardRef<SchoolListHandle, Props>(function SchoolLis
                       : "brak dni otwartych"}
                 </span>
               </div>
-              <div className="mt-0.5 text-xs text-slate-600">
-                {!s.isPublic && (
-                  <span className="mr-1 rounded bg-purple-100 px-1 py-px text-[10px] font-semibold uppercase tracking-wide text-purple-700">
-                    prywatna
-                  </span>
-                )}
-                {s.fullName}
-              </div>
+              <div className="mt-0.5 text-xs text-slate-600">{s.fullName}</div>
               <div className="mt-1 text-xs text-slate-500">
                 {s.district ? `${s.district} • ` : ""}
                 {s.address}
