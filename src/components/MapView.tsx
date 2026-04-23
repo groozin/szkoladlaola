@@ -40,7 +40,10 @@ function buildPopupHTML(s: School, today: string): string {
         ? range.min.toFixed(2)
         : `${range.min.toFixed(2)}–${range.max.toFixed(2)}`;
     statsBits.push(
-      `próg ${esc(range.year.split("/")[0])}: <strong>${rangeStr}</strong> pkt`,
+      `<span class="school-popup-threshold">` +
+        `<span class="school-popup-threshold-label">próg ${esc(range.year.split("/")[0])}</span> ` +
+        `<strong>${rangeStr}</strong> pkt` +
+        `</span>`,
     );
   }
   const stats = statsBits.length

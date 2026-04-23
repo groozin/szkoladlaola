@@ -11,9 +11,21 @@ const INDEX_URL =
   "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka";
 
 const DETAIL_ID_RE = /\/208\/[^/]+\/(\d+)\/([^/?#]+)/;
-// Class heading: "Klasa 1A (profile)" or "1A (profile)". Code is alphanumeric,
-// up to 5 chars, must start with a digit.
-const CLASS_HEADING_RE = /^(?:Klasa\s+)?(\d[A-ZŻŹĆĄŚĘŁÓŃ]{1,5})\s*(?:\(([^)]+)\))?\s*$/;
+// Class heading: "Klasa 1A (profile)", "1A (profile)", or with a suffix
+// like "Klasa 1A grupa 1 (profile)" used by schools that split a class
+// into language groups. Captures:
+//   1: letter code (e.g. "1A", "1AMK")
+//   2: optional suffix between code and parens (e.g. " grupa 1")
+//   3: optional profile text inside parens
+const CLASS_HEADING_RE =
+  /^(?:Klasa\s+)?(\d[A-ZŻŹĆĄŚĘŁÓŃ]{1,5})(\s+[^()\s][^()]*?)?\s*(?:\(([^)]+)\))?\s*$/;
+
+/** Build the canonical class code from a regex match against CLASS_HEADING_RE. */
+function codeFrom(m: RegExpMatchArray): string {
+  const letter = m[1];
+  const suffix = (m[2] ?? "").trim();
+  return suffix ? `${letter} ${suffix}` : letter;
+}
 
 export type IndexEntry = {
   otouczelnieId: number;
@@ -139,8 +151,8 @@ function extractClasses($: CheerioAPI): DetailClass[] {
     const heading = block.find("h2").first().text().replace(/\s+/g, " ").trim();
     const m = heading.match(CLASS_HEADING_RE);
     if (!m) return;
-    const code = m[1];
-    const profile = m[2]?.trim() || null;
+    const code = codeFrom(m);
+    const profile = m[3]?.trim() || null;
 
     // Extended subjects: <span class="normal-line"><strong>Przedmioty rozszerzone:</strong><br>...</span>
     let extSubjects: string[] = [];
@@ -206,7 +218,7 @@ export async function scrapeThresholds(
     const valueText = $(tds[1]).text().replace(/\s+/g, " ").trim();
     const mLabel = labelText.match(CLASS_HEADING_RE);
     if (!mLabel) return;
-    const code = mLabel[1];
+    const code = codeFrom(mLabel);
     if (/brak\s+danych/i.test(valueText)) return;
     const n = Number(valueText.replace(",", "."));
     if (!Number.isFinite(n)) return;

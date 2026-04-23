@@ -3,6 +3,7 @@ import type { School } from "../types";
 import { formatDate } from "../utils/dates";
 import { displayId } from "../utils/roman";
 import { scheduleForDate } from "../utils/schedule";
+import { buildIcsFile, downloadIcs, googleCalendarUrl } from "../utils/calendar-export";
 
 type Props = {
   /** Full school dataset — calendar ignores filters on purpose. */
@@ -81,32 +82,46 @@ export function CalendarView({ schools, today, onSelectSchool }: Props) {
 
   return (
     <div className="flex h-full min-h-0 flex-col bg-white">
-      <div className="flex items-center justify-between border-b border-slate-200 px-4 py-2">
+      <div className="flex items-center justify-between gap-3 border-b border-slate-200 px-4 py-2">
         <div className="text-sm font-semibold text-slate-800 first-letter:uppercase">
           {monthLabel}
         </div>
-        <div className="flex gap-1 text-xs">
+        <div className="flex items-center gap-3">
           <button
             type="button"
-            onClick={prev}
-            className="rounded border border-slate-300 px-2 py-0.5 hover:bg-slate-100"
+            onClick={() => {
+              const { content, eventCount } = buildIcsFile(schools);
+              if (eventCount === 0) return;
+              downloadIcs(content);
+            }}
+            title="Pobierz plik .ics ze wszystkimi dniami otwartymi"
+            className="rounded border border-slate-300 bg-white px-2 py-0.5 text-xs hover:bg-slate-100"
           >
-            ←
+            Eksportuj kalendarz (.ics)
           </button>
-          <button
-            type="button"
-            onClick={goToToday}
-            className="rounded border border-slate-300 px-2 py-0.5 hover:bg-slate-100"
-          >
-            dziś
-          </button>
-          <button
-            type="button"
-            onClick={next}
-            className="rounded border border-slate-300 px-2 py-0.5 hover:bg-slate-100"
-          >
-            →
-          </button>
+          <div className="flex gap-1 text-xs">
+            <button
+              type="button"
+              onClick={prev}
+              className="rounded border border-slate-300 px-2 py-0.5 hover:bg-slate-100"
+            >
+              ←
+            </button>
+            <button
+              type="button"
+              onClick={goToToday}
+              className="rounded border border-slate-300 px-2 py-0.5 hover:bg-slate-100"
+            >
+              dziś
+            </button>
+            <button
+              type="button"
+              onClick={next}
+              className="rounded border border-slate-300 px-2 py-0.5 hover:bg-slate-100"
+            >
+              →
+            </button>
+          </div>
         </div>
       </div>
 
@@ -151,32 +166,48 @@ export function CalendarView({ schools, today, onSelectSchool }: Props) {
                       : "bg-green-50 text-green-800 hover:bg-green-100";
                     const desc = scheduleForDate(s.rawSchedule, cell.iso);
                     return (
-                      <li key={s.id} className="min-w-0">
-                        <button
-                          type="button"
-                          onClick={() => onSelectSchool(s.id)}
-                          title={`${displayId(s.id)} — ${s.fullName}\n${formatDate(cell.iso)}${
-                            desc ? `\n${desc}` : ""
-                          }`}
-                          className={`flex w-full min-w-0 flex-col items-start gap-0.5 rounded px-1 py-0.5 text-left leading-tight ${tone} ${
-                            !s.isPublic ? "ring-1 ring-inset ring-purple-400" : ""
-                          }`}
-                        >
-                          <span className="flex min-w-0 items-center gap-1 text-[11px] font-semibold">
-                            {!s.isPublic && (
-                              <span
-                                className="inline-block h-1.5 w-1.5 shrink-0 rounded-full bg-purple-500"
-                                title="prywatna"
-                              />
-                            )}
-                            <span className="truncate">{displayId(s.id)}</span>
-                          </span>
-                          {desc && (
-                            <span className="line-clamp-2 w-full text-[10px] font-normal opacity-80">
-                              {desc}
+                      <li
+                        key={s.id}
+                        className={`group min-w-0 rounded ${tone} ${
+                          !s.isPublic ? "ring-1 ring-inset ring-purple-400" : ""
+                        }`}
+                      >
+                        <div className="flex min-w-0 items-start gap-1 px-1 py-0.5">
+                          <button
+                            type="button"
+                            onClick={() => onSelectSchool(s.id)}
+                            title={`${displayId(s.id)} — ${s.fullName}\n${formatDate(cell.iso)}${
+                              desc ? `\n${desc}` : ""
+                            }`}
+                            className="flex min-w-0 flex-1 flex-col items-start gap-0.5 text-left leading-tight"
+                          >
+                            <span className="flex min-w-0 items-center gap-1 text-[11px] font-semibold">
+                              {!s.isPublic && (
+                                <span
+                                  className="inline-block h-1.5 w-1.5 shrink-0 rounded-full bg-purple-500"
+                                  title="prywatna"
+                                />
+                              )}
+                              <span className="truncate">{displayId(s.id)}</span>
                             </span>
-                          )}
-                        </button>
+                            {desc && (
+                              <span className="line-clamp-2 w-full text-[10px] font-normal opacity-80">
+                                {desc}
+                              </span>
+                            )}
+                          </button>
+                          <a
+                            href={googleCalendarUrl(s, cell.iso)}
+                            target="_blank"
+                            rel="noreferrer"
+                            onClick={(e) => e.stopPropagation()}
+                            title="Dodaj do Google Calendar"
+                            aria-label="Dodaj do Google Calendar"
+                            className="shrink-0 self-center rounded px-1 text-[11px] font-semibold leading-none opacity-40 hover:bg-black/10 hover:opacity-100 focus:opacity-100"
+                          >
+                            +
+                          </a>
+                        </div>
                       </li>
                     );
                   })}

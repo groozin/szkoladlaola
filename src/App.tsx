@@ -25,6 +25,7 @@ const pdfCount = schools.filter((s) => s.inPdf).length;
 
 export function App() {
   const [selectedId, setSelectedId] = useState<string | null>(null);
+  const [expandedId, setExpandedId] = useState<string | null>(null);
   const [filters, setFilters] = useState<Filters>(() => filtersFromUrl());
   const [view, setView] = useState<View>(() => viewFromUrl());
   const listRef = useRef<SchoolListHandle>(null);
@@ -57,16 +58,24 @@ export function App() {
     return step4;
   }, [today, filters]);
 
-  const handleSelectFromList = (id: string) => {
+  /** Select + auto-expand the school's card. */
+  const selectSchool = (id: string) => {
     setSelectedId(id);
+    setExpandedId(id);
+  };
+
+  const handleSelectFromList = (id: string) => {
+    selectSchool(id);
     listRef.current?.scrollTo(id);
   };
 
   /** From calendar: jump to map with this school selected. */
   const handleSelectFromCalendar = (id: string) => {
-    setSelectedId(id);
+    selectSchool(id);
     setView("map");
   };
+
+  const collapseCard = () => setExpandedId(null);
 
   return (
     <div className="flex h-full flex-col">
@@ -102,8 +111,10 @@ export function App() {
               ref={listRef}
               schools={visibleSchools}
               selectedId={selectedId}
+              expandedId={expandedId}
               today={today}
-              onSelect={setSelectedId}
+              onSelect={selectSchool}
+              onCollapse={collapseCard}
             />
             <MapView
               schools={visibleSchools}

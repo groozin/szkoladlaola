@@ -744,6 +744,56 @@
         ],
         "thresholdMin": null,
         "thresholdYear": null
+      },
+      {
+        "code": "1G grupa 1",
+        "profile": "geo-ang-niem",
+        "extendedSubjects": [
+          "język angielski",
+          "język niemiecki",
+          "geografia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "geografia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański",
+          "rosyjski",
+          "włoski"
+        ],
+        "thresholdMin": null,
+        "thresholdYear": null
+      },
+      {
+        "code": "1G grupa 2",
+        "profile": "geo-ang-hiszp",
+        "extendedSubjects": [
+          "język angielski",
+          "język hiszpański",
+          "geografia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "geografia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański",
+          "rosyjski",
+          "włoski"
+        ],
+        "thresholdMin": null,
+        "thresholdYear": null
       }
     ]
   },
@@ -1173,6 +1223,48 @@
         "thresholdYear": "2025/2026"
       },
       {
+        "code": "1D grupa 1",
+        "profile": "mat-geo-ang",
+        "extendedSubjects": [
+          "język angielski",
+          "matematyka",
+          "geografia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "geografia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki"
+        ],
+        "thresholdMin": 171.95,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1D grupa 2",
+        "profile": "mat-geo-niem",
+        "extendedSubjects": [
+          "język niemiecki",
+          "matematyka",
+          "geografia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język niemiecki",
+          "geografia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki"
+        ],
+        "thresholdMin": 167.25,
+        "thresholdYear": "2025/2026"
+      },
+      {
         "code": "1F",
         "profile": "biol-chem-mat",
         "extendedSubjects": [
@@ -1422,8 +1514,175 @@
     "inPdf": true,
     "website": "https://www.wroblewski.krakow.pl/",
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/296/IX-LO-im-Zygmunta-Wroblewskiego",
-    "classesYear": null,
-    "classes": []
+    "classesYear": "2026/2027",
+    "classes": [
+      {
+        "code": "1A grupa 1",
+        "profile": "mat-geo-ang",
+        "extendedSubjects": [
+          "język angielski",
+          "matematyka",
+          "geografia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "geografia",
+          "język angielski"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki"
+        ],
+        "thresholdMin": 166.35,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1A grupa 2",
+        "profile": "mat-geo-ang",
+        "extendedSubjects": [
+          "język angielski",
+          "matematyka",
+          "geografia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "geografia"
+        ],
+        "languages": [
+          "angielski",
+          "włoski"
+        ],
+        "thresholdMin": 166.9,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1B grupa 1",
+        "profile": "biol-ang-pol",
+        "extendedSubjects": [
+          "język polski",
+          "język angielski",
+          "biologia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "język angielski"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki"
+        ],
+        "thresholdMin": 163.8,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1B grupa 2",
+        "profile": "biol-ang-pol",
+        "extendedSubjects": [
+          "język polski",
+          "język angielski",
+          "biologia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "język angielski"
+        ],
+        "languages": [
+          "angielski",
+          "włoski"
+        ],
+        "thresholdMin": 162.45,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1C grupa 1",
+        "profile": "biol-chem",
+        "extendedSubjects": [
+          "chemia",
+          "biologia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "chemia",
+          "biologia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki"
+        ],
+        "thresholdMin": 167.15,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1C grupa 2",
+        "profile": "biol-chem",
+        "extendedSubjects": [
+          "chemia",
+          "biologia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "chemia",
+          "biologia"
+        ],
+        "languages": [
+          "angielski",
+          "włoski"
+        ],
+        "thresholdMin": 166.4,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1D grupa 1",
+        "profile": "humanistyczna",
+        "extendedSubjects": [
+          "język polski",
+          "historia",
+          "wiedza o społeczeństwie"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "historia",
+          "wiedza o społeczeństwie"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki"
+        ],
+        "thresholdMin": 157.15,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1D grupa 2",
+        "profile": "humanistyczna",
+        "extendedSubjects": [
+          "język polski",
+          "historia",
+          "wiedza o społeczeństwie"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "historia",
+          "wiedza o społeczeństwie"
+        ],
+        "languages": [
+          "angielski",
+          "włoski"
+        ],
+        "thresholdMin": 156.7,
+        "thresholdYear": "2025/2026"
+      }
+    ]
   },
   {
     "id": "X LO",
@@ -2406,8 +2665,285 @@
     "inPdf": true,
     "website": "https://liceum16.krakow.pl/",
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/3040/XVI-LO-im-Krzysztofa-Kamila-Baczynskiego",
-    "classesYear": null,
-    "classes": []
+    "classesYear": "2026/2027",
+    "classes": [
+      {
+        "code": "1A grupa 1",
+        "profile": "psychologiczno-pedagogiczna",
+        "extendedSubjects": [
+          "język polski",
+          "język angielski",
+          "biologia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "biologia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "hiszpański",
+          "włoski"
+        ],
+        "thresholdMin": 130.45,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1A grupa 2",
+        "profile": "psychologiczno-pedagogiczna",
+        "extendedSubjects": [
+          "język polski",
+          "język angielski",
+          "biologia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "biologia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "hiszpański",
+          "włoski"
+        ],
+        "thresholdMin": 119.1,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1B grupa 1",
+        "profile": "matematyczno-geograficzna",
+        "extendedSubjects": [
+          "język angielski",
+          "matematyka",
+          "geografia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "geografia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "hiszpański",
+          "włoski"
+        ],
+        "thresholdMin": 119.45,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1B grupa 2",
+        "profile": "matematyczno-geograficzna",
+        "extendedSubjects": [
+          "język angielski",
+          "matematyka",
+          "geografia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "geografia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "hiszpański",
+          "włoski"
+        ],
+        "thresholdMin": 62.5,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1C grupa 1",
+        "profile": "biologiczno-chemiczna",
+        "extendedSubjects": [
+          "język angielski",
+          "chemia",
+          "biologia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "biologia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "hiszpański",
+          "włoski"
+        ],
+        "thresholdMin": 136.4,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1C grupa 2",
+        "profile": "biologiczno-chemiczna",
+        "extendedSubjects": [
+          "język angielski",
+          "chemia",
+          "biologia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "biologia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "hiszpański",
+          "włoski"
+        ],
+        "thresholdMin": 121.3,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1D grupa 1",
+        "profile": "oddział przygotowania wojskowego",
+        "extendedSubjects": [
+          "język angielski",
+          "historia",
+          "wiedza o społeczeństwie"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "historia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "hiszpański",
+          "włoski"
+        ],
+        "thresholdMin": 95.25,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1D grupa 2",
+        "profile": "oddział przygotowania wojskowego",
+        "extendedSubjects": [
+          "język angielski",
+          "historia",
+          "wiedza o społeczeństwie"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "historia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "hiszpański",
+          "włoski"
+        ],
+        "thresholdMin": 64.7,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1E grupa 1",
+        "profile": "turystyczna",
+        "extendedSubjects": [
+          "język angielski",
+          "geografia",
+          "historia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "geografia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "hiszpański",
+          "włoski"
+        ],
+        "thresholdMin": 114.5,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1E grupa 2",
+        "profile": "turystyczna",
+        "extendedSubjects": [
+          "język angielski",
+          "geografia",
+          "historia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "geografia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "hiszpański",
+          "włoski"
+        ],
+        "thresholdMin": 91.25,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1F grupa 1",
+        "profile": "mundurowa",
+        "extendedSubjects": [
+          "język angielski",
+          "geografia",
+          "wiedza o społeczeństwie"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "geografia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "hiszpański",
+          "włoski"
+        ],
+        "thresholdMin": null,
+        "thresholdYear": null
+      },
+      {
+        "code": "1F grupa 2",
+        "profile": "mundurowa",
+        "extendedSubjects": [
+          "język angielski",
+          "geografia",
+          "wiedza o społeczeństwie"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "geografia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "hiszpański",
+          "włoski"
+        ],
+        "thresholdMin": null,
+        "thresholdYear": null
+      }
+    ]
   },
   {
     "id": "XVII LO",
@@ -3712,6 +4248,48 @@
         ],
         "thresholdMin": 155.8,
         "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1D grupa 1",
+        "profile": "językowa",
+        "extendedSubjects": [
+          "język polski",
+          "język angielski",
+          "język hiszpański"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "drugi język obcy nowożytny"
+        ],
+        "languages": [
+          "angielski",
+          "hiszpański"
+        ],
+        "thresholdMin": 157.2,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1D grupa 2",
+        "profile": "językowa",
+        "extendedSubjects": [
+          "język polski",
+          "język angielski",
+          "język włoski"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "drugi język obcy nowożytny"
+        ],
+        "languages": [
+          "angielski",
+          "włoski"
+        ],
+        "thresholdMin": 151.2,
+        "thresholdYear": "2025/2026"
       }
     ]
   },
@@ -4569,6 +5147,46 @@
         "thresholdYear": "2025/2026"
       },
       {
+        "code": "1B grupa 1",
+        "profile": "biol-ang - sportowa piłka nożna",
+        "extendedSubjects": [
+          "język angielski",
+          "biologia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "język angielski"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki"
+        ],
+        "thresholdMin": 58,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1B grupa 2",
+        "profile": "biol-ang - sportowa kajakarstwo slalomowe",
+        "extendedSubjects": [
+          "język angielski",
+          "biologia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "język angielski"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki"
+        ],
+        "thresholdMin": 100,
+        "thresholdYear": "2025/2026"
+      },
+      {
         "code": "1C",
         "profile": "biol/geo-mat/ang",
         "extendedSubjects": [
@@ -4744,6 +5362,40 @@
         "extendedSubjects": [
           "język angielski",
           "matematyka",
+          "przedmiot do wyboru"
+        ],
+        "recruitmentSubjects": [],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "hiszpański"
+        ],
+        "thresholdMin": null,
+        "thresholdYear": null
+      },
+      {
+        "code": "1B grupa 1",
+        "profile": "mat-biol-chem/ang",
+        "extendedSubjects": [
+          "matematyka",
+          "biologia",
+          "przedmiot do wyboru"
+        ],
+        "recruitmentSubjects": [],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "hiszpański"
+        ],
+        "thresholdMin": null,
+        "thresholdYear": null
+      },
+      {
+        "code": "1B grupa 2",
+        "profile": "pol-ang-hist/biol",
+        "extendedSubjects": [
+          "język polski",
+          "język angielski",
           "przedmiot do wyboru"
         ],
         "recruitmentSubjects": [],

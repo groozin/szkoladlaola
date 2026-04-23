@@ -3,6 +3,8 @@ import type { School } from "../types";
 import { formatDate, humanCountdown, nextUpcoming } from "../utils/dates";
 import { displayId } from "../utils/roman";
 import { classDisplay, classesLabel, thresholdRange } from "../utils/classes";
+import { googleCalendarUrl } from "../utils/calendar-export";
+import { scheduleForDate } from "../utils/schedule";
 
 export type SchoolListHandle = {
   scrollTo: (id: string) => void;
@@ -11,12 +13,16 @@ export type SchoolListHandle = {
 type Props = {
   schools: School[];
   selectedId: string | null;
+  /** Which card is currently expanded to show rawSchedule + classes.
+   *  Typically mirrors selectedId, but can be cleared independently. */
+  expandedId: string | null;
   today: string;
   onSelect: (id: string) => void;
+  onCollapse: () => void;
 };
 
 export const SchoolList = forwardRef<SchoolListHandle, Props>(function SchoolList(
-  { schools, selectedId, today, onSelect },
+  { schools, selectedId, expandedId, today, onSelect, onCollapse },
   ref,
 ) {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -62,6 +68,7 @@ export const SchoolList = forwardRef<SchoolListHandle, Props>(function SchoolLis
                 ? "bg-red-100"
                 : "bg-red-50 hover:bg-red-100";
           const range = thresholdRange(s.classes);
+          const isExpanded = s.id === expandedId;
           return (
             <li
               key={s.id}
@@ -107,12 +114,14 @@ export const SchoolList = forwardRef<SchoolListHandle, Props>(function SchoolLis
               </div>
 
               {(s.classes.length > 0 || range) && (
-                <div className="mt-1.5 flex flex-wrap gap-x-3 gap-y-0.5 text-[11px] text-slate-600">
+                <div className="mt-1.5 flex flex-wrap items-center gap-x-2 gap-y-1 text-[11px] text-slate-600">
                   {s.classes.length > 0 && <span>📚 {classesLabel(s.classes.length)}</span>}
                   {range && (
-                    <span>
-                      próg {range.year.split("/")[0]}:{" "}
-                      <span className="font-medium text-slate-800">
+                    <span className="rounded bg-amber-100 px-1.5 py-0.5 text-amber-900 ring-1 ring-amber-300/50">
+                      <span className="text-[10px] uppercase tracking-wide opacity-70">
+                        próg {range.year.split("/")[0]}
+                      </span>{" "}
+                      <span className="font-semibold tabular-nums">
                         {range.min === range.max
                           ? range.min.toFixed(2)
                           : `${range.min.toFixed(2)}–${range.max.toFixed(2)}`}
@@ -130,27 +139,77 @@ export const SchoolList = forwardRef<SchoolListHandle, Props>(function SchoolLis
                     return (
                       <li
                         key={d}
-                        className={`rounded px-1.5 py-0.5 text-[11px] ${
+                        className={`inline-flex items-center gap-1 rounded px-1.5 py-0.5 text-[11px] ${
                           past
-                            ? "bg-red-200 text-red-800 line-through"
+                            ? "bg-red-200 text-red-800"
                             : "bg-green-200 text-green-800"
                         }`}
                       >
-                        {formatDate(d)}
+                        <span className={past ? "line-through" : undefined}>
+                          {formatDate(d)}
+                        </span>
+                        {!past && (
+                          <a
+                            href={googleCalendarUrl(s, d)}
+                            target="_blank"
+                            rel="noreferrer"
+                            onClick={(e) => e.stopPropagation()}
+                            title="Dodaj do Google Calendar"
+                            aria-label="Dodaj do Google Calendar"
+                            className="leading-none opacity-60 hover:opacity-100"
+                          >
+                            +
+                          </a>
+                        )}
                       </li>
                     );
                   })}
                 </ul>
               )}
 
-              {isSelected && (
+              {isExpanded && (
                 <div className="mt-3 border-t border-slate-200 pt-2">
                   {s.rawSchedule && (
                     <section className="mb-3">
                       <h3 className="mb-1 text-[11px] font-semibold uppercase tracking-wide text-slate-500">
                         Dni otwarte — szczegóły
                       </h3>
-                      <p className="text-[11px] italic text-slate-600">{s.rawSchedule}</p>
+                      {(() => {
+                        const perDate = s.openDays.map((iso) => ({
+                          iso,
+                          past: iso < today,
+                          desc: scheduleForDate(s.rawSchedule, iso),
+                        }));
+                        const anyDesc = perDate.some((x) => x.desc);
+                        // Fall back to the raw blob for things like "16-17.04.2026"
+                        // where we can't pick out a per-date slice.
+                        if (!anyDesc || perDate.length === 0) {
+                          return (
+                            <p className="text-[11px] italic text-slate-600">{s.rawSchedule}</p>
+                          );
+                        }
+                        return (
+                          <ul className="space-y-0.5">
+                            {perDate.map(({ iso, past, desc }) => (
+                              <li key={iso} className="text-[11px] leading-snug">
+                                <span
+                                  className={`font-medium tabular-nums ${
+                                    past ? "text-red-700" : "text-green-700"
+                                  }`}
+                                >
+                                  {formatDate(iso)}
+                                </span>
+                                {desc && (
+                                  <>
+                                    <span className="text-slate-400"> — </span>
+                                    <span className="italic text-slate-600">{desc}</span>
+                                  </>
+                                )}
+                              </li>
+                            ))}
+                          </ul>
+                        );
+                      })()}
                     </section>
                   )}
                   {s.classes.length > 0 && (
@@ -170,9 +229,13 @@ export const SchoolList = forwardRef<SchoolListHandle, Props>(function SchoolLis
                             <div className="flex items-baseline justify-between gap-2">
                               <span className="font-medium text-slate-800">{classDisplay(c)}</span>
                               {c.thresholdMin != null && (
-                                <span className="text-slate-600">
-                                  próg {c.thresholdYear?.split("/")[0]}:{" "}
-                                  <span className="font-medium">{c.thresholdMin.toFixed(2)}</span>
+                                <span className="shrink-0 rounded bg-amber-100 px-1.5 py-0.5 text-[11px] text-amber-900 ring-1 ring-amber-300/50">
+                                  <span className="text-[10px] uppercase tracking-wide opacity-70">
+                                    próg {c.thresholdYear?.split("/")[0]}
+                                  </span>{" "}
+                                  <span className="font-semibold tabular-nums">
+                                    {c.thresholdMin.toFixed(2)}
+                                  </span>
                                 </span>
                               )}
                             </div>
@@ -219,6 +282,16 @@ export const SchoolList = forwardRef<SchoolListHandle, Props>(function SchoolLis
                       )}
                     </div>
                   )}
+                  <button
+                    type="button"
+                    onClick={(e) => {
+                      e.stopPropagation();
+                      onCollapse();
+                    }}
+                    className="mt-3 flex w-full items-center justify-center gap-1 rounded border border-slate-200 bg-white/60 py-1 text-[11px] text-slate-500 hover:bg-white"
+                  >
+                    ▲ zwiń
+                  </button>
                 </div>
               )}
             </li>
