@@ -144,12 +144,23 @@ export const SchoolList = forwardRef<SchoolListHandle, Props>(function SchoolLis
               )}
 
               {isSelected && (
-                <div className="mt-3 space-y-2 border-t border-slate-200 pt-2">
+                <div className="mt-3 border-t border-slate-200 pt-2">
                   {s.rawSchedule && (
-                    <div className="text-[11px] italic text-slate-500">{s.rawSchedule}</div>
+                    <section className="mb-3">
+                      <h3 className="mb-1 text-[11px] font-semibold uppercase tracking-wide text-slate-500">
+                        Dni otwarte — szczegóły
+                      </h3>
+                      <p className="text-[11px] italic text-slate-600">{s.rawSchedule}</p>
+                    </section>
                   )}
                   {s.classes.length > 0 && (
-                    <div>
+                    <section
+                      className={
+                        s.rawSchedule
+                          ? "mb-3 border-t border-slate-200 pt-2"
+                          : "mb-3"
+                      }
+                    >
                       <div className="mb-1 text-[11px] font-semibold uppercase tracking-wide text-slate-500">
                         Klasy {s.classesYear ?? ""}
                       </div>
@@ -180,7 +191,7 @@ export const SchoolList = forwardRef<SchoolListHandle, Props>(function SchoolLis
                           </li>
                         ))}
                       </ul>
-                    </div>
+                    </section>
                   )}
                   {(s.website || s.otouczelnieUrl) && (
                     <div className="flex gap-3 text-[11px]">

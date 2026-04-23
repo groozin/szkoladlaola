@@ -1,6 +1,24 @@
 import type { School, SchoolClass } from "../types";
 
 export type Scope = "pdf" | "all";
+export type View = "map" | "calendar";
+
+export function viewFromUrl(): View {
+  if (typeof window === "undefined") return "map";
+  return new URLSearchParams(window.location.search).get("view") === "calendar"
+    ? "calendar"
+    : "map";
+}
+
+export function writeViewToUrl(view: View): void {
+  if (typeof window === "undefined") return;
+  const p = new URLSearchParams(window.location.search);
+  if (view === "map") p.delete("view");
+  else p.set("view", view);
+  const qs = p.toString();
+  const url = qs ? `${window.location.pathname}?${qs}` : window.location.pathname;
+  window.history.replaceState(null, "", url + window.location.hash);
+}
 
 export type Filters = {
   scope: Scope;                     // "pdf" = only schools from the PDF; "all" = everything
