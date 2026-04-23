@@ -8,3 +8,10 @@ export type School = {
   openDays: string[];      // ISO YYYY-MM-DD, sorted asc
   rawSchedule: string;
 };
+
+export type Landmark = {
+  id: string;
+  address: string;
+  lat: number;
+  lon: number;
+};

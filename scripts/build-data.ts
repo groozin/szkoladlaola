@@ -29,6 +29,13 @@ export type School = {
   rawSchedule: string;      // original Polish free text
 };
 
+export type Landmark = {
+  id: string;
+  address: string;
+  lat: number;
+  lon: number;
+};
+
 const readJson = async <T>(p: string) => JSON.parse(await readFile(p, "utf8")) as T;
 
 async function main() {
@@ -97,16 +104,44 @@ async function main() {
     return na - nb;
   });
 
-  console.log("[4/4] Writing src/data/schools.json…");
   const outDir = resolve(ROOT, "src", "data");
   await mkdir(outDir, { recursive: true });
+  console.log("[4/5] Writing src/data/schools.json…");
   await writeFile(
     resolve(outDir, "schools.json"),
     JSON.stringify(schools, null, 2) + "\n",
   );
 
+  console.log("[5/5] Geocoding + writing landmarks…");
+  const landmarksSeed = await readJson<Array<{ id: string; address: string }>>(
+    resolve(__dirname, "landmarks-seed.json"),
+  );
+  const lmGeo = await geocodeAll(
+    landmarksSeed.map((l) => {
+      const addrNoPrefix = l.address.replace(/^(ul\.|al\.|pl\.|os\.)\s*/i, "");
+      return {
+        key: l.id,
+        queries: [
+          `${l.address}, Kraków, Polska`,
+          `${addrNoPrefix}, Kraków, Polska`,
+        ],
+      };
+    }),
+  );
+  const landmarks: Landmark[] = landmarksSeed.map((l) => {
+    const g = lmGeo.get(l.id);
+    if (!g) throw new Error(`Could not geocode landmark "${l.id}" (${l.address})`);
+    return { id: l.id, address: l.address, lat: g.lat, lon: g.lon };
+  });
+  await writeFile(
+    resolve(outDir, "landmarks.json"),
+    JSON.stringify(landmarks, null, 2) + "\n",
+  );
+
   const missingGeo = schools.filter((s) => s.lat == null || s.lon == null).length;
-  console.log(`\n✓ Done. ${schools.length} schools written. Missing geo: ${missingGeo}.`);
+  console.log(
+    `\n✓ Done. ${schools.length} schools (missing geo: ${missingGeo}), ${landmarks.length} landmarks.`,
+  );
 }
 
 function romanValue(id: string): number | null {

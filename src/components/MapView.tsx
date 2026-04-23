@@ -1,6 +1,6 @@
 import { useEffect, useRef } from "react";
 import maplibregl, { Map as MLMap, Marker } from "maplibre-gl";
-import type { School } from "../types";
+import type { Landmark, School } from "../types";
 import { formatDate, humanCountdown, nextUpcoming } from "../utils/dates";
 import { displayId, markerLabel } from "../utils/roman";
 
@@ -35,6 +35,7 @@ function buildPopupHTML(s: School, today: string): string {
 
 type Props = {
   schools: School[];
+  landmarks: Landmark[];
   selectedId: string | null;
   today: string;
   onMarkerClick: (id: string) => void;
@@ -48,7 +49,7 @@ type MarkerHandle = {
   popup: maplibregl.Popup;
 };
 
-export function MapView({ schools, selectedId, today, onMarkerClick }: Props) {
+export function MapView({ schools, landmarks, selectedId, today, onMarkerClick }: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
   const mapRef = useRef<MLMap | null>(null);
   const markersRef = useRef<Map<string, MarkerHandle>>(new Map());
@@ -166,6 +167,25 @@ export function MapView({ schools, selectedId, today, onMarkerClick }: Props) {
       existing.set(s.id, { marker, pill, popup });
     }
   }, [schools, selectedId, today]);
+
+  // Landmarks (Mama / Tata etc.) — fixed blue pills, added once.
+  useEffect(() => {
+    const map = mapRef.current;
+    if (!map) return;
+    const markers = landmarks.map((l) => {
+      const root = document.createElement("div");
+      root.className = "school-marker-root";
+      const pill = document.createElement("div");
+      pill.className = "school-marker-pill landmark";
+      pill.textContent = l.id;
+      pill.title = `${l.id} — ${l.address}`;
+      root.appendChild(pill);
+      return new maplibregl.Marker({ element: root, anchor: "center" })
+        .setLngLat([l.lon, l.lat])
+        .addTo(map);
+    });
+    return () => markers.forEach((m) => m.remove());
+  }, [landmarks]);
 
   // Fly to selected school.
   useEffect(() => {

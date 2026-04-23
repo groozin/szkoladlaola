@@ -1,11 +1,13 @@
 import { useMemo, useRef, useState } from "react";
 import schoolsJson from "./data/schools.json";
-import type { School } from "./types";
+import landmarksJson from "./data/landmarks.json";
+import type { Landmark, School } from "./types";
 import { SchoolList, type SchoolListHandle } from "./components/SchoolList";
 import { MapView } from "./components/MapView";
 import { nextUpcoming, todayISO, formatDate } from "./utils/dates";
 
 const schools = schoolsJson as School[];
+const landmarks = landmarksJson as Landmark[];
 
 export function App() {
   const [selectedId, setSelectedId] = useState<string | null>(null);
@@ -74,6 +76,7 @@ export function App() {
         />
         <MapView
           schools={visibleSchools}
+          landmarks={landmarks}
           selectedId={selectedId}
           today={today}
           onMarkerClick={handleMarkerClick}

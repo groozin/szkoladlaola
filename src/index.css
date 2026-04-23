@@ -44,6 +44,14 @@ html, body, #root {
 .school-marker-pill.upcoming { background: #16a34a; }   /* green-600 */
 .school-marker-pill.past     { background: #dc2626; }   /* red-600, desaturated by opacity below */
 .school-marker-pill.past     { opacity: 0.78; }
+.school-marker-pill.landmark {
+  background: #2563eb;                                  /* blue-600 */
+  font-size: 12px;
+  letter-spacing: 0.02em;
+  /* Landmarks are informational, not clickable — let pan gestures go through. */
+  cursor: default;
+  pointer-events: none;
+}
 .school-marker-pill.selected {
   transform: translate(-50%, -50%) scale(1.18);
   box-shadow: 0 0 0 4px rgba(59, 130, 246, 0.6), 0 2px 8px rgba(0, 0, 0, 0.45);

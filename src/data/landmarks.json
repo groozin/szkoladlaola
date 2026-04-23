@@ -1,0 +1,14 @@
+[
+  {
+    "id": "Mama",
+    "address": "ul. Skorupki 11",
+    "lat": 50.0761188,
+    "lon": 19.9597416
+  },
+  {
+    "id": "Tata",
+    "address": "ul. Ułanów 60",
+    "lat": 50.0798523,
+    "lon": 19.9806799
+  }
+]
