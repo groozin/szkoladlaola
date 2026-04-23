@@ -53,3 +53,42 @@ html, body, #root {
 .school-marker-pill:hover {
   box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.15), 0 2px 8px rgba(0, 0, 0, 0.45);
 }
+
+/* --- Map popup (click a pill) ----------------------------------------- */
+.maplibregl-popup-content:has(.school-popup) { padding: 0; border-radius: 8px; overflow: hidden; }
+.school-popup { font-size: 12px; line-height: 1.35; min-width: 220px; max-width: 260px; }
+.school-popup-head {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 8px;
+  padding: 8px 10px 4px;
+}
+.school-popup--upcoming .school-popup-head { background: #f0fdf4; }
+.school-popup--past     .school-popup-head { background: #fef2f2; }
+.school-popup-id { font-weight: 700; color: #0f172a; }
+.school-popup-next { font-weight: 600; }
+.school-popup--upcoming .school-popup-next { color: #166534; }
+.school-popup--past     .school-popup-next { color: #991b1b; }
+.school-popup-name { padding: 0 10px; color: #475569; }
+.school-popup-address { padding: 2px 10px 8px; color: #64748b; font-size: 11px; }
+.school-popup-dates {
+  list-style: none;
+  margin: 0;
+  padding: 0 10px 10px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+.school-popup-date {
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-size: 11px;
+  background: #dcfce7;
+  color: #166534;
+}
+.school-popup-date.past {
+  background: #fee2e2;
+  color: #991b1b;
+  text-decoration: line-through;
+}

@@ -1,8 +1,37 @@
 import { useEffect, useRef } from "react";
 import maplibregl, { Map as MLMap, Marker } from "maplibre-gl";
 import type { School } from "../types";
-import { nextUpcoming } from "../utils/dates";
+import { formatDate, humanCountdown, nextUpcoming } from "../utils/dates";
 import { displayId, markerLabel } from "../utils/roman";
+
+const esc = (s: string) =>
+  s
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+
+function buildPopupHTML(s: School, today: string): string {
+  const upcoming = nextUpcoming(s.openDays, today);
+  const variant = upcoming ? "upcoming" : "past";
+  const status = upcoming ? humanCountdown(upcoming, today) : "wszystkie minęły";
+  const dates = s.openDays
+    .map((d) => {
+      const cls = d < today ? "school-popup-date past" : "school-popup-date";
+      return `<li class="${cls}">${esc(formatDate(d))}</li>`;
+    })
+    .join("");
+  return `
+    <div class="school-popup school-popup--${variant}">
+      <div class="school-popup-head">
+        <span class="school-popup-id">${esc(displayId(s.id))}</span>
+        <span class="school-popup-next">${esc(status)}</span>
+      </div>
+      <div class="school-popup-name">${esc(s.fullName)}</div>
+      <div class="school-popup-address">${esc(s.address)}, ${esc(s.postalCode)}</div>
+      ${dates ? `<ul class="school-popup-dates">${dates}</ul>` : ""}
+    </div>`;
+}
 
 type Props = {
   schools: School[];
@@ -13,7 +42,11 @@ type Props = {
 
 const KRAKOW_CENTER: [number, number] = [19.94, 50.06];
 
-type MarkerHandle = { marker: Marker; pill: HTMLDivElement };
+type MarkerHandle = {
+  marker: Marker;
+  pill: HTMLDivElement;
+  popup: maplibregl.Popup;
+};
 
 export function MapView({ schools, selectedId, today, onMarkerClick }: Props) {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -29,6 +62,12 @@ export function MapView({ schools, selectedId, today, onMarkerClick }: Props) {
       container: containerRef.current,
       center: KRAKOW_CENTER,
       zoom: 11.5,
+      // Lock orientation — the map is north-up only. This disables right-click
+      // drag rotation, two-finger touch rotation, and pitch gestures, so users
+      // can't accidentally tilt the map and get lost.
+      dragRotate: false,
+      pitchWithRotate: false,
+      touchPitch: false,
       style: {
         version: 8,
         sources: {
@@ -47,6 +86,8 @@ export function MapView({ schools, selectedId, today, onMarkerClick }: Props) {
       },
     });
     map.addControl(new maplibregl.NavigationControl({ showCompass: false }), "top-right");
+    // Belt-and-braces: also kill rotation via the two-finger pinch gesture on touch.
+    map.touchZoomRotate.disableRotation();
     mapRef.current = map;
 
     // Keep the map sized correctly if the container changes (window resize,
@@ -90,6 +131,7 @@ export function MapView({ schools, selectedId, today, onMarkerClick }: Props) {
       if (handle) {
         handle.pill.className = pillClass;
         handle.pill.title = tooltip;
+        handle.popup.setHTML(buildPopupHTML(s, today));
         continue;
       }
 
@@ -102,16 +144,26 @@ export function MapView({ schools, selectedId, today, onMarkerClick }: Props) {
       pill.className = pillClass;
       pill.title = tooltip;
       pill.textContent = markerLabel(s.id);
-      pill.addEventListener("click", (ev) => {
-        ev.stopPropagation();
+      // Don't stopPropagation — MapLibre's setPopup() attaches its own click
+      // listener to the root element (the parent of the pill). If we stop the
+      // event here it never bubbles up and the popup never toggles.
+      pill.addEventListener("click", () => {
         clickHandlerRef.current(s.id);
       });
       root.appendChild(pill);
 
+      const popup = new maplibregl.Popup({
+        offset: 18,
+        closeButton: false,
+        closeOnClick: true,
+        maxWidth: "260px",
+      }).setHTML(buildPopupHTML(s, today));
+
       const marker = new maplibregl.Marker({ element: root, anchor: "center" })
         .setLngLat([s.lon, s.lat])
+        .setPopup(popup)
         .addTo(map);
-      existing.set(s.id, { marker, pill });
+      existing.set(s.id, { marker, pill, popup });
     }
   }, [schools, selectedId, today]);
 
