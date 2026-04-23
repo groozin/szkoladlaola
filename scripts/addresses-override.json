@@ -1,0 +1,3 @@
+{
+  "_comment": "Manual overrides. Add an entry here to force an address or lat/lon for a school id. Shape: { \"I LO\": { \"lat\": 50.0614, \"lon\": 19.9366, \"address\": \"...\" } }"
+}

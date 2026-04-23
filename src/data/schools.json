@@ -1,0 +1,440 @@
+[
+  {
+    "id": "I LO",
+    "fullName": "I Liceum Ogólnokształcące im. Bartłomieja Nowodworskiego",
+    "address": "Plac na Groblach 9",
+    "postalCode": "31-101",
+    "lat": 50.0571662,
+    "lon": 19.9337341,
+    "openDays": [
+      "2026-05-22"
+    ],
+    "rawSchedule": "22.05.2026 r."
+  },
+  {
+    "id": "II LO",
+    "fullName": "II Liceum Ogólnokształcące im. Króla Jana III Sobieskiego",
+    "address": "ul. Jana Sobieskiego 9",
+    "postalCode": "31-136",
+    "lat": 50.0682985,
+    "lon": 19.9313675,
+    "openDays": [
+      "2026-04-08"
+    ],
+    "rawSchedule": "8.04.2026 r. godz. 14.20 - 17.00"
+  },
+  {
+    "id": "III LO",
+    "fullName": "III Liceum Ogólnokształcące im. Jana Kochanowskiego",
+    "address": "os. Wysokie 6",
+    "postalCode": "31-818",
+    "lat": 50.0889995,
+    "lon": 20.0181858,
+    "openDays": [
+      "2026-04-11",
+      "2026-05-15"
+    ],
+    "rawSchedule": "11.04.2026 r. , 15.05.2026 r."
+  },
+  {
+    "id": "IV LO",
+    "fullName": "IV Liceum Ogólnokształcące im. Tadeusza Kościuszki",
+    "address": "ul. Krzemionki 11",
+    "postalCode": "30-525",
+    "lat": 50.0411263,
+    "lon": 19.9461143,
+    "openDays": [
+      "2026-04-11"
+    ],
+    "rawSchedule": "11.04.2026 r."
+  },
+  {
+    "id": "V LO",
+    "fullName": "V Liceum Ogólnokształcące im. Augusta Witkowskiego",
+    "address": "ul. Studencka 12",
+    "postalCode": "31-116",
+    "lat": 50.0621235,
+    "lon": 19.9290634,
+    "openDays": [
+      "2026-04-24"
+    ],
+    "rawSchedule": "24.04.2026 r."
+  },
+  {
+    "id": "VI LO",
+    "fullName": "VI Liceum Ogólnokształcące im. Adama Mickiewicza",
+    "address": "ul. Wąska 7",
+    "postalCode": "31-057",
+    "lat": 50.0504314,
+    "lon": 19.9476088,
+    "openDays": [
+      "2026-04-09",
+      "2026-04-24"
+    ],
+    "rawSchedule": "24.04.2026 godz. 15:00 - 18:00 Dzień Otwarty; 9.04.2026 godz. 16:30 - Spotkanie informacyjne dot. Oddziałów Międzynarodowych (IB DP)"
+  },
+  {
+    "id": "VII LO",
+    "fullName": "VII Liceum Ogólnokształcące im. Zofii Nałkowskiej",
+    "address": "ul. Skarbińskiego 5",
+    "postalCode": "30-071",
+    "lat": 50.0705734,
+    "lon": 19.9080015,
+    "openDays": [
+      "2026-04-18"
+    ],
+    "rawSchedule": "18.04.2026 godz. 10.00 - 13.00"
+  },
+  {
+    "id": "VIII LO",
+    "fullName": "VIII Liceum Ogólnokształcące im. Stanisława Wyspiańskiego",
+    "address": "ul. Grzegórzecka 24",
+    "postalCode": "31-531",
+    "lat": 50.058738,
+    "lon": 19.9553848,
+    "openDays": [
+      "2026-04-16",
+      "2026-04-17"
+    ],
+    "rawSchedule": "16 - 17.04.2026"
+  },
+  {
+    "id": "IX LO",
+    "fullName": "IX Liceum Ogólnokształcące im. Zygmunta Wróblewskiego",
+    "address": "ul. Kazimierza Czapińskiego 5",
+    "postalCode": "30-048",
+    "lat": 50.0687369,
+    "lon": 19.9193818,
+    "openDays": [
+      "2026-04-11"
+    ],
+    "rawSchedule": "11.04.2026 godz. 11.00 - 14.00"
+  },
+  {
+    "id": "X LO",
+    "fullName": "X Liceum Ogólnokształcące im. Komisji Edukacji Narodowej",
+    "address": "ul. Zygmunta Wróblewskiego 8",
+    "postalCode": "31-148",
+    "lat": 50.0692985,
+    "lon": 19.9406431,
+    "openDays": [
+      "2026-04-28"
+    ],
+    "rawSchedule": "28.04.2026 r., godz. 16:00 - 18:00"
+  },
+  {
+    "id": "XI LO",
+    "fullName": "XI Liceum Ogólnokształcące im. Marii Dąbrowskiej",
+    "address": "os. Teatralne 33",
+    "postalCode": "31-948",
+    "lat": 50.0808059,
+    "lon": 20.0324818,
+    "openDays": [
+      "2026-04-11",
+      "2026-05-15"
+    ],
+    "rawSchedule": "11.04.2026 godz. 9.00 - 12.00 15.05.2026 godz.16.00 - 18.00"
+  },
+  {
+    "id": "XII LO",
+    "fullName": "XII Liceum Ogólnokształcące im. Cypriana Kamila Norwida",
+    "address": "os. Kolorowe 29a",
+    "postalCode": "31-941",
+    "lat": 50.0765151,
+    "lon": 20.0237889,
+    "openDays": [
+      "2026-04-11"
+    ],
+    "rawSchedule": "11.04.2026"
+  },
+  {
+    "id": "XIII LO",
+    "fullName": "XIII Liceum Ogólnokształcące im. Bohaterów Westerplatte",
+    "address": "ul. Sądowa 4",
+    "postalCode": "31-542",
+    "lat": 50.0634436,
+    "lon": 19.9637323,
+    "openDays": [
+      "2026-04-21"
+    ],
+    "rawSchedule": "21.04.2026 r."
+  },
+  {
+    "id": "XIV LO",
+    "fullName": "XIV Liceum Ogólnokształcące im. Mikołaja Kopernika",
+    "address": "ul. Józefa Chełmońskiego 24",
+    "postalCode": "31-322",
+    "lat": 50.0871851,
+    "lon": 19.9135299,
+    "openDays": [
+      "2026-04-18"
+    ],
+    "rawSchedule": "1 8 .0 4 .2026 r. godz. 9:00 – 13:00"
+  },
+  {
+    "id": "XV LO",
+    "fullName": "XV Liceum Ogólnokształcące im. Marii Skłodowskiej-Curie",
+    "address": "al. Adolfa Dygasińskiego 15",
+    "postalCode": "30-820",
+    "lat": 50.0223155,
+    "lon": 19.9860032,
+    "openDays": [
+      "2026-04-17"
+    ],
+    "rawSchedule": "17.04.2026 godz.15.00 - 18.00"
+  },
+  {
+    "id": "XVI LO",
+    "fullName": "XVI Liceum Ogólnokształcące im. Krzysztofa Kamila Baczyńskiego",
+    "address": "os. Willowe 1",
+    "postalCode": "31-901",
+    "lat": 50.0723596,
+    "lon": 20.0469636,
+    "openDays": [
+      "2026-04-14",
+      "2026-04-24"
+    ],
+    "rawSchedule": "14.04.2026 godz. 15.00 - 18.00 24.04.2026 godz. 15.00 - 18.00"
+  },
+  {
+    "id": "XVII LO",
+    "fullName": "XVII Liceum Ogólnokształcące im. Młodej Polski",
+    "address": "ul. Złoty Róg 30",
+    "postalCode": "30-095",
+    "lat": 50.0813949,
+    "lon": 19.8951625,
+    "openDays": [
+      "2026-04-22"
+    ],
+    "rawSchedule": "22.04. 2026 w godzinach 17:30 – 19:00"
+  },
+  {
+    "id": "XVIII LO",
+    "fullName": "XVIII Liceum Ogólnokształcące im. Prof. Akademii Krakowskiej Św. Jana Kantego",
+    "address": "ul. Na Błonie 15b",
+    "postalCode": "30-147",
+    "lat": 50.0776312,
+    "lon": 19.8829024,
+    "openDays": [
+      "2026-03-19"
+    ],
+    "rawSchedule": "19.03.2026 w godz.16.00 - 18.00"
+  },
+  {
+    "id": "XX LO",
+    "fullName": "XX Liceum Ogólnokształcące im. Leopolda Staffa",
+    "address": "ul. Szlak 5",
+    "postalCode": "31-161",
+    "lat": 50.0702247,
+    "lon": 19.9334735,
+    "openDays": [
+      "2026-04-18"
+    ],
+    "rawSchedule": "18.04.2026 r. godz. 10.00 - 13.00"
+  },
+  {
+    "id": "XXI LO",
+    "fullName": "XXI Liceum Ogólnokształcące im. Stanisława Ignacego Witkiewicza-Witkacego",
+    "address": "os. Tysiąclecia 15",
+    "postalCode": "31-606",
+    "lat": 50.0912141,
+    "lon": 20.0020636,
+    "openDays": [
+      "2026-03-25"
+    ],
+    "rawSchedule": "25.03.2026 r. godz. 10.00 - 15.00"
+  },
+  {
+    "id": "XXIII LO",
+    "fullName": "XXIII Liceum Ogólnokształcące im. płk. pil. Stanisława Skarżyńskiego",
+    "address": "ul. Seniorów Lotnictwa 5",
+    "postalCode": "31-455",
+    "lat": 50.0796501,
+    "lon": 19.985386,
+    "openDays": [
+      "2026-03-20",
+      "2026-04-18"
+    ],
+    "rawSchedule": "20.03.2026 r. 15.30 - 18.00 18.04.2026 r. 10.00 - 13.00"
+  },
+  {
+    "id": "XXIV LO",
+    "fullName": "XXIV Liceum Ogólnokształcące im. Jana Pawła II",
+    "address": "ul. Wilhelma Wilka Wyrwińskiego 1",
+    "postalCode": "31-517",
+    "lat": 50.0720484,
+    "lon": 19.9653474,
+    "openDays": [
+      "2026-03-18",
+      "2026-04-22",
+      "2026-05-16"
+    ],
+    "rawSchedule": "18.03.2026 r. godz. 15.30 - 19.00, 22.04.2026 r. godz. 15.30 - 19.00, 16.05.2026 r. godz. 9.00 - 13.00"
+  },
+  {
+    "id": "XXV LO",
+    "fullName": "XXV Liceum Ogólnokształcące im. Stefana Żeromskiego",
+    "address": "ul. Telimeny 9",
+    "postalCode": "30-838",
+    "lat": 50.0197437,
+    "lon": 20.0161369,
+    "openDays": [
+      "2026-03-20",
+      "2026-04-25"
+    ],
+    "rawSchedule": "20.03.2026 r., 25.04.2026 r."
+  },
+  {
+    "id": "XXVI LO",
+    "fullName": "XXVI Liceum Ogólnokształcące",
+    "address": "ul. Krupnicza 44",
+    "postalCode": "31-123",
+    "lat": 50.0621941,
+    "lon": 19.9241437,
+    "openDays": [
+      "2026-03-20",
+      "2026-03-21",
+      "2026-05-22",
+      "2026-05-23"
+    ],
+    "rawSchedule": "20.03.26 ( piątek) 11.00 - 14.00 21.03.26 ( sobota) 10.00 - 13.00 22.05.26. (piątek) 11.00 - 14.00 23.05.26 ( sobota) 10.00 - 14.00"
+  },
+  {
+    "id": "XXVII LO",
+    "fullName": "XXVII Liceum Ogólnokształcące im. dr. Henryka Jordana",
+    "address": "ul. Senatorska 35",
+    "postalCode": "30-106",
+    "lat": 50.0540254,
+    "lon": 19.9167691,
+    "openDays": [
+      "2026-03-24",
+      "2026-04-29"
+    ],
+    "rawSchedule": "24.03.2026 i 29.04.2026 od 15:00 do 18:00"
+  },
+  {
+    "id": "XXVIII LO",
+    "fullName": "XXVIII Liceum Ogólnokształcące im. Wojciecha Bednarskiego",
+    "address": "ul. Tadeusza Czackiego 11",
+    "postalCode": "30-501",
+    "lat": 50.0410588,
+    "lon": 19.9368889,
+    "openDays": [
+      "2026-03-21",
+      "2026-04-28"
+    ],
+    "rawSchedule": "21.03.2026 (10.00 - 13.00) 28.04.2026 (10.00 - 14.00)"
+  },
+  {
+    "id": "XXX LO",
+    "fullName": "XXX Liceum Ogólnokształcące im. św. Brata Alberta – Adama Chmielowskiego",
+    "address": "os. Dywizjonu 303 66",
+    "postalCode": "31-875",
+    "lat": 50.0833427,
+    "lon": 20.0070646,
+    "openDays": [
+      "2026-04-16",
+      "2026-05-23"
+    ],
+    "rawSchedule": "16.04.2026 od 17:00 i 23.05.2026 od 10:00"
+  },
+  {
+    "id": "XXXI LO",
+    "fullName": "XXXI Liceum Ogólnokształcące im. Romana Ingardena",
+    "address": "ul. Kazimierza Odnowiciela 2",
+    "postalCode": "31-481",
+    "lat": 50.0875444,
+    "lon": 19.970441,
+    "openDays": [
+      "2026-03-21",
+      "2026-04-25"
+    ],
+    "rawSchedule": "21.03.26 (10:00 - 13:00), 25.04.26 (10:00 - 13:00)"
+  },
+  {
+    "id": "XLI LO",
+    "fullName": "XLI Liceum Ogólnokształcące im. ks. Jana Twardowskiego",
+    "address": "Rynek Kleparski 18",
+    "postalCode": "31-150",
+    "lat": 50.0673039,
+    "lon": 19.9416168,
+    "openDays": [
+      "2026-05-21"
+    ],
+    "rawSchedule": "21.05.2026 r. g.15.00 do g. 17.00"
+  },
+  {
+    "id": "XLII LO",
+    "fullName": "XLII Liceum Ogólnokształcące im. Adama Mickiewicza",
+    "address": "ul. Studencka 13",
+    "postalCode": "31-116",
+    "lat": 50.0628131,
+    "lon": 19.9300951,
+    "openDays": [
+      "2026-04-28",
+      "2026-05-26"
+    ],
+    "rawSchedule": "28.04.2026 i 26.05.2026 godz. 14.30 - 16.30"
+  },
+  {
+    "id": "XLIII LO",
+    "fullName": "XLIII Liceum Ogólnokształcące im. Zofii Chrzanowskiej",
+    "address": "ul. Bolesława Limanowskiego 60-62",
+    "postalCode": "30-534",
+    "lat": 50.044516,
+    "lon": 19.957143,
+    "openDays": [
+      "2026-04-25"
+    ],
+    "rawSchedule": "25.04.2026 10:00 - 13:00"
+  },
+  {
+    "id": "XLIV LO",
+    "fullName": "XLIV Liceum Ogólnokształcące im. ks. Stanisława Konarskiego",
+    "address": "ul. Bernardyńska 7",
+    "postalCode": "31-069",
+    "lat": 50.0528201,
+    "lon": 19.9362964,
+    "openDays": [
+      "2026-04-23"
+    ],
+    "rawSchedule": "23.04.2026 (czwartek) od godz. 16:00 do 19:00"
+  },
+  {
+    "id": "LO św.Rity",
+    "fullName": "Publiczne Liceum Ogólnokształcące Zgromadzenia Sióstr Augustianek im. św. Rity",
+    "address": "ul. Skałeczna 10",
+    "postalCode": "31-065",
+    "lat": 50.0489562,
+    "lon": 19.9410208,
+    "openDays": [
+      "2026-04-09",
+      "2026-05-28"
+    ],
+    "rawSchedule": "09.04.2026 i 28.05.2026 o godz. 17.00"
+  },
+  {
+    "id": "Publiczne LO im. Królowej Apostołów - Pallotyńskie",
+    "fullName": "Publiczne Liceum Ogólnokształcące im. Królowej Apostołów (Pallotyńskie)",
+    "address": "ul. Bulwarowa 33",
+    "postalCode": "31-751",
+    "lat": 50.0818906,
+    "lon": 20.0468764,
+    "openDays": [
+      "2026-04-17"
+    ],
+    "rawSchedule": "17.04.2026 (piątek) godz. 16:00 - 18:30"
+  },
+  {
+    "id": "Publiczne Salezjańskie Liceum Ogólnokształcące",
+    "fullName": "Publiczne Salezjańskie Liceum Ogólnokształcące",
+    "address": "os. Piastów 34",
+    "postalCode": "31-624",
+    "lat": 50.0988742,
+    "lon": 20.0180981,
+    "openDays": [
+      "2026-04-18"
+    ],
+    "rawSchedule": "18.04.2026 10:00 - 14:00"
+  }
+]

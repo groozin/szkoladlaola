@@ -1,0 +1,177 @@
+{
+  "I LO": {
+    "fullName": "I Liceum Ogólnokształcące im. Bartłomieja Nowodworskiego",
+    "address": "Plac na Groblach 9",
+    "postalCode": "31-101"
+  },
+  "II LO": {
+    "fullName": "II Liceum Ogólnokształcące im. Króla Jana III Sobieskiego",
+    "address": "ul. Jana Sobieskiego 9",
+    "postalCode": "31-136"
+  },
+  "III LO": {
+    "fullName": "III Liceum Ogólnokształcące im. Jana Kochanowskiego",
+    "address": "os. Wysokie 6",
+    "postalCode": "31-818"
+  },
+  "IV LO": {
+    "fullName": "IV Liceum Ogólnokształcące im. Tadeusza Kościuszki",
+    "address": "ul. Krzemionki 11",
+    "postalCode": "30-525"
+  },
+  "V LO": {
+    "fullName": "V Liceum Ogólnokształcące im. Augusta Witkowskiego",
+    "address": "ul. Studencka 12",
+    "postalCode": "31-116"
+  },
+  "VI LO": {
+    "fullName": "VI Liceum Ogólnokształcące im. Adama Mickiewicza",
+    "address": "ul. Wąska 7",
+    "postalCode": "31-057"
+  },
+  "VII LO": {
+    "fullName": "VII Liceum Ogólnokształcące im. Zofii Nałkowskiej",
+    "address": "ul. Skarbińskiego 5",
+    "postalCode": "30-071"
+  },
+  "VIII LO": {
+    "fullName": "VIII Liceum Ogólnokształcące im. Stanisława Wyspiańskiego",
+    "address": "ul. Grzegórzecka 24",
+    "postalCode": "31-531"
+  },
+  "IX LO": {
+    "fullName": "IX Liceum Ogólnokształcące im. Zygmunta Wróblewskiego",
+    "address": "ul. Kazimierza Czapińskiego 5",
+    "postalCode": "30-048"
+  },
+  "X LO": {
+    "fullName": "X Liceum Ogólnokształcące im. Komisji Edukacji Narodowej",
+    "address": "ul. Zygmunta Wróblewskiego 8",
+    "postalCode": "31-148"
+  },
+  "XI LO": {
+    "fullName": "XI Liceum Ogólnokształcące im. Marii Dąbrowskiej",
+    "address": "os. Teatralne 33",
+    "postalCode": "31-948"
+  },
+  "XII LO": {
+    "fullName": "XII Liceum Ogólnokształcące im. Cypriana Kamila Norwida",
+    "address": "os. Kolorowe 29a",
+    "postalCode": "31-941"
+  },
+  "XIII LO": {
+    "fullName": "XIII Liceum Ogólnokształcące im. Bohaterów Westerplatte",
+    "address": "ul. Sądowa 4",
+    "postalCode": "31-542"
+  },
+  "XIV LO": {
+    "fullName": "XIV Liceum Ogólnokształcące im. Mikołaja Kopernika",
+    "address": "ul. Józefa Chełmońskiego 24",
+    "postalCode": "31-322"
+  },
+  "XV LO": {
+    "fullName": "XV Liceum Ogólnokształcące im. Marii Skłodowskiej-Curie",
+    "address": "al. Adolfa Dygasińskiego 15",
+    "postalCode": "30-820"
+  },
+  "XVI LO": {
+    "fullName": "XVI Liceum Ogólnokształcące im. Krzysztofa Kamila Baczyńskiego",
+    "address": "os. Willowe 1",
+    "postalCode": "31-901"
+  },
+  "XVII LO": {
+    "fullName": "XVII Liceum Ogólnokształcące im. Młodej Polski",
+    "address": "ul. Złoty Róg 30",
+    "postalCode": "30-095"
+  },
+  "XVIII LO": {
+    "fullName": "XVIII Liceum Ogólnokształcące im. Prof. Akademii Krakowskiej Św. Jana Kantego",
+    "address": "ul. Na Błonie 15b",
+    "postalCode": "30-147"
+  },
+  "XX LO": {
+    "fullName": "XX Liceum Ogólnokształcące im. Leopolda Staffa",
+    "address": "ul. Szlak 5",
+    "postalCode": "31-161"
+  },
+  "XXI LO": {
+    "fullName": "XXI Liceum Ogólnokształcące im. Stanisława Ignacego Witkiewicza-Witkacego",
+    "address": "os. Tysiąclecia 15",
+    "postalCode": "31-606"
+  },
+  "XXIII LO": {
+    "fullName": "XXIII Liceum Ogólnokształcące im. płk. pil. Stanisława Skarżyńskiego",
+    "address": "ul. Seniorów Lotnictwa 5",
+    "postalCode": "31-455"
+  },
+  "XXIV LO": {
+    "fullName": "XXIV Liceum Ogólnokształcące im. Jana Pawła II",
+    "address": "ul. Wilhelma Wilka Wyrwińskiego 1",
+    "postalCode": "31-517"
+  },
+  "XXV LO": {
+    "fullName": "XXV Liceum Ogólnokształcące im. Stefana Żeromskiego",
+    "address": "ul. Telimeny 9",
+    "postalCode": "30-838"
+  },
+  "XXVI LO": {
+    "fullName": "XXVI Liceum Ogólnokształcące",
+    "address": "ul. Krupnicza 44",
+    "postalCode": "31-123"
+  },
+  "XXVII LO": {
+    "fullName": "XXVII Liceum Ogólnokształcące im. dr. Henryka Jordana",
+    "address": "ul. Senatorska 35",
+    "postalCode": "30-106"
+  },
+  "XXVIII LO": {
+    "fullName": "XXVIII Liceum Ogólnokształcące im. Wojciecha Bednarskiego",
+    "address": "ul. Tadeusza Czackiego 11",
+    "postalCode": "30-501"
+  },
+  "XXX LO": {
+    "fullName": "XXX Liceum Ogólnokształcące im. św. Brata Alberta – Adama Chmielowskiego",
+    "address": "os. Dywizjonu 303 66",
+    "postalCode": "31-875"
+  },
+  "XXXI LO": {
+    "fullName": "XXXI Liceum Ogólnokształcące im. Romana Ingardena",
+    "address": "ul. Kazimierza Odnowiciela 2",
+    "postalCode": "31-481"
+  },
+  "XLI LO": {
+    "fullName": "XLI Liceum Ogólnokształcące im. ks. Jana Twardowskiego",
+    "address": "Rynek Kleparski 18",
+    "postalCode": "31-150"
+  },
+  "XLII LO": {
+    "fullName": "XLII Liceum Ogólnokształcące im. Adama Mickiewicza",
+    "address": "ul. Studencka 13",
+    "postalCode": "31-116"
+  },
+  "XLIII LO": {
+    "fullName": "XLIII Liceum Ogólnokształcące im. Zofii Chrzanowskiej",
+    "address": "ul. Bolesława Limanowskiego 60-62",
+    "postalCode": "30-534"
+  },
+  "XLIV LO": {
+    "fullName": "XLIV Liceum Ogólnokształcące im. ks. Stanisława Konarskiego",
+    "address": "ul. Bernardyńska 7",
+    "postalCode": "31-069"
+  },
+  "Publiczne Salezjańskie Liceum Ogólnokształcące": {
+    "fullName": "Publiczne Salezjańskie Liceum Ogólnokształcące",
+    "address": "os. Piastów 34",
+    "postalCode": "31-624"
+  },
+  "Publiczne LO im. Królowej Apostołów - Pallotyńskie": {
+    "fullName": "Publiczne Liceum Ogólnokształcące im. Królowej Apostołów (Pallotyńskie)",
+    "address": "ul. Bulwarowa 33",
+    "postalCode": "31-751"
+  },
+  "LO św.Rity": {
+    "fullName": "Publiczne Liceum Ogólnokształcące Zgromadzenia Sióstr Augustianek im. św. Rity",
+    "address": "ul. Skałeczna 10",
+    "postalCode": "31-065"
+  }
+}
