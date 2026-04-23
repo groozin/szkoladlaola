@@ -33,6 +33,15 @@ function buildPopupHTML(s: School, today: string): string {
 
   const range = thresholdRange(s.classes);
   const statsBits: string[] = [];
+  if (s.rankMalopolska != null) {
+    const poland =
+      s.rankPoland != null
+        ? ` <span class="opacity-60">·</span> <strong>#${s.rankPoland}</strong> Polska`
+        : "";
+    statsBits.push(
+      `<a class="school-popup-rank" href="https://2025.licea.perspektywy.pl/rankingi/ranking-malopolski" target="_blank" rel="noreferrer" title="Zobacz Ranking Perspektywy 2025">🏆 <strong>#${s.rankMalopolska}</strong> małopolskie${poland}</a>`,
+    );
+  }
   if (s.classes.length > 0) statsBits.push(esc(classesLabel(s.classes.length)));
   if (range) {
     const rangeStr =

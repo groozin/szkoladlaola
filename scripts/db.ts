@@ -45,6 +45,8 @@ export function runMigrations(db: Database.Database) {
       otouczelnie_id    INTEGER UNIQUE,
       otouczelnie_url   TEXT,
       pdf_raw_schedule  TEXT,             -- original Polish free-text from PDF cell
+      rank_malopolska   INTEGER,          -- Perspektywy 2025 wojewódzki rank (Małopolska)
+      rank_poland       INTEGER,          -- Perspektywy 2025 national rank
       notes             TEXT
     );
 

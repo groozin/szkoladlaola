@@ -15,6 +15,8 @@
     "inPdf": true,
     "website": "https://www.nowodworek.krakow.pl/",
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/288/I-LO-im-Bartlomieja-Nowodworskiego",
+    "rankMalopolska": 2,
+    "rankPoland": 12,
     "classesYear": "2026/2027",
     "classes": [
       {
@@ -201,6 +203,8 @@
     "inPdf": false,
     "website": null,
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/3026/I-LO-Sportowe",
+    "rankMalopolska": 84,
+    "rankPoland": 943,
     "classesYear": null,
     "classes": []
   },
@@ -220,6 +224,8 @@
     "inPdf": true,
     "website": "https://www.sobieski.krakow.pl/",
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/289/II-LO-im-Krola-Jana-III-Sobieskiego",
+    "rankMalopolska": 4,
+    "rankPoland": 34,
     "classesYear": "2026/2027",
     "classes": [
       {
@@ -425,6 +431,8 @@
     "inPdf": true,
     "website": "https://3liceum-krakow.pl/",
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/290/III-LO-im-Jana-Kochanowskiego",
+    "rankMalopolska": 19,
+    "rankPoland": 192,
     "classesYear": "2026/2027",
     "classes": [
       {
@@ -593,6 +601,8 @@
     "inPdf": true,
     "website": "https://www.iv-lo.krakow.pl/",
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/291/IV-LO-im-Tadeusza-Kosciuszki",
+    "rankMalopolska": 14,
+    "rankPoland": 164,
     "classesYear": "2026/2027",
     "classes": [
       {
@@ -813,6 +823,8 @@
     "inPdf": true,
     "website": "https://www.v-lo.krakow.pl/",
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/292/V-LO-im-Augusta-Witkowskiego",
+    "rankMalopolska": 1,
+    "rankPoland": 2,
     "classesYear": "2026/2027",
     "classes": [
       {
@@ -1025,6 +1037,8 @@
     "inPdf": true,
     "website": "https://vilo.krakow.pl/",
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/293/VI-LO-im-Adama-Mickiewicza",
+    "rankMalopolska": 7,
+    "rankPoland": 82,
     "classesYear": "2026/2027",
     "classes": [
       {
@@ -1145,6 +1159,8 @@
     "inPdf": true,
     "website": "https://vii-lo.krakow.pl/",
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/294/VII-LO-im-Zofii-Nalkowskiej",
+    "rankMalopolska": 10,
+    "rankPoland": 110,
     "classesYear": "2026/2027",
     "classes": [
       {
@@ -1333,6 +1349,8 @@
     "inPdf": true,
     "website": "https://www.viii-lo.krakow.pl/",
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/295/VIII-LO-im-Stanislawa-Wyspianskiego",
+    "rankMalopolska": 5,
+    "rankPoland": 59,
     "classesYear": "2026/2027",
     "classes": [
       {
@@ -1514,6 +1532,8 @@
     "inPdf": true,
     "website": "https://www.wroblewski.krakow.pl/",
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/296/IX-LO-im-Zygmunta-Wroblewskiego",
+    "rankMalopolska": 46,
+    "rankPoland": 504,
     "classesYear": "2026/2027",
     "classes": [
       {
@@ -1700,6 +1720,8 @@
     "inPdf": true,
     "website": "https://x-lokrakow.edupage.org/",
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/297/X-LO-im-Komisji-Edukacji-Narodowej",
+    "rankMalopolska": 20,
+    "rankPoland": 213,
     "classesYear": "2026/2027",
     "classes": [
       {
@@ -1889,6 +1911,8 @@
     "inPdf": true,
     "website": "https://xilo.krakow.pl/",
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/298/XI-LO-im-Marii-Dabrowskiej",
+    "rankMalopolska": 40,
+    "rankPoland": 408,
     "classesYear": "2026/2027",
     "classes": [
       {
@@ -2056,6 +2080,8 @@
     "inPdf": true,
     "website": "https://12liceum.edu.pl/",
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/299/XII-LO-im-Cypriana-Norwida",
+    "rankMalopolska": 60,
+    "rankPoland": 652,
     "classesYear": "2026/2027",
     "classes": [
       {
@@ -2214,6 +2240,8 @@
     "inPdf": true,
     "website": "https://xiii-lo.krakow.pl/",
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/300/XIII-LO-im-Obroncow-Westerplatte",
+    "rankMalopolska": 28,
+    "rankPoland": 287,
     "classesYear": "2026/2027",
     "classes": [
       {
@@ -2381,6 +2409,8 @@
     "inPdf": true,
     "website": "https://xiv-lo.krakow.pl/",
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/3032/XIV-LO",
+    "rankMalopolska": null,
+    "rankPoland": null,
     "classesYear": "2026/2027",
     "classes": [
       {
@@ -2511,6 +2541,8 @@
     "inPdf": true,
     "website": "https://xvlo.pl/",
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/301/XV-LO-im-Marii-Sklodowskiej-Curie",
+    "rankMalopolska": 69,
+    "rankPoland": 754,
     "classesYear": "2026/2027",
     "classes": [
       {
@@ -2665,6 +2697,8 @@
     "inPdf": true,
     "website": "https://liceum16.krakow.pl/",
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/3040/XVI-LO-im-Krzysztofa-Kamila-Baczynskiego",
+    "rankMalopolska": 106,
+    "rankPoland": 1000,
     "classesYear": "2026/2027",
     "classes": [
       {
@@ -2961,6 +2995,8 @@
     "inPdf": true,
     "website": null,
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/302/XVII-LO-im-Mlodej-Polski",
+    "rankMalopolska": 115,
+    "rankPoland": 1000,
     "classesYear": "2026/2027",
     "classes": [
       {
@@ -3028,6 +3064,8 @@
     "inPdf": true,
     "website": "https://xviiilo.krakow.pl/",
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/3041/XVIII-LO",
+    "rankMalopolska": 129,
+    "rankPoland": 1000,
     "classesYear": "2026/2027",
     "classes": [
       {
@@ -3162,6 +3200,8 @@
     "inPdf": true,
     "website": "http://xxlo-krakow.edu.pl/",
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/303/XX-LO-im-Leopolda-Staffa",
+    "rankMalopolska": 57,
+    "rankPoland": 616,
     "classesYear": "2026/2027",
     "classes": [
       {
@@ -3307,6 +3347,8 @@
     "inPdf": true,
     "website": "https://21lo-krakow.pl/",
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/3172/XXI-Liceum-Ogolnoksztalcace-im-Stanislawa-Ignacego-Witkiewicza-witkacego-w-Krakowie",
+    "rankMalopolska": null,
+    "rankPoland": null,
     "classesYear": null,
     "classes": []
   },
@@ -3327,6 +3369,8 @@
     "inPdf": true,
     "website": "https://xxiiilo.krakow.pl/",
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/3042/XXIII-LO",
+    "rankMalopolska": 91,
+    "rankPoland": 1000,
     "classesYear": "2026/2027",
     "classes": [
       {
@@ -3415,6 +3459,8 @@
     "inPdf": true,
     "website": "https://xxivliceumkrakow.edupage.org/",
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/3043/XXIV-LO-im-sw-Jana-Pawla-II",
+    "rankMalopolska": 100,
+    "rankPoland": 1000,
     "classesYear": "2026/2027",
     "classes": [
       {
@@ -3566,6 +3612,8 @@
     "inPdf": true,
     "website": "https://www.xxvlo.pl/",
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/3045/XXV-LO",
+    "rankMalopolska": null,
+    "rankPoland": null,
     "classesYear": "2026/2027",
     "classes": [
       {
@@ -3689,6 +3737,8 @@
     "inPdf": true,
     "website": "https://zschkrakow.pl/",
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/304/XXVI-LO-w-ZSC-im-Marii-Sklodowskiej-Curie",
+    "rankMalopolska": 90,
+    "rankPoland": 1000,
     "classesYear": null,
     "classes": []
   },
@@ -3709,6 +3759,8 @@
     "inPdf": true,
     "website": "https://zso18.krakow.pl/liceum/",
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/3046/XXVII-LO-im-dra-Henryka-Jordana",
+    "rankMalopolska": 75,
+    "rankPoland": 823,
     "classesYear": "2026/2027",
     "classes": [
       {
@@ -3868,6 +3920,8 @@
     "inPdf": true,
     "website": "https://www.28lo.pl/",
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/305/XXVIII-LO-im-Wojciecha-Bednarskiego",
+    "rankMalopolska": 94,
+    "rankPoland": 1000,
     "classesYear": "2026/2027",
     "classes": [
       {
@@ -3970,6 +4024,8 @@
     "inPdf": false,
     "website": "https://zsodz1.pl/",
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/3044/XXIX-LO",
+    "rankMalopolska": null,
+    "rankPoland": null,
     "classesYear": "2026/2027",
     "classes": [
       {
@@ -4012,6 +4068,8 @@
     "inPdf": true,
     "website": "https://xxxlo.krakow.pl/",
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/3047/XXX-LO",
+    "rankMalopolska": null,
+    "rankPoland": null,
     "classesYear": "2026/2027",
     "classes": [
       {
@@ -4165,6 +4223,8 @@
     "inPdf": true,
     "website": null,
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/3155/XXXI-LO-im-Romana-Ingardena",
+    "rankMalopolska": 111,
+    "rankPoland": 1000,
     "classesYear": null,
     "classes": []
   },
@@ -4184,6 +4244,8 @@
     "inPdf": true,
     "website": "https://www.xlilo.krakow.pl/",
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/3033/XLI-LO",
+    "rankMalopolska": 82,
+    "rankPoland": 918,
     "classesYear": "2026/2027",
     "classes": [
       {
@@ -4310,6 +4372,8 @@
     "inPdf": true,
     "website": "https://lo42krakow.pl/",
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/3034/XLII-LO",
+    "rankMalopolska": 15,
+    "rankPoland": 173,
     "classesYear": "2026/2027",
     "classes": [
       {
@@ -4422,6 +4486,8 @@
     "inPdf": true,
     "website": "https://lo43krakow.pl/",
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/3035/XLIII-LO",
+    "rankMalopolska": 93,
+    "rankPoland": 1000,
     "classesYear": "2026/2027",
     "classes": [
       {
@@ -4534,6 +4600,8 @@
     "inPdf": true,
     "website": "http://www.lo44.krakow.pl/",
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/3039/XLIV-LO",
+    "rankMalopolska": 54,
+    "rankPoland": 565,
     "classesYear": "2026/2027",
     "classes": [
       {
@@ -4639,6 +4707,8 @@
     "inPdf": false,
     "website": "https://xlvilo.edupage.org/",
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/6464/XLVI-LO-w-Krakowie",
+    "rankMalopolska": null,
+    "rankPoland": null,
     "classesYear": "2026/2027",
     "classes": [
       {
@@ -4723,6 +4793,8 @@
     "inPdf": false,
     "website": "https://zsz2.edu.pl/",
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/6465/XLVII-LO-w-Krakowie",
+    "rankMalopolska": null,
+    "rankPoland": null,
     "classesYear": null,
     "classes": []
   },
@@ -4740,6 +4812,8 @@
     "inPdf": false,
     "website": null,
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-w-Krakowie/5047/Akademickie-Liceum-Ogolnoksztalcace-emmanuel",
+    "rankMalopolska": null,
+    "rankPoland": null,
     "classesYear": null,
     "classes": []
   },
@@ -4757,6 +4831,8 @@
     "inPdf": false,
     "website": null,
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-w-Krakowie/5513/Da-Vinci-Spoleczne-Liceum-Ogolnoksztalcace-W-Krakowie",
+    "rankMalopolska": null,
+    "rankPoland": null,
     "classesYear": null,
     "classes": []
   },
@@ -4774,6 +4850,8 @@
     "inPdf": false,
     "website": null,
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-w-Krakowie/3277/I-Prywatne-Liceum-Ogolnoksztalcace-im-Marszalka-J-Pilsudskiego",
+    "rankMalopolska": null,
+    "rankPoland": null,
     "classesYear": null,
     "classes": []
   },
@@ -4791,6 +4869,8 @@
     "inPdf": false,
     "website": null,
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-w-Krakowie/3209/I-Spoleczne-Liceum-Ogolnoksztalcace-im-X-B-W-Ignacego-Krasickiego-W-Krakowie",
+    "rankMalopolska": null,
+    "rankPoland": null,
     "classesYear": null,
     "classes": []
   },
@@ -4808,6 +4888,8 @@
     "inPdf": false,
     "website": null,
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-w-Krakowie/3344/Iii-Prywatne-Liceum-Ogolnoksztalcace",
+    "rankMalopolska": 119,
+    "rankPoland": 1000,
     "classesYear": null,
     "classes": []
   },
@@ -4825,6 +4907,8 @@
     "inPdf": false,
     "website": null,
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-w-Krakowie/3269/Iii-Spoleczne-Liceum-Ogolnoksztalcace-im-Juliusza-Slowackiego-Spolecznego-Towarzystwa-Oswiatowego-W-Krakowie",
+    "rankMalopolska": null,
+    "rankPoland": null,
     "classesYear": null,
     "classes": []
   },
@@ -4842,6 +4926,8 @@
     "inPdf": false,
     "website": null,
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-w-Krakowie/3248/Iv-Prywatne-Liceum-Ogolnoksztalcace-im-Krolow-Polskich-W-Krakowie",
+    "rankMalopolska": 80,
+    "rankPoland": 899,
     "classesYear": null,
     "classes": []
   },
@@ -4859,6 +4945,8 @@
     "inPdf": false,
     "website": null,
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-w-Krakowie/3278/Ix-Prywatne-Liceum-Ogolnoksztalcace",
+    "rankMalopolska": 105,
+    "rankPoland": 1000,
     "classesYear": null,
     "classes": []
   },
@@ -4876,6 +4964,8 @@
     "inPdf": false,
     "website": null,
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-w-Krakowie/5159/Katolickie-Liceum-Montessori-im-Sprawiedliwych-Wsrod-Narodow-Swiata",
+    "rankMalopolska": 44,
+    "rankPoland": 467,
     "classesYear": null,
     "classes": []
   },
@@ -4893,6 +4983,8 @@
     "inPdf": false,
     "website": null,
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/308/Katolickie-LO-im-Swietej-Rodziny-z-Nazaretu",
+    "rankMalopolska": 62,
+    "rankPoland": 674,
     "classesYear": "2026/2027",
     "classes": [
       {
@@ -4944,6 +5036,8 @@
     "inPdf": false,
     "website": null,
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-w-Krakowie/5133/Kolegium-Europejskie-Europejskie-Niepubliczne-Liceum-Ogolnoksztalcace-W-Krakowie",
+    "rankMalopolska": null,
+    "rankPoland": null,
     "classesYear": null,
     "classes": []
   },
@@ -4961,6 +5055,8 @@
     "inPdf": false,
     "website": null,
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-w-Krakowie/4945/Krakowskie-Prywatne-Liceum-Ogolnoksztalcace-im-Krola-Jana-Iii-Sobieskiego-W-Krakowie",
+    "rankMalopolska": null,
+    "rankPoland": null,
     "classesYear": null,
     "classes": []
   },
@@ -4978,6 +5074,8 @@
     "inPdf": false,
     "website": "https://kostka.edu.pl/",
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/3027/Liceum-Jezuitow-im-sw-Stanislawa-Kostki",
+    "rankMalopolska": null,
+    "rankPoland": null,
     "classesYear": "2026/2027",
     "classes": [
       {
@@ -5105,6 +5203,8 @@
     "inPdf": false,
     "website": null,
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/5505/Liceum-Ogolnoksztalcace-im-Bogdana-Janskiego-w-Krakowie",
+    "rankMalopolska": null,
+    "rankPoland": null,
     "classesYear": null,
     "classes": []
   },
@@ -5122,6 +5222,8 @@
     "inPdf": false,
     "website": "https://zsoms.eu/",
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/3152/Liceum-Ogolnoksztalcace-Mistrzostwa-Sportowego",
+    "rankMalopolska": 95,
+    "rankPoland": 1000,
     "classesYear": "2026/2027",
     "classes": [
       {
@@ -5224,6 +5326,8 @@
     "inPdf": false,
     "website": null,
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-w-Krakowie/5041/Liceum-Ogolnoksztalcace-Z-Oddzialem-Dwujezycznym-im-Piotra-Michalowskiego-Tssp",
+    "rankMalopolska": null,
+    "rankPoland": null,
     "classesYear": null,
     "classes": []
   },
@@ -5241,6 +5345,8 @@
     "inPdf": false,
     "website": null,
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-w-Krakowie/3285/Liceum-Ogolnoksztalcace-Zakonu-Pijarow-im-Ks-Stanislawa-Konarskiego",
+    "rankMalopolska": 16,
+    "rankPoland": 183,
     "classesYear": null,
     "classes": []
   },
@@ -5258,6 +5364,8 @@
     "inPdf": false,
     "website": "https://www.zszhs.krakow.pl/",
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/3028/LO-Huty-im-Tadeusza-Sendzimira",
+    "rankMalopolska": null,
+    "rankPoland": null,
     "classesYear": null,
     "classes": []
   },
@@ -5275,6 +5383,8 @@
     "inPdf": false,
     "website": "https://szkolyprezentekkrakow.pl/",
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/307/LO-Siostr-Prezentek",
+    "rankMalopolska": null,
+    "rankPoland": null,
     "classesYear": "2026/2027",
     "classes": [
       {
@@ -5354,6 +5464,8 @@
     "inPdf": true,
     "website": null,
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/3030/LO-sw-Rity",
+    "rankMalopolska": 26,
+    "rankPoland": 251,
     "classesYear": "2026/2027",
     "classes": [
       {
@@ -5423,6 +5535,8 @@
     "inPdf": false,
     "website": null,
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-w-Krakowie/5134/Niepubliczne-Chrzescijanskie-Liceum-Ogolnoksztalcace-uczen",
+    "rankMalopolska": null,
+    "rankPoland": null,
     "classesYear": null,
     "classes": []
   },
@@ -5440,6 +5554,8 @@
     "inPdf": false,
     "website": null,
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-w-Krakowie/5338/Niepubliczne-Dwujezyczne-Liceum-Ogolnoksztalcace-Da-Vincis-International-High-School",
+    "rankMalopolska": null,
+    "rankPoland": null,
     "classesYear": null,
     "classes": []
   },
@@ -5457,6 +5573,8 @@
     "inPdf": false,
     "website": null,
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-w-Krakowie/5483/Niepubliczne-Dwujezyczne-Liceum-Ogolnoksztalcace-Open-Future-International-School-W-Krakowie",
+    "rankMalopolska": null,
+    "rankPoland": null,
     "classesYear": null,
     "classes": []
   },
@@ -5474,6 +5592,8 @@
     "inPdf": false,
     "website": null,
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-w-Krakowie/5088/Niepubliczne-Liceum-Ogolnoksztalcace-wolna-Szkola",
+    "rankMalopolska": null,
+    "rankPoland": null,
     "classesYear": null,
     "classes": []
   },
@@ -5491,6 +5611,8 @@
     "inPdf": false,
     "website": null,
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-w-Krakowie/5304/Niepubliczne-Liceum-Ogolnoksztalcace-Cracow-International-School",
+    "rankMalopolska": null,
+    "rankPoland": null,
     "classesYear": null,
     "classes": []
   },
@@ -5508,6 +5630,8 @@
     "inPdf": false,
     "website": null,
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-w-Krakowie/5582/Niepubliczne-Liceum-Ogolnoksztalcace-Mistrzostwa-Sportowego-W-Krakowie",
+    "rankMalopolska": null,
+    "rankPoland": null,
     "classesYear": null,
     "classes": []
   },
@@ -5525,6 +5649,8 @@
     "inPdf": false,
     "website": null,
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-w-Krakowie/5501/Niepubliczne-Liceum-Ogolnoksztalcace-Sternik-Krakow",
+    "rankMalopolska": null,
+    "rankPoland": null,
     "classesYear": null,
     "classes": []
   },
@@ -5542,6 +5668,8 @@
     "inPdf": false,
     "website": null,
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-w-Krakowie/3924/Niepubliczne-Liceum-Ogolnoksztalcace-Szkoly-Sportowej-Pilki-Noznej-im-Generala-Bernarda-Monda",
+    "rankMalopolska": null,
+    "rankPoland": null,
     "classesYear": null,
     "classes": []
   },
@@ -5559,6 +5687,8 @@
     "inPdf": false,
     "website": null,
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/6383/Ogolnoksztalcaca-Szkola-Muzyczna-II-St-w-Krakowie",
+    "rankMalopolska": null,
+    "rankPoland": null,
     "classesYear": null,
     "classes": []
   },
@@ -5576,6 +5706,8 @@
     "inPdf": false,
     "website": null,
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/6362/Panstwowa-Ogolnoksztalcaca-Szkola-Muzyczna-II-St-im-Fryderyka-Chopina-w-Krakowie",
+    "rankMalopolska": null,
+    "rankPoland": null,
     "classesYear": null,
     "classes": []
   },
@@ -5593,6 +5725,8 @@
     "inPdf": false,
     "website": null,
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/6417/Panstwowe-Liceum-Sztuk-Plastycznych-im-Jozefa-Kluzy-w-Krakowie",
+    "rankMalopolska": 49,
+    "rankPoland": 515,
     "classesYear": null,
     "classes": []
   },
@@ -5610,6 +5744,8 @@
     "inPdf": false,
     "website": null,
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-w-Krakowie/5229/Prywatne-Liceum-Ogolnoksztalcace-Z-Oddzialami-Dwujezycznymi-im-Noblistow-Polskich",
+    "rankMalopolska": null,
+    "rankPoland": null,
     "classesYear": null,
     "classes": []
   },
@@ -5627,6 +5763,8 @@
     "inPdf": false,
     "website": null,
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/4558/Publiczne-Liceum-Ogolnoksztalcace-Specjalne-im-Swietej-Siostry-Faustyny",
+    "rankMalopolska": null,
+    "rankPoland": null,
     "classesYear": null,
     "classes": []
   },
@@ -5646,6 +5784,8 @@
     "inPdf": true,
     "website": "https://liceum.pallotyni.edu.pl/",
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/3031/Publiczne-LO-im-Krolowej-Apostolow",
+    "rankMalopolska": null,
+    "rankPoland": null,
     "classesYear": "2026/2027",
     "classes": [
       {
@@ -5781,6 +5921,8 @@
     "inPdf": false,
     "website": "https://dominik.edu.pl/",
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/3029/Publiczne-LO-Siostr-Salezjanek-im-Swietego-Dominika-Savio",
+    "rankMalopolska": null,
+    "rankPoland": null,
     "classesYear": "2026/2027",
     "classes": [
       {
@@ -5916,6 +6058,8 @@
     "inPdf": true,
     "website": "https://salezjanie.com/",
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/306/Publiczne-Salezjanskie-LO",
+    "rankMalopolska": 22,
+    "rankPoland": 232,
     "classesYear": "2026/2027",
     "classes": [
       {
@@ -6073,6 +6217,8 @@
     "inPdf": false,
     "website": null,
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-w-Krakowie/3485/Spoleczne-Liceum-Ogolnoksztalcace-Mistrzostwa-Sportowego",
+    "rankMalopolska": null,
+    "rankPoland": null,
     "classesYear": null,
     "classes": []
   },
@@ -6090,6 +6236,8 @@
     "inPdf": false,
     "website": null,
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-w-Krakowie/4954/Szkola-Mistrzostwa-Sportowego-Liceum-Ogolnoksztalcace-Marcina-Gortata",
+    "rankMalopolska": null,
+    "rankPoland": null,
     "classesYear": null,
     "classes": []
   },
@@ -6107,6 +6255,8 @@
     "inPdf": false,
     "website": null,
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-w-Krakowie/3270/V-Prywatne-Liceum-Ogolnoksztalcace-W-Krakowie-im-Krolowej-Jadwigi",
+    "rankMalopolska": 96,
+    "rankPoland": 1000,
     "classesYear": null,
     "classes": []
   },
@@ -6124,6 +6274,8 @@
     "inPdf": false,
     "website": null,
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-w-Krakowie/3257/Vii-Prywatne-Liceum-Ogolnoksztalcace-im-Mikolaja-Reja-W-Krakowie",
+    "rankMalopolska": 3,
+    "rankPoland": 26,
     "classesYear": null,
     "classes": []
   },
@@ -6141,6 +6293,8 @@
     "inPdf": false,
     "website": null,
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-w-Krakowie/3267/Viii-Prywatne-Akademickie-Liceum-Ogolnoksztalcace",
+    "rankMalopolska": 13,
+    "rankPoland": 136,
     "classesYear": null,
     "classes": []
   },
@@ -6158,6 +6312,8 @@
     "inPdf": false,
     "website": null,
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/4714/XIX-Liceum-Ogolnoksztalcace-Specjalne-w-Krakowie",
+    "rankMalopolska": null,
+    "rankPoland": null,
     "classesYear": "2026/2027",
     "classes": [
       {
@@ -6187,6 +6343,8 @@
     "inPdf": false,
     "website": null,
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/3403/XL-Liceum-Ogolnoksztalcace-Specjalne-Dla-Nieslyszacych-w-Krakowie",
+    "rankMalopolska": null,
+    "rankPoland": null,
     "classesYear": null,
     "classes": []
   },
@@ -6204,6 +6362,8 @@
     "inPdf": false,
     "website": "https://elektryk2.krakow.pl/",
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/3223/XXII-Liceum-Ogolnoksztalcace-im-Generala-Bronislawa-Ducha-w-Krakowie",
+    "rankMalopolska": null,
+    "rankPoland": null,
     "classesYear": null,
     "classes": []
   },
@@ -6221,6 +6381,8 @@
     "inPdf": false,
     "website": null,
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/3215/XXXIV-Liceum-Ogolnoksztalcace-Specjalne-im-Profesor-Marii-Orwid-w-Krakowie",
+    "rankMalopolska": null,
+    "rankPoland": null,
     "classesYear": null,
     "classes": []
   },
@@ -6238,6 +6400,8 @@
     "inPdf": false,
     "website": null,
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/5068/XXXIX-Liceum-Ogolnoksztalcace-Specjalne-w-Krakowie",
+    "rankMalopolska": null,
+    "rankPoland": null,
     "classesYear": null,
     "classes": []
   }

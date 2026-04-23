@@ -2,6 +2,15 @@ import type { School, SchoolClass } from "../types";
 
 export type Scope = "pdf" | "all";
 export type View = "map" | "calendar";
+export type SortMode = "upcoming" | "rank" | "threshold";
+export type SortDir = "asc" | "desc";
+
+/** The direction that makes intuitive sense when switching *to* a given mode. */
+export const DEFAULT_SORT_DIR: Record<SortMode, SortDir> = {
+  upcoming: "asc",     // earliest open day first
+  rank: "asc",         // #1 first
+  threshold: "desc",   // highest próg first (best schools)
+};
 
 export function viewFromUrl(): View {
   if (typeof window === "undefined") return "map";
@@ -24,6 +33,8 @@ export type Filters = {
   scope: Scope;                     // "pdf" = only schools from the PDF; "all" = everything
   hidePast: boolean;                // hide schools whose open days have all passed
   includePrivate: boolean;          // off by default — private schools hidden unless on
+  sort: SortMode;                   // ordering of the visible list
+  sortDir: SortDir;
   /** Show only classes whose threshold >= this. Classes with no threshold
    *  data are hidden whenever this is non-null. */
   thresholdMin: number | null;
@@ -37,11 +48,14 @@ export const DEFAULT_FILTERS: Filters = {
   scope: "pdf",
   hidePast: false,
   includePrivate: false,
+  sort: "upcoming",
+  sortDir: "asc",
   thresholdMin: null,
   subjects: [],
   languages: [],
 };
 
+/** Sort is no longer counted as a "filter" for badges/clear-all purposes. */
 function isNonDefault(f: Filters): Array<keyof Filters> {
   const out: Array<keyof Filters> = [];
   if (f.scope !== DEFAULT_FILTERS.scope) out.push("scope");
@@ -101,10 +115,16 @@ export function filtersFromUrl(): Filters {
   const p = new URLSearchParams(window.location.search);
   const threshold = p.get("threshold");
   const num = threshold != null ? Number(threshold) : NaN;
+  const rawSort = p.get("sort");
+  const rawDir = p.get("sortDir");
+  const sort: SortMode =
+    rawSort === "rank" || rawSort === "threshold" ? rawSort : "upcoming";
   return {
     scope: p.get("scope") === "all" ? "all" : "pdf",
     hidePast: p.get("hidePast") === "1",
     includePrivate: p.get("private") === "1",
+    sort,
+    sortDir: rawDir === "asc" || rawDir === "desc" ? rawDir : DEFAULT_SORT_DIR[sort],
     thresholdMin: Number.isFinite(num) && num > 0 ? num : null,
     subjects: p.get("subjects")?.split(",").filter(Boolean) ?? [],
     languages: p.get("languages")?.split(",").filter(Boolean) ?? [],
@@ -118,6 +138,8 @@ export function writeFiltersToUrl(f: Filters): void {
   if (f.scope !== DEFAULT_FILTERS.scope) p.set("scope", f.scope);
   if (f.hidePast) p.set("hidePast", "1");
   if (f.includePrivate) p.set("private", "1");
+  if (f.sort !== DEFAULT_FILTERS.sort) p.set("sort", f.sort);
+  if (f.sortDir !== DEFAULT_SORT_DIR[f.sort]) p.set("sortDir", f.sortDir);
   if (f.thresholdMin != null) p.set("threshold", String(f.thresholdMin));
   if (f.subjects.length) p.set("subjects", f.subjects.join(","));
   if (f.languages.length) p.set("languages", f.languages.join(","));

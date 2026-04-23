@@ -5,6 +5,7 @@ import { displayId } from "../utils/roman";
 import { classDisplay, classesLabel, thresholdRange } from "../utils/classes";
 import { googleCalendarUrl } from "../utils/calendar-export";
 import { scheduleForDate } from "../utils/schedule";
+import { CalendarPlusIcon } from "./CalendarPlusIcon";
 
 export type SchoolListHandle = {
   scrollTo: (id: string) => void;
@@ -113,8 +114,28 @@ export const SchoolList = forwardRef<SchoolListHandle, Props>(function SchoolLis
                 {s.postalCode ? `, ${s.postalCode}` : ""}
               </div>
 
-              {(s.classes.length > 0 || range) && (
+              {(s.classes.length > 0 || range || s.rankMalopolska != null) && (
                 <div className="mt-1.5 flex flex-wrap items-center gap-x-2 gap-y-1 text-[11px] text-slate-600">
+                  {s.rankMalopolska != null && (
+                    <a
+                      href="https://2025.licea.perspektywy.pl/rankingi/ranking-malopolski"
+                      target="_blank"
+                      rel="noreferrer"
+                      onClick={(e) => e.stopPropagation()}
+                      title="Zobacz Ranking Perspektywy 2025"
+                      className="rounded bg-yellow-100 px-1.5 py-0.5 text-yellow-900 ring-1 ring-yellow-400/60 hover:bg-yellow-200"
+                    >
+                      🏆 <span className="font-semibold tabular-nums">#{s.rankMalopolska}</span>{" "}
+                      małopolskie
+                      {s.rankPoland != null && (
+                        <>
+                          {" "}
+                          <span className="opacity-60">·</span>{" "}
+                          <span className="font-semibold tabular-nums">#{s.rankPoland}</span> Polska
+                        </>
+                      )}
+                    </a>
+                  )}
                   {s.classes.length > 0 && <span>📚 {classesLabel(s.classes.length)}</span>}
                   {range && (
                     <span className="rounded bg-amber-100 px-1.5 py-0.5 text-amber-900 ring-1 ring-amber-300/50">
@@ -156,9 +177,9 @@ export const SchoolList = forwardRef<SchoolListHandle, Props>(function SchoolLis
                             onClick={(e) => e.stopPropagation()}
                             title="Dodaj do Google Calendar"
                             aria-label="Dodaj do Google Calendar"
-                            className="leading-none opacity-60 hover:opacity-100"
+                            className="inline-flex items-center opacity-60 hover:opacity-100"
                           >
-                            +
+                            <CalendarPlusIcon size={13} />
                           </a>
                         )}
                       </li>

@@ -22,7 +22,9 @@ export type School = {
   inPdf: boolean;                    // appeared in the open-days PDF
   website: string | null;
   otouczelnieUrl: string | null;
-  classesYear: string | null;        // year the class profiles are for
+  rankMalopolska: number | null;      // Perspektywy 2025 Małopolska rank
+  rankPoland: number | null;          // Perspektywy 2025 national rank
+  classesYear: string | null;         // year the class profiles are for
   classes: SchoolClass[];
 };
 

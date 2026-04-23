@@ -4,6 +4,7 @@ import { formatDate } from "../utils/dates";
 import { displayId } from "../utils/roman";
 import { scheduleForDate } from "../utils/schedule";
 import { buildIcsFile, downloadIcs, googleCalendarUrl } from "../utils/calendar-export";
+import { CalendarPlusIcon } from "./CalendarPlusIcon";
 
 type Props = {
   /** Full school dataset — calendar ignores filters on purpose. */
@@ -203,9 +204,9 @@ export function CalendarView({ schools, today, onSelectSchool }: Props) {
                             onClick={(e) => e.stopPropagation()}
                             title="Dodaj do Google Calendar"
                             aria-label="Dodaj do Google Calendar"
-                            className="shrink-0 self-center rounded px-1 text-[11px] font-semibold leading-none opacity-40 hover:bg-black/10 hover:opacity-100 focus:opacity-100"
+                            className="shrink-0 self-center rounded p-0.5 opacity-50 hover:bg-black/10 hover:opacity-100 focus:opacity-100"
                           >
-                            +
+                            <CalendarPlusIcon size={15} />
                           </a>
                         </div>
                       </li>

@@ -28,6 +28,7 @@ import {
   scrapeThresholds,
   type IndexEntry,
 } from "./scrape-otouczelnie.ts";
+import { matchSchool, scrapePerspektywyMalopolska } from "./scrape-perspektywy.ts";
 
 const __dirname = fileURLToPath(new URL(".", import.meta.url));
 const ROOT = resolve(__dirname, "..");
@@ -362,6 +363,40 @@ async function phaseScrapeThresholds(db: Db, entries: Map<string, IndexEntry>) {
   console.log(`           ${schoolsWithData} schools with threshold data, ${totalRows} rows`);
 }
 
+// ---------- Phase 5: Perspektywy ranking ---------------------------
+
+async function phasePerspektywyRanking(db: Db) {
+  console.log("[phase 5] Perspektywy 2025 ranking (Małopolska)");
+  const rows = await scrapePerspektywyMalopolska();
+  console.log(`           ${rows.length} Kraków schools ranked`);
+
+  const schools = db.prepare(`SELECT id, full_name FROM schools`).all() as Array<{
+    id: string;
+    full_name: string;
+  }>;
+  const schoolsForMatch = schools.map((s) => ({ id: s.id, fullName: s.full_name }));
+  const update = db.prepare(
+    `UPDATE schools SET rank_malopolska = ?, rank_poland = ? WHERE id = ?`,
+  );
+  let matched = 0;
+  const unmatched: string[] = [];
+  db.transaction(() => {
+    for (const r of rows) {
+      const id = matchSchool(r.name, schoolsForMatch);
+      if (!id) {
+        unmatched.push(r.name);
+        continue;
+      }
+      update.run(r.rankMalopolska, r.rankPoland, id);
+      matched++;
+    }
+  })();
+  console.log(`           matched ${matched}, unmatched ${unmatched.length}`);
+  if (unmatched.length) {
+    console.log(`           (first 5 unmatched: ${unmatched.slice(0, 5).map((n) => JSON.stringify(n)).join(", ")})`);
+  }
+}
+
 // ---------- Export: DB → JSON the frontend reads -------------------
 
 type FrontendClass = {
@@ -410,12 +445,15 @@ async function exportJsonForFrontend(db: Db) {
     in_pdf: number;
     website: string | null;
     otouczelnie_url: string | null;
+    rank_malopolska: number | null;
+    rank_poland: number | null;
   };
 
   const rows = db
     .prepare(
       `SELECT id, full_name, address, postal_code, district, lat, lon,
-              pdf_raw_schedule, is_public, in_pdf, website, otouczelnie_url
+              pdf_raw_schedule, is_public, in_pdf, website, otouczelnie_url,
+              rank_malopolska, rank_poland
          FROM schools`,
     )
     .all() as SchoolRow[];
@@ -469,6 +507,8 @@ async function exportJsonForFrontend(db: Db) {
         inPdf: r.in_pdf === 1,
         website: r.website,
         otouczelnieUrl: r.otouczelnie_url,
+        rankMalopolska: r.rank_malopolska,
+        rankPoland: r.rank_poland,
         classesYear: classRows[0]?.year ?? null,
         classes,
       };
@@ -512,6 +552,7 @@ async function main() {
     await phaseLandmarks(db);
     await phaseScrapeClasses(db, otouEntries);
     await phaseScrapeThresholds(db, otouEntries);
+    await phasePerspektywyRanking(db);
     await exportJsonForFrontend(db);
     console.log("\n✓ Done");
   } finally {

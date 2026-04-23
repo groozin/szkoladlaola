@@ -96,6 +96,17 @@ html, body, #root {
   color: #475569;
 }
 .school-popup-stats strong { color: #0f172a; font-weight: 600; }
+.school-popup-rank {
+  display: inline-block;
+  padding: 1px 6px;
+  border-radius: 4px;
+  background: #fef9c3;
+  color: #713f12;
+  text-decoration: none;
+  box-shadow: inset 0 0 0 1px rgba(250, 204, 21, 0.6);
+}
+.school-popup-rank:hover { background: #fde68a; }
+.school-popup-rank strong { color: #713f12; font-weight: 700; }
 .school-popup-threshold {
   display: inline-block;
   padding: 1px 6px;

@@ -62,7 +62,11 @@ export function FilterBar({
   const setHidePast = (hidePast: boolean) => onChange({ ...filters, hidePast });
   const setIncludePrivate = (includePrivate: boolean) =>
     onChange({ ...filters, includePrivate });
-  const clearAll = () => onChange({ ...DEFAULT_FILTERS });
+  // Sorting is kept in Filters for URL persistence but handled in SortBar, so
+  // "Wyczyść" here clears only actual filters and leaves the current sort
+  // intact.
+  const clearAll = () =>
+    onChange({ ...DEFAULT_FILTERS, sort: filters.sort, sortDir: filters.sortDir });
 
   const sliderValue = filters.thresholdMin ?? 0;
 

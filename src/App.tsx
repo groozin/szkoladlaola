@@ -6,6 +6,7 @@ import { SchoolList, type SchoolListHandle } from "./components/SchoolList";
 import { MapView } from "./components/MapView";
 import { CalendarView } from "./components/CalendarView";
 import { FilterBar } from "./components/FilterBar";
+import { SortBar } from "./components/SortBar";
 import { nextUpcoming, todayISO, formatDate } from "./utils/dates";
 import {
   applyFiltersToSchool,
@@ -47,13 +48,53 @@ export function App() {
     const step4 = step3
       .map((s) => applyFiltersToSchool(s, filters))
       .filter((s): s is School => s != null);
+
+    // Schools without the relevant data always sort to the bottom; ties fall
+    // back to id for a stable order.
+    const minThreshold = (s: School): number | null => {
+      const vals = s.classes
+        .map((c) => c.thresholdMin)
+        .filter((v): v is number => v != null);
+      return vals.length ? Math.min(...vals) : null;
+    };
+    const nullsLast = <T,>(
+      a: T | null,
+      b: T | null,
+      cmp: (x: T, y: T) => number,
+    ): number => {
+      if (a != null && b != null) return cmp(a, b);
+      if (a != null) return -1;
+      if (b != null) return 1;
+      return 0;
+    };
+    const hasSortKey = (s: School, mode: typeof filters.sort, t: string): boolean => {
+      if (mode === "rank") return s.rankMalopolska != null;
+      if (mode === "threshold") return minThreshold(s) != null;
+      return nextUpcoming(s.openDays, t) != null;
+    };
+
+    const sign = filters.sortDir === "desc" ? -1 : 1;
     step4.sort((a, b) => {
-      const ua = nextUpcoming(a.openDays, today);
-      const ub = nextUpcoming(b.openDays, today);
-      if (ua && ub) return ua.localeCompare(ub);
-      if (ua) return -1;
-      if (ub) return 1;
-      return a.id.localeCompare(b.id);
+      let primary = 0;
+      if (filters.sort === "rank") {
+        primary = nullsLast(a.rankMalopolska, b.rankMalopolska, (x, y) => x - y);
+      } else if (filters.sort === "threshold") {
+        primary = nullsLast(minThreshold(a), minThreshold(b), (x, y) => x - y);
+      } else {
+        primary = nullsLast(
+          nextUpcoming(a.openDays, today),
+          nextUpcoming(b.openDays, today),
+          (x, y) => x.localeCompare(y),
+        );
+      }
+      // Only flip direction when both sides have data — keep the "no data goes
+      // to the bottom" invariant regardless of asc/desc.
+      if (primary !== 0 && a.id && b.id) {
+        const aHas = hasSortKey(a, filters.sort, today);
+        const bHas = hasSortKey(b, filters.sort, today);
+        if (aHas && bHas) primary *= sign;
+      }
+      return primary !== 0 ? primary : a.id.localeCompare(b.id);
     });
     return step4;
   }, [today, filters]);
@@ -81,7 +122,7 @@ export function App() {
     <div className="flex h-full flex-col">
       <header className="border-b border-slate-200 bg-white px-6 py-3">
         <h1 className="text-lg font-semibold text-slate-900">
-          Krakowskie Licea — Dni Otwarte 2026
+          Szkoła dla Ola 2026
         </h1>
         <p className="text-xs text-slate-500">stan na {formatDate(today)}</p>
       </header>
@@ -106,6 +147,7 @@ export function App() {
             totalCount={schools.length}
             visibleCount={visibleSchools.length}
           />
+          <SortBar filters={filters} onChange={setFilters} />
           <div className="flex min-h-0 flex-1">
             <SchoolList
               ref={listRef}
