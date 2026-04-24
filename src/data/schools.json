@@ -3000,6 +3000,21 @@
     "classesYear": "2026/2027",
     "classes": [
       {
+        "code": "0 (wstępna)",
+        "profile": "wstępna",
+        "extendedSubjects": [
+          "biologia",
+          "geografia"
+        ],
+        "recruitmentSubjects": [],
+        "languages": [
+          "angielski",
+          "francuski"
+        ],
+        "thresholdMin": 148.65,
+        "thresholdYear": "2025/2026"
+      },
+      {
         "code": "1A",
         "profile": null,
         "extendedSubjects": [
@@ -3349,8 +3364,52 @@
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/3172/XXI-Liceum-Ogolnoksztalcace-im-Stanislawa-Ignacego-Witkiewicza-witkacego-w-Krakowie",
     "rankMalopolska": null,
     "rankPoland": null,
-    "classesYear": null,
-    "classes": []
+    "classesYear": "2025/2026",
+    "classes": [
+      {
+        "code": "1 (humanistyczno-filozoficzna)",
+        "profile": "humanistyczno-filozoficzna",
+        "extendedSubjects": [
+          "język polski",
+          "język angielski",
+          "filozofia",
+          "historia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "historia"
+        ],
+        "languages": [
+          "angielski",
+          "włoski"
+        ],
+        "thresholdMin": 42.7,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1 (psychologiczna)",
+        "profile": "psychologiczna",
+        "extendedSubjects": [
+          "język polski",
+          "język angielski",
+          "biologia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "biologia"
+        ],
+        "languages": [
+          "angielski",
+          "włoski"
+        ],
+        "thresholdMin": 96.4,
+        "thresholdYear": "2025/2026"
+      }
+    ]
   },
   {
     "id": "XXIII LO",
@@ -3739,8 +3798,75 @@
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/304/XXVI-LO-w-ZSC-im-Marii-Sklodowskiej-Curie",
     "rankMalopolska": 90,
     "rankPoland": 1000,
-    "classesYear": null,
-    "classes": []
+    "classesYear": "2026/2027",
+    "classes": [
+      {
+        "code": "1 (biologiczno-polonistyczna z językiem migowym)",
+        "profile": "biologiczno-polonistyczna z językiem migowym",
+        "extendedSubjects": [
+          "język polski",
+          "biologia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "wiedza o społeczeństwie"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański"
+        ],
+        "thresholdMin": 149.8,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1 grupa 1 (biologiczno-chemiczna z analiza medyczną i sądową)",
+        "profile": "biologiczno-chemiczna z analiza medyczną i sądową",
+        "extendedSubjects": [
+          "chemia",
+          "biologia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "chemia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański"
+        ],
+        "thresholdMin": 155.05,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1 grupa 2 (biologiczno-chemiczna z analiza medyczną i sądową)",
+        "profile": "biologiczno-chemiczna z analiza medyczną i sądową",
+        "extendedSubjects": [
+          "chemia",
+          "biologia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "biologia",
+          "chemia"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański"
+        ],
+        "thresholdMin": 158.8,
+        "thresholdYear": "2025/2026"
+      }
+    ]
   },
   {
     "id": "XXVII LO",
@@ -4225,8 +4351,27 @@
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/3155/XXXI-LO-im-Romana-Ingardena",
     "rankMalopolska": 111,
     "rankPoland": 1000,
-    "classesYear": null,
-    "classes": []
+    "classesYear": "2026/2027",
+    "classes": [
+      {
+        "code": "1 (Game dev)",
+        "profile": "Game dev",
+        "extendedSubjects": [],
+        "recruitmentSubjects": [],
+        "languages": [],
+        "thresholdMin": 149.75,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1 (projektowanie gier komputerowych)",
+        "profile": "projektowanie gier komputerowych",
+        "extendedSubjects": [],
+        "recruitmentSubjects": [],
+        "languages": [],
+        "thresholdMin": 154.8,
+        "thresholdYear": "2025/2026"
+      }
+    ]
   },
   {
     "id": "XLI LO",
@@ -4795,8 +4940,109 @@
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/6465/XLVII-LO-w-Krakowie",
     "rankMalopolska": null,
     "rankPoland": null,
-    "classesYear": null,
-    "classes": []
+    "classesYear": "2026/2027",
+    "classes": [
+      {
+        "code": "1 (artystyczno-humanistyczna)",
+        "profile": "artystyczno-humanistyczna",
+        "extendedSubjects": [
+          "język polski",
+          "język francuski",
+          "historia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "dwa wybrane z: biologia",
+          "geografia",
+          "historia",
+          "informatyka",
+          "język obcy nowożytny"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski"
+        ],
+        "thresholdMin": null,
+        "thresholdYear": null
+      },
+      {
+        "code": "1 (ekonomiczno-informatyczna)",
+        "profile": "ekonomiczno-informatyczna",
+        "extendedSubjects": [
+          "język angielski",
+          "matematyka",
+          "geografia"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "dwa wybrane z: biologia",
+          "geografia",
+          "historia",
+          "informatyka",
+          "język obcy nowożytny"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski"
+        ],
+        "thresholdMin": null,
+        "thresholdYear": null
+      },
+      {
+        "code": "1 (mat-inf-ang)",
+        "profile": "mat-inf-ang",
+        "extendedSubjects": [
+          "język angielski",
+          "matematyka",
+          "informatyka"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "dwa wybrane z: biologia",
+          "geografia",
+          "historia",
+          "informatyka",
+          "język obcy nowożytny"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski"
+        ],
+        "thresholdMin": 74.35,
+        "thresholdYear": "2025/2026"
+      },
+      {
+        "code": "1 (medialno-językowa)",
+        "profile": "medialno-językowa",
+        "extendedSubjects": [
+          "język polski",
+          "język angielski",
+          "informatyka"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "dwa wybrane z: biologia",
+          "geografia",
+          "historia",
+          "informatyka",
+          "język obcy nowożytny"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski"
+        ],
+        "thresholdMin": 57,
+        "thresholdYear": "2025/2026"
+      }
+    ]
   },
   {
     "id": "Akademickie Liceum Ogólnokształcące \"emmanuel",
@@ -5366,8 +5612,77 @@
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/3028/LO-Huty-im-Tadeusza-Sendzimira",
     "rankMalopolska": null,
     "rankPoland": null,
-    "classesYear": null,
-    "classes": []
+    "classesYear": "2025/2026",
+    "classes": [
+      {
+        "code": "1 (aplikacje webowe)",
+        "profile": "aplikacje webowe",
+        "extendedSubjects": [],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język obcy nowożytny",
+          "informatyka"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki"
+        ],
+        "thresholdMin": null,
+        "thresholdYear": null
+      },
+      {
+        "code": "1 (ogólnokształcąca)",
+        "profile": "ogólnokształcąca",
+        "extendedSubjects": [],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język angielski",
+          "informatyka"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki"
+        ],
+        "thresholdMin": null,
+        "thresholdYear": null
+      },
+      {
+        "code": "1 (pożarniczo-ratownicza)",
+        "profile": "pożarniczo-ratownicza",
+        "extendedSubjects": [],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język obcy nowożytny",
+          "informatyka"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki"
+        ],
+        "thresholdMin": null,
+        "thresholdYear": null
+      },
+      {
+        "code": "1 (wojskowa)",
+        "profile": "wojskowa",
+        "extendedSubjects": [],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "język obcy nowożytny",
+          "informatyka"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki"
+        ],
+        "thresholdMin": null,
+        "thresholdYear": null
+      }
+    ]
   },
   {
     "id": "LO Sióstr Prezentek",
@@ -5689,8 +6004,18 @@
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/6383/Ogolnoksztalcaca-Szkola-Muzyczna-II-St-w-Krakowie",
     "rankMalopolska": null,
     "rankPoland": null,
-    "classesYear": null,
-    "classes": []
+    "classesYear": "2026/2027",
+    "classes": [
+      {
+        "code": "1",
+        "profile": null,
+        "extendedSubjects": [],
+        "recruitmentSubjects": [],
+        "languages": [],
+        "thresholdMin": null,
+        "thresholdYear": null
+      }
+    ]
   },
   {
     "id": "Państwowa Ogólnokształcąca Szkoła Muzyczna II St. im. Fryderyka Chopina w Krakowie",
@@ -5708,8 +6033,18 @@
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/6362/Panstwowa-Ogolnoksztalcaca-Szkola-Muzyczna-II-St-im-Fryderyka-Chopina-w-Krakowie",
     "rankMalopolska": null,
     "rankPoland": null,
-    "classesYear": null,
-    "classes": []
+    "classesYear": "2026/2027",
+    "classes": [
+      {
+        "code": "1",
+        "profile": null,
+        "extendedSubjects": [],
+        "recruitmentSubjects": [],
+        "languages": [],
+        "thresholdMin": null,
+        "thresholdYear": null
+      }
+    ]
   },
   {
     "id": "Państwowe Liceum Sztuk Plastycznych im. Józefa Kluzy w Krakowie",
@@ -5727,8 +6062,27 @@
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/6417/Panstwowe-Liceum-Sztuk-Plastycznych-im-Jozefa-Kluzy-w-Krakowie",
     "rankMalopolska": 49,
     "rankPoland": 515,
-    "classesYear": null,
-    "classes": []
+    "classesYear": "2026/2027",
+    "classes": [
+      {
+        "code": "1 (Projektowanie użytkowe – projektowanie przestrzeni)",
+        "profile": "Projektowanie użytkowe – projektowanie przestrzeni",
+        "extendedSubjects": [],
+        "recruitmentSubjects": [],
+        "languages": [],
+        "thresholdMin": null,
+        "thresholdYear": null
+      },
+      {
+        "code": "1 (Techniki graficzne – projektowanie graficzne)",
+        "profile": "Techniki graficzne – projektowanie graficzne",
+        "extendedSubjects": [],
+        "recruitmentSubjects": [],
+        "languages": [],
+        "thresholdMin": null,
+        "thresholdYear": null
+      }
+    ]
   },
   {
     "id": "Prywatne Liceum Ogólnokształcące Z Oddziałami Dwujęzycznymi im. Noblistów Polskich",
@@ -5765,8 +6119,18 @@
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/4558/Publiczne-Liceum-Ogolnoksztalcace-Specjalne-im-Swietej-Siostry-Faustyny",
     "rankMalopolska": null,
     "rankPoland": null,
-    "classesYear": null,
-    "classes": []
+    "classesYear": "2026/2027",
+    "classes": [
+      {
+        "code": "1",
+        "profile": null,
+        "extendedSubjects": [],
+        "recruitmentSubjects": [],
+        "languages": [],
+        "thresholdMin": null,
+        "thresholdYear": null
+      }
+    ]
   },
   {
     "id": "Publiczne LO im. Królowej Apostołów - Pallotyńskie",
@@ -5788,6 +6152,30 @@
     "rankPoland": null,
     "classesYear": "2026/2027",
     "classes": [
+      {
+        "code": "1 (Matematyczno-informatyczna z elementami robotyki)",
+        "profile": "Matematyczno-informatyczna z elementami robotyki",
+        "extendedSubjects": [
+          "język angielski",
+          "matematyka",
+          "informatyka"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "informatyka",
+          "język angielski"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki",
+          "francuski",
+          "hiszpański",
+          "włoski"
+        ],
+        "thresholdMin": null,
+        "thresholdYear": null
+      },
       {
         "code": "1A",
         "profile": "językowa",
@@ -6364,8 +6752,30 @@
     "otouczelnieUrl": "https://www.otouczelnie.pl/artykul/208/Licea-publiczne-i-prywatne-w-Krakowie-wyszukiwarka/3223/XXII-Liceum-Ogolnoksztalcace-im-Generala-Bronislawa-Ducha-w-Krakowie",
     "rankMalopolska": null,
     "rankPoland": null,
-    "classesYear": null,
-    "classes": []
+    "classesYear": "2025/2026",
+    "classes": [
+      {
+        "code": "1 (ogólnokształcąca - biznes i zarządzanie)",
+        "profile": "ogólnokształcąca - biznes i zarządzanie",
+        "extendedSubjects": [
+          "język angielski",
+          "matematyka",
+          "informatyka"
+        ],
+        "recruitmentSubjects": [
+          "język polski",
+          "matematyka",
+          "geografia lub informatyka",
+          "język obcy nowożytny"
+        ],
+        "languages": [
+          "angielski",
+          "niemiecki"
+        ],
+        "thresholdMin": null,
+        "thresholdYear": null
+      }
+    ]
   },
   {
     "id": "XXXIV Liceum Ogólnokształcące Specjalne im. Profesor Marii Orwid w Krakowie",

@@ -13,18 +13,26 @@ const INDEX_URL =
 const DETAIL_ID_RE = /\/208\/[^/]+\/(\d+)\/([^/?#]+)/;
 // Class heading: "Klasa 1A (profile)", "1A (profile)", or with a suffix
 // like "Klasa 1A grupa 1 (profile)" used by schools that split a class
-// into language groups. Captures:
-//   1: letter code (e.g. "1A", "1AMK")
+// into language groups. Some schools also use a letter-less form
+// "Klasa 1 (profile)" where the profile is the only distinguisher between
+// parallel classes. Captures:
+//   1: digit + optional letters (e.g. "1A", "1AMK", or just "1")
 //   2: optional suffix between code and parens (e.g. " grupa 1")
 //   3: optional profile text inside parens
 const CLASS_HEADING_RE =
-  /^(?:Klasa\s+)?(\d[A-ZŻŹĆĄŚĘŁÓŃ]{1,5})(\s+[^()\s][^()]*?)?\s*(?:\(([^)]+)\))?\s*$/;
+  /^(?:Klasa\s+)?(\d[A-ZŻŹĆĄŚĘŁÓŃ]{0,5})(\s+[^()\s][^()]*?)?\s*(?:\(([^)]+)\))?\s*$/;
 
-/** Build the canonical class code from a regex match against CLASS_HEADING_RE. */
+/** Build the canonical class code from a regex match against CLASS_HEADING_RE.
+ *  When the heading has no letter (just a digit), the profile is folded into
+ *  the code so that parallel classes in the same school stay unique under
+ *  `UNIQUE (school_id, year, code)`. */
 function codeFrom(m: RegExpMatchArray): string {
-  const letter = m[1];
+  const head = m[1];
   const suffix = (m[2] ?? "").trim();
-  return suffix ? `${letter} ${suffix}` : letter;
+  const profile = (m[3] ?? "").trim();
+  const base = suffix ? `${head} ${suffix}` : head;
+  if (/^\d+$/.test(head) && profile) return `${base} (${profile})`;
+  return base;
 }
 
 export type IndexEntry = {
@@ -178,8 +186,6 @@ function extractClasses($: CheerioAPI): DetailClass[] {
       .replace(/\s+/g, " ")
       .trim();
     const recSubjects = recText ? splitCommaList(recText) : [];
-
-    if (!extSubjects.length && !languages.length && !recSubjects.length) return;
 
     classes.push({
       code,
