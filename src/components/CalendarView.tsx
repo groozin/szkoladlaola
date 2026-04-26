@@ -83,11 +83,11 @@ export function CalendarView({ schools, today, onSelectSchool }: Props) {
 
   return (
     <div className="flex h-full min-h-0 flex-col bg-white">
-      <div className="flex items-center justify-between gap-3 border-b border-slate-200 px-4 py-2">
+      <div className="flex flex-wrap items-center justify-between gap-x-3 gap-y-2 border-b border-slate-200 px-4 py-2">
         <div className="text-sm font-semibold text-slate-800 first-letter:uppercase">
           {monthLabel}
         </div>
-        <div className="flex items-center gap-3">
+        <div className="flex items-center gap-2 sm:gap-3">
           <button
             type="button"
             onClick={() => {
@@ -96,29 +96,33 @@ export function CalendarView({ schools, today, onSelectSchool }: Props) {
               downloadIcs(content);
             }}
             title="Pobierz plik .ics ze wszystkimi dniami otwartymi"
-            className="rounded border border-slate-300 bg-white px-2 py-0.5 text-xs hover:bg-slate-100"
+            aria-label="Eksportuj kalendarz (.ics)"
+            className="rounded border border-slate-300 bg-white px-2 py-1 text-xs hover:bg-slate-100 sm:py-0.5"
           >
-            Eksportuj kalendarz (.ics)
+            <span className="sm:hidden">.ics</span>
+            <span className="hidden sm:inline">Eksportuj kalendarz (.ics)</span>
           </button>
           <div className="flex gap-1 text-xs">
             <button
               type="button"
               onClick={prev}
-              className="rounded border border-slate-300 px-2 py-0.5 hover:bg-slate-100"
+              aria-label="Poprzedni miesiąc"
+              className="rounded border border-slate-300 px-3 py-1 hover:bg-slate-100 sm:px-2 sm:py-0.5"
             >
               ←
             </button>
             <button
               type="button"
               onClick={goToToday}
-              className="rounded border border-slate-300 px-2 py-0.5 hover:bg-slate-100"
+              className="rounded border border-slate-300 px-3 py-1 hover:bg-slate-100 sm:px-2 sm:py-0.5"
             >
               dziś
             </button>
             <button
               type="button"
               onClick={next}
-              className="rounded border border-slate-300 px-2 py-0.5 hover:bg-slate-100"
+              aria-label="Następny miesiąc"
+              className="rounded border border-slate-300 px-3 py-1 hover:bg-slate-100 sm:px-2 sm:py-0.5"
             >
               →
             </button>
@@ -144,7 +148,7 @@ export function CalendarView({ schools, today, onSelectSchool }: Props) {
           return (
             <div
               key={cell.iso}
-              className={`flex min-h-[5rem] min-w-0 flex-col gap-1 border-b border-r border-slate-100 p-1.5 text-xs ${
+              className={`flex min-h-[3.5rem] min-w-0 flex-col gap-1 border-b border-r border-slate-100 p-1 text-xs sm:min-h-[5rem] sm:p-1.5 ${
                 inMonth ? "bg-white" : "bg-slate-50 text-slate-400"
               } ${isToday ? "ring-2 ring-inset ring-blue-400" : ""}`}
             >

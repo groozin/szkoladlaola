@@ -253,5 +253,5 @@ export function MapView({ schools, landmarks, selectedId, today, onMarkerClick }
     });
   }, [selectedId, schools]);
 
-  return <div ref={containerRef} className="h-full flex-1" />;
+  return <div ref={containerRef} className="h-full w-full" />;
 }

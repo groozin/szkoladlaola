@@ -1,7 +1,7 @@
 import type { School, SchoolClass } from "../types";
 
 export type Scope = "pdf" | "all";
-export type View = "map" | "calendar";
+export type View = "list" | "map" | "calendar";
 export type SortMode = "upcoming" | "rank" | "threshold";
 export type SortDir = "asc" | "desc";
 
@@ -14,9 +14,9 @@ export const DEFAULT_SORT_DIR: Record<SortMode, SortDir> = {
 
 export function viewFromUrl(): View {
   if (typeof window === "undefined") return "map";
-  return new URLSearchParams(window.location.search).get("view") === "calendar"
-    ? "calendar"
-    : "map";
+  const v = new URLSearchParams(window.location.search).get("view");
+  if (v === "calendar" || v === "list") return v;
+  return "map";
 }
 
 export function writeViewToUrl(view: View): void {

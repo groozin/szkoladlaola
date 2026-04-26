@@ -118,9 +118,13 @@ export function App() {
 
   const collapseCard = () => setExpandedId(null);
 
+  // On desktop "list" and "map" both render the dual-pane layout, so treat them
+  // equivalently for the calendar/non-calendar branch.
+  const isCalendar = view === "calendar";
+
   return (
     <div className="flex h-full flex-col">
-      <header className="border-b border-slate-200 bg-white px-6 py-3">
+      <header className="border-b border-slate-200 bg-white px-4 py-3 sm:px-6">
         <h1 className="text-lg font-semibold text-slate-900">
           Szkoła dla Ola 2026
         </h1>
@@ -128,15 +132,23 @@ export function App() {
       </header>
 
       <nav className="flex gap-1 border-b border-slate-200 bg-slate-50 px-4 py-1.5 text-sm">
+        <TabButton
+          active={view === "list"}
+          onClick={() => setView("list")}
+          className="md:hidden"
+        >
+          Lista
+        </TabButton>
         <TabButton active={view === "map"} onClick={() => setView("map")}>
           Mapa
         </TabButton>
         <TabButton active={view === "calendar"} onClick={() => setView("calendar")}>
-          Kalendarz dni otwartych
+          <span className="md:hidden">Kalendarz</span>
+          <span className="hidden md:inline">Kalendarz dni otwartych</span>
         </TabButton>
       </nav>
 
-      {view === "map" ? (
+      {!isCalendar ? (
         <>
           <FilterBar
             filters={filters}
@@ -149,22 +161,34 @@ export function App() {
           />
           <SortBar filters={filters} onChange={setFilters} />
           <div className="flex min-h-0 flex-1">
-            <SchoolList
-              ref={listRef}
-              schools={visibleSchools}
-              selectedId={selectedId}
-              expandedId={expandedId}
-              today={today}
-              onSelect={selectSchool}
-              onCollapse={collapseCard}
-            />
-            <MapView
-              schools={visibleSchools}
-              landmarks={landmarks}
-              selectedId={selectedId}
-              today={today}
-              onMarkerClick={handleSelectFromList}
-            />
+            <div
+              className={`min-h-0 md:flex md:w-[28rem] md:shrink-0 md:border-r md:border-slate-200 ${
+                view === "list" ? "flex w-full" : "hidden"
+              }`}
+            >
+              <SchoolList
+                ref={listRef}
+                schools={visibleSchools}
+                selectedId={selectedId}
+                expandedId={expandedId}
+                today={today}
+                onSelect={selectSchool}
+                onCollapse={collapseCard}
+              />
+            </div>
+            <div
+              className={`min-h-0 flex-1 md:flex ${
+                view === "map" ? "flex" : "hidden"
+              }`}
+            >
+              <MapView
+                schools={visibleSchools}
+                landmarks={landmarks}
+                selectedId={selectedId}
+                today={today}
+                onMarkerClick={handleSelectFromList}
+              />
+            </div>
           </div>
         </>
       ) : (
@@ -182,10 +206,12 @@ function TabButton({
   active,
   onClick,
   children,
+  className = "",
 }: {
   active: boolean;
   onClick: () => void;
   children: React.ReactNode;
+  className?: string;
 }) {
   return (
     <button
@@ -195,7 +221,7 @@ function TabButton({
         active
           ? "bg-white text-slate-900 shadow-sm ring-1 ring-slate-200"
           : "text-slate-600 hover:bg-white/60"
-      }`}
+      } ${className}`}
     >
       {children}
     </button>

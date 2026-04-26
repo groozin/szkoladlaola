@@ -22,7 +22,7 @@ export function SortBar({ filters, onChange }: Props) {
   };
 
   return (
-    <div className="flex items-center gap-2 border-b border-slate-200 bg-slate-50 px-6 py-1.5 text-xs">
+    <div className="flex flex-wrap items-center gap-2 border-b border-slate-200 bg-slate-50 px-4 py-1.5 text-xs sm:px-6">
       <span className="text-slate-500">Sortuj:</span>
       {(Object.keys(LABEL) as SortMode[]).map((mode) => (
         <Button

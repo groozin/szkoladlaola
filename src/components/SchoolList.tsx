@@ -51,7 +51,7 @@ export const SchoolList = forwardRef<SchoolListHandle, Props>(function SchoolLis
   return (
     <aside
       ref={containerRef}
-      className="w-[28rem] shrink-0 overflow-y-auto border-r border-slate-200 bg-slate-50"
+      className="h-full w-full overflow-y-auto bg-slate-50"
     >
       <ul className="divide-y divide-slate-200">
         {schools.map((s) => {

@@ -39,7 +39,13 @@ export function FilterBar({
   totalCount,
   visibleCount,
 }: Props) {
-  const [expanded, setExpanded] = useState(hasAnyFilter(filters));
+  const [expanded, setExpanded] = useState(() => {
+    if (!hasAnyFilter(filters)) return false;
+    if (typeof window === "undefined") return true;
+    // On phones, even with active filters, keep the bar collapsed by default;
+    // the active filters are still visible as badges in the collapsed header.
+    return !window.matchMedia("(max-width: 767px)").matches;
+  });
   const count = activeFilterCount(filters);
 
   const toggle = (arr: string[], value: string): string[] =>
@@ -75,7 +81,7 @@ export function FilterBar({
       <button
         type="button"
         onClick={() => setExpanded((e) => !e)}
-        className="flex min-h-[2.5rem] w-full flex-wrap items-center justify-between gap-x-3 gap-y-1 px-6 py-1.5 text-left text-sm leading-5 text-slate-700 hover:bg-slate-50"
+        className="flex min-h-[2.5rem] w-full flex-wrap items-center justify-between gap-x-3 gap-y-1 px-4 py-1.5 text-left text-sm leading-5 text-slate-700 hover:bg-slate-50 sm:px-6"
       >
         <span className="flex flex-wrap items-center gap-1.5">
           <span className="mr-1 font-medium">Filtry</span>
@@ -126,7 +132,7 @@ export function FilterBar({
       </button>
 
       {expanded && (
-        <div className="space-y-4 px-6 pb-4 pt-1">
+        <div className="space-y-4 px-4 pb-4 pt-1 sm:px-6">
           {/* School-level filters */}
           <div className="flex flex-wrap items-center gap-x-6 gap-y-2 text-sm text-slate-700">
             <div className="inline-flex overflow-hidden rounded border border-slate-300 text-xs">
@@ -139,7 +145,7 @@ export function FilterBar({
                     : "bg-white text-slate-700 hover:bg-slate-100"
                 }`}
               >
-                Z PDF ({pdfCount})
+                Tylko z Dniami Otwrtymi ({pdfCount})
               </button>
               <button
                 type="button"
@@ -169,7 +175,7 @@ export function FilterBar({
                 onChange={(e) => setIncludePrivate(e.target.checked)}
                 className="h-4 w-4 rounded border-slate-300"
               />
-              Pokaż prywatne
+              Pokaż prywatne szkoly
             </label>
           </div>
 
