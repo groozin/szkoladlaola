@@ -2,6 +2,7 @@ import type { School, SchoolClass } from "../types";
 
 export type Scope = "pdf" | "all";
 export type View = "list" | "map" | "calendar";
+export type CalMode = "month" | "week" | "agenda";
 export type SortMode = "upcoming" | "rank" | "threshold";
 export type SortDir = "asc" | "desc";
 
@@ -24,6 +25,23 @@ export function writeViewToUrl(view: View): void {
   const p = new URLSearchParams(window.location.search);
   if (view === "map") p.delete("view");
   else p.set("view", view);
+  const qs = p.toString();
+  const url = qs ? `${window.location.pathname}?${qs}` : window.location.pathname;
+  window.history.replaceState(null, "", url + window.location.hash);
+}
+
+export function calModeFromUrl(): CalMode {
+  if (typeof window === "undefined") return "month";
+  const v = new URLSearchParams(window.location.search).get("cal");
+  if (v === "week" || v === "agenda") return v;
+  return "month";
+}
+
+export function writeCalModeToUrl(mode: CalMode): void {
+  if (typeof window === "undefined") return;
+  const p = new URLSearchParams(window.location.search);
+  if (mode === "month") p.delete("cal");
+  else p.set("cal", mode);
   const qs = p.toString();
   const url = qs ? `${window.location.pathname}?${qs}` : window.location.pathname;
   window.history.replaceState(null, "", url + window.location.hash);
