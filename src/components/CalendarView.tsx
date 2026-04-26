@@ -78,14 +78,21 @@ function buildWeekGrid(anchorIso: string): Date[] {
   );
 }
 
+/** Phones default to the agenda view since the month grid is too cramped to
+ *  scan on small screens; desktops default to the month grid. */
+function getDefaultMode(): CalMode {
+  if (typeof window === "undefined") return "month";
+  return window.matchMedia("(max-width: 767px)").matches ? "agenda" : "month";
+}
+
 export function CalendarView({ schools, today, onSelectSchool }: Props) {
-  const [mode, setMode] = useState<CalMode>(() => calModeFromUrl());
+  const [mode, setMode] = useState<CalMode>(() => calModeFromUrl() ?? getDefaultMode());
   const [{ year, month }, setMonthCursor] = useState(() => defaultMonth(schools, today));
   const [weekAnchor, setWeekAnchor] = useState<string>(() =>
     defaultWeekAnchorIso(schools, today),
   );
 
-  useEffect(() => writeCalModeToUrl(mode), [mode]);
+  useEffect(() => writeCalModeToUrl(mode, getDefaultMode()), [mode]);
 
   const byDate = useMemo(() => indexByDate(schools), [schools]);
 
